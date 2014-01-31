@@ -255,29 +255,30 @@ blockquote {
   display: inline;
   background-color: #1A5538;
   width: auto;
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 12px;
   color: #6CA287;
   padding: 3px 3px;
   border-radius: 3px;
 }
 
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid #073642;
+  background-color: #073642;
   padding: .6em .8em;
-  border-radius: 2px;
+  border-radius: 3px;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 18px;
   margin-left: 240px;
   box-shadow: 9px 6px 0 rgba(0, 0, 0, .2);
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
 }
 
 
 
 .post pre code {
   background-color: transparent;
-  color: #222;
+  color: #93A1A1;
 }
 
 /* terminal */
