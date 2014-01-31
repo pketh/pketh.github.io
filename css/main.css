@@ -1,0 +1,438 @@
+/*
+
+Styles ＿φ(°-°=)
+
+(c) pirijan
+
+*/
+
+
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* TODO: insert reset here?*/
+
+body {
+  color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
+  background-color: #004021;
+}
+
+p, .post ul, .post li {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 240px;
+  width: 420px;
+  line-height: 23px;
+}
+
+li {
+  clear: both;
+  margin-bottom: 82px;
+}
+
+a {
+  color: #9ff0ac;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 14px;
+  margin-left: 200px;
+  width: 490px;
+}
+
+.site {
+  width: 700px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*****************************************************************************/
+/*
+/* Header
+/*
+/*****************************************************************************/
+
+.header {
+  display: inline-block;
+  width: 100%;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.logo {
+  background-image: url('/assets/pketh.svg');
+  background-repeat: no-repeat;
+  height: 22px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  width: 84px;
+  cursor: pointer;
+  float: left;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+}
+
+.logo:hover {
+  opacity: .6;
+}
+
+.nav {
+  float: right;
+  margin-top: 38px;
+  font-size: 13px;
+}
+
+.nav a {
+  color: #52856B;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.nav a:hover {
+  color: #9ff0ac;
+  text-decoration: underline;
+}
+
+
+/*****************************************************************************/
+/*
+/* Posts List
+/*
+/*****************************************************************************/
+
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.meta-date {
+  color: #35634C;
+  font-weight: normal;
+  padding-right: 8px;
+  padding-left: 4px;
+  text-transform: none;
+}
+
+.title {
+  font-size:20px;
+  font-weight: normal;
+  font-family: palatino, Times, serif;
+}
+
+
+.title a:hover, .meta:hover, .meta-date:hover {
+  color: #9ff0ac;
+  text-decoration: underline;
+}
+
+.title a {
+  color: white;
+  text-decoration: none;
+}
+
+.meta {
+  float: right;
+  font-size: .9em;
+  color: #9FF0AC;
+  text-decoration: underline;
+}
+
+.meta:hover {
+  text-decoration: none;
+}
+
+.related {
+  margin-top: 120px;
+  color: #6EA188;
+  border-top: 1px solid #486C5A;
+  border-bottom: 1px solid #486C5A;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.related a {
+  text-decoration: none;
+}
+
+.related a:hover {
+  text-decoration: underline;
+}
+
+
+.related-posts:nth-child(1):after {
+  content: ', '
+}
+.related-posts:nth-child(2):after {
+  content: ', and '
+}
+
+
+/*****************************************************************************/
+/*
+/* Post
+/*
+/*****************************************************************************/
+
+.permalink {
+  padding-top: 1em;
+  padding-left: 40px;
+}
+
+
+.post ul {
+  list-style-type:circle;
+  margin-left: -6px;
+}
+
+.post li {
+  width: 424px;
+  margin-bottom: 10px;
+}
+
+.post img {
+  max-width: 700px;
+  box-shadow: 9px 6px 0 rgba(0, 0, 0, .2);
+  border-radius: 3px;
+}
+
+.large {
+  margin-left: -234px;
+}
+
+.large:hover {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+.no-shadow {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+blockquote p {
+  width: auto;
+  margin-left: 15px;
+}
+
+blockquote {
+  border-left: 1px #2D5741 solid;
+  width: 400px;
+  margin-left: 260px;
+  color: #52856B;
+}
+
+.posts-meta-tag {
+  text-align: right;
+  font-size: .9em;
+  width: 660px;
+  margin-top: 4px;
+}
+
+.tag-name {
+  text-transform: capitalize;
+}
+
+.post code {
+  display: inline;
+  background-color: #1A5538;
+  width: auto;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 12px;
+  color: #6CA287;
+  padding: 3px 3px;
+  border-radius: 3px;
+}
+
+.post pre {
+/*  border: 1px solid #ddd;
+*/  background-color: #073642;
+  padding: .6em .8em;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 240px;
+  box-shadow: 9px 6px 0 rgba(0, 0, 0, .2);
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+
+
+.post pre code {
+  background-color: transparent;
+  color: #93A1A1;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+
+/*****************************************************************************/
+/*
+/* Footer
+/*
+/*****************************************************************************/
+
+.footer {
+  font-size: .9em;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.paginator-wrap {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.paginator-wrap a {
+  text-decoration: none;
+}
+
+.paginator {
+    font-size: 18px;
+    border: 1px #49695F solid;
+    box-shadow: 0 1px 0 #49695F, inset 0 1px 0 rgba(255, 255, 255, .4);
+    font-weight: bold;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px 14px;
+    line-height: 18px;
+    transition: all .1s;
+    background-repeat: no-repeat;
+    background-position: center 6px;
+    width: 20px;
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.prev {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-image: url('/assets/prev.svg');
+}
+
+.next{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-image: url('/assets/next.svg');
+    margin-left: -6px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #3BA281;
+}
+
+.prev:active, .next:active {
+    box-shadow: none;
+    background-color: #3AC99C;
+}
+
+.firstpage {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.lastpage {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.archives-link {
+  margin-bottom: 120px;
+}
+
+/*****************************************************************************/
+/*
+/* Meta pages (archives, about)
+/*
+/*****************************************************************************/
+
+.page-title {
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.meta-page-list {
+  width: auto;
+  margin-bottom: 24px
+}
+
+/*TODO : unused - remove?*/
+.meta-page-tag {
+  color: #043F22;
+  background-color: #688C7A;
+  border-radius: 6px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  padding:2px 4px;
+  margin-left: 1px;
+  vertical-align: 12%;
+}
+
+.meta-page-about {
+  margin-left: 40px;
+}
+
+.meta-page-about p {
+  margin-left: 0;
+}
+.meta-page-about-end {
+  border-top: 1px solid #486C5A;
+  padding-top: 10px;
+    margin-top: 120px;
+color: #6EA188;
+}
+
+
+/*****************************************************************************/
+/*
+/* 404 page
+/*
+/*****************************************************************************/
+
+.e404 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.e404-image{
+  text-align: center;
+}

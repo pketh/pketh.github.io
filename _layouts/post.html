@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<!-- this renders the post permalink page -->
+
+<div class="permalink">
+
+  <div class="title">
+
+    <span class="meta-date">
+      {% assign m = page.date | date: "%-m" %}
+      {% case m %}
+        {% when '1' %}Jan
+        {% when '2' %}Feb
+        {% when '3' %}Mar
+        {% when '4' %}Apr
+        {% when '5' %}May
+        {% when '6' %}Jun
+        {% when '7' %}Jul
+        {% when '8' %}Aug
+        {% when '9' %}Sep
+        {% when '10' %}Oct
+        {% when '11' %}Nov
+        {% when '12' %}Dec
+      {% endcase %} ’{{ page.date | date: "%y" }}
+    </span>
+
+    <a href="{{ page.url }}">
+      {{ page.title }}
+    </a>
+
+  </div>
+
+  <div class="post">
+    {{ content }}
+  </div>
+
+  <p class="related">
+      If you liked this, you might also enjoy
+      {% for post in site.related_posts limit:3 %}
+        <span class="related-posts"><a href="{{ post.url }}">{{ post.title }}</a></span>
+      {% endfor %}
+
+  </p>
+
+
+<!--
+- mojombo jekyll - related posts section only. "read this next".
+- marco.org - ender , footer
+- daringfireball.net - standard footer
+- minimallyminimal - tags, link to prev post
+- zeldman - same as mm
+- 37signals svn - if you liked this you might like 'post 1' , post 2, and post 3.
+  line above and below.
+-->
+
+</div>

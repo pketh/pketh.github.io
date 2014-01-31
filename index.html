@@ -1,0 +1,69 @@
+---
+layout: default
+title: ＿φ(°-°=)
+---
+
+<div id="home">
+
+  <ul class="posts">
+    {% for post in paginator.posts %}
+      <li>
+        <div class="title">
+          <span class="meta-date">
+            {% assign m = post.date | date: "%-m" %}
+            {% case m %}
+              {% when '1' %}Jan
+              {% when '2' %}Feb
+              {% when '3' %}Mar
+              {% when '4' %}Apr
+              {% when '5' %}May
+              {% when '6' %}Jun
+              {% when '7' %}Jul
+              {% when '8' %}Aug
+              {% when '9' %}Sep
+              {% when '10' %}Oct
+              {% when '11' %}Nov
+              {% when '12' %}Dec
+            {% endcase %} ’{{ post.date | date: "%y" }}
+          </span>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+        </div>
+
+        <div class="post">
+          {{ post.content }}
+        </div>
+
+      </li>
+
+    {% endfor %}
+  </ul>
+
+  <div class="footer">
+
+    {% if paginator.total_pages > 1 %}
+      <div class="paginator-wrap">
+
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            <div class="paginator prev"></div>
+          </a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+           <div class="paginator next"></div>
+          </a>
+        {% endif %}
+
+      </div>
+
+    {% endif %}
+
+
+    <a href="/archives" class="archives-link">Archives</a>
+
+  </div>
+
+</div>
