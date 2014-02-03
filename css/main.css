@@ -202,9 +202,22 @@ h1 {
   margin-left: -6px;
 }
 
-.post li {
+.post ul li {
   width: 424px;
   margin-bottom: 10px;
+}
+
+.post ol {
+  list-style-type:decimal;
+}
+
+.post ol li {
+  margin-left: 237px;
+  color: #54846C;
+}
+
+.post ol li p{
+  margin-left: auto;
 }
 
 .post img {
