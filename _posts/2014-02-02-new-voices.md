@@ -33,7 +33,7 @@ A good diary is encourages the expressive, raw and unfiltered. There are no soci
 
 > Write for yourself and answer to no one.
 
-I'm hoping that the diary model helps people who'd otherwise struggle with the hump of social sharing to build confidence, find a voice, and - when they're ready - put their best out there.
+I'm hoping that the diary model helps people who'd otherwise struggle with the hump of social sharing to build confidence, find a voice, and - when they're ready - put themselves out there.
 
 [dashes]: http://dashes.com/anil/2013/04/harvard.html
 [metome]: http://www.pketh.org/Metome-Journal
