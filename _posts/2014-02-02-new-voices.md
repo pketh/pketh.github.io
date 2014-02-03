@@ -9,9 +9,9 @@ Could this happen today?
 
 I wasn't a particularly great writer or artist. Nothing I ever published went beyond a small circle of readers I considered confidantes. But things seemed to work.
 
-Looking back through rose-tinted glasses, the [web we lost][dashes] was a place for anonymous, independant voices to find each other. 
+Looking back through rose-tinted glasses, the [web we lost][dashes] was a place for anonymous, independant voices to find each other.
 
-# The Social Pressures of Walled Gardens
+# Social Pressures in Walled Gardens
 
 Flipping the glasses up. While so much has moved forward, those aspiring to express themselves on the web now need to ask:
 
