@@ -11,7 +11,7 @@ I wasn't a particularly great writer or artist. Nothing I ever published went be
 
 Looking back through rose-tinted glasses, the [web we lost][dashes] was a place for anonymous, independant voices to find each other.
 
-# Social Pressures in Walled Gardens
+## Social Pressures in Walled Gardens
 
 Flipping the glasses up. While so much has moved forward, those aspiring to express themselves on the web now need to ask:
 
@@ -25,7 +25,7 @@ Flipping the glasses up. While so much has moved forward, those aspiring to expr
 
 For someone new to the web, that's a hell of a mountain to climb. Were I in the same place, I probably wouldn't have bothered.
 
-# Designing for Expressiveness
+## Designing for Expressiveness
 
 In my free time, I'm working on [Metome][metome], a personal diary thing. I started building it because there were things I wanted to reflect on and express that I had no real place for.
 

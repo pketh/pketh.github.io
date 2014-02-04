@@ -42,7 +42,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1 {
+h1, h2 {
   font-size: 14px;
   margin-left: 200px;
   width: 490px;
