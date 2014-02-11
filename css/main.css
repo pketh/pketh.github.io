@@ -235,7 +235,7 @@ h1, h2 {
   cursor: zoom-in;
 }
 
-.no-shadow {
+.post .no-shadow {
     box-shadow: none;
     border-radius: 0;
 }
