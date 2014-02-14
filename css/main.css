@@ -19,14 +19,16 @@ body {
   color: white;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
   background-color: #004021;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 p, .post ul, .post li {
   font-size: 14px;
+  line-height: 23px;
   margin-bottom: 20px;
   margin-left: 240px;
   width: 420px;
-  line-height: 23px;
 }
 
 li {
@@ -49,7 +51,8 @@ h1, h2 {
 }
 
 .site {
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
@@ -82,6 +85,7 @@ h1, h2 {
   height: 22px;
   margin-bottom: 80px;
   margin-top: 30px;
+  margin-right: 10px;
   width: 84px;
   cursor: pointer;
   float: left;
@@ -111,6 +115,11 @@ h1, h2 {
   text-decoration: underline;
 }
 
+.nav-about {
+  margin-left: auto;
+}
+
+
 
 /*****************************************************************************/
 /*
@@ -121,6 +130,7 @@ h1, h2 {
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
+  padding-left: calc(40 / 700 * 100%);
 }
 
 .meta-date {
@@ -220,7 +230,6 @@ h1, h2 {
 }
 
 .post img {
-  max-width: 700px;
   box-shadow: 9px 6px 0 rgba(0, 0, 0, .2);
   border-radius: 3px;
 }
@@ -448,4 +457,46 @@ color: #6EA188;
 
 .e404-image{
   text-align: center;
+}
+
+
+/*****************************************************************************/
+/*
+/* Media Queries
+/*
+/*****************************************************************************/
+
+@media (max-width: 740px) {
+  body {
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+  p, .post ul, .post li {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 491px) {
+  .logo {
+    margin-bottom: auto;
+  }
+  .nav {
+    margin-bottom: 40px;
+  }
+  .nav-github, .nav-twitter {
+    display: none;
+  }
+  .meta-date {
+    padding-left: 0;
+  }
+  .posts {
+    padding-left: 0;
+  }
+  .post img {
+    margin-left: -20px;
+  }
+  p, .post ul, .post li {
+    margin-left: auto;
+    width: auto;
+  }
 }
