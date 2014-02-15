@@ -454,8 +454,6 @@ color: #6EA188;
 
 @media (max-width: 740px) {
 
-  a {color: teal;} /*temp*/
-
   body {
     margin-right: 35px;
     margin-left: 35px;
@@ -493,8 +491,6 @@ color: #6EA188;
 }
 
 @media (max-width: 491px) {
-
-  a {color: pink;} /*temp*/
 
   .logo {
     margin-bottom: auto;
