@@ -23,7 +23,7 @@ body {
   margin-left: 20px;
 }
 
-p, .post ul, .post li {
+p, .post li {
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 20px;
@@ -47,7 +47,7 @@ a:hover {
 h1, h2 {
   font-size: 14px;
   margin-left: 200px;
-  width: 490px;
+  margin-top: 30px;
 }
 
 .site {
@@ -145,6 +145,7 @@ h1, h2 {
   font-size:20px;
   font-weight: normal;
   font-family: palatino, Times, serif;
+  margin-bottom: 30px;
 }
 
 
@@ -223,25 +224,24 @@ h1, h2 {
 
 .post ol li {
   margin-left: 237px;
+    margin-bottom: 10px;
 }
 
 .post ol li p{
   margin-left: auto;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .post img {
   box-shadow: 9px 6px 0 rgba(0, 0, 0, .2);
   border-radius: 3px;
+  height: auto;
 }
 
 .large {
   margin-left: -234px;
-}
-
-.large:hover {
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-  cursor: zoom-in;
+  max-width: 654px
 }
 
 .post .no-shadow {
@@ -249,16 +249,18 @@ h1, h2 {
     border-radius: 0;
 }
 
-blockquote p {
-  width: auto;
-  margin-left: 15px;
-}
-
 blockquote {
   border-left: 1px #2D5741 solid;
-  width: 400px;
-  margin-left: 260px;
+  max-width: 400px;
   color: #52856B;
+  margin-left: calc(270 / 700 * 100%);
+}
+
+blockquote p {
+  width: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 25px
 }
 
 .posts-meta-tag {
@@ -290,13 +292,11 @@ blockquote {
   border-radius: 3px;
   font-size: 12px;
   line-height: 19px;
-  margin-left: 240px;
   box-shadow: 9px 6px 0 rgba(0, 0, 0, .2);
   font-family: Monaco, Consolas, "Lucida Console", monospace;
   overflow-x: scroll;
+  margin-left: auto;
 }
-
-
 
 .post pre code {
   background-color: transparent;
@@ -414,19 +414,6 @@ blockquote {
   margin-bottom: 24px
 }
 
-/*TODO : unused - remove?*/
-.meta-page-tag {
-  color: #043F22;
-  background-color: #688C7A;
-  border-radius: 6px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
-  font-size: 14px;
-  text-decoration: none;
-  padding:2px 4px;
-  margin-left: 1px;
-  vertical-align: 12%;
-}
-
 .meta-page-about {
   margin-left: 40px;
 }
@@ -467,36 +454,93 @@ color: #6EA188;
 /*****************************************************************************/
 
 @media (max-width: 740px) {
+
+  a {color: teal;} /*temp*/
+
   body {
     margin-right: 35px;
     margin-left: 35px;
   }
-  p, .post ul, .post li {
+
+  .permalink {
+    padding-left: 0;
+  }
+
+  p, .post ul, .post li, blockquote {
     margin-left: auto;
   }
+
+  .post ol li, .post ul li {
+    width: 380px;
+    margin-left: auto;
+  }
+
+  blockquote {
+    margin-left: auto;
+    width: 360px
+  }
+
+
+  h1, h2 {
+    margin-left: auto;
+    width: 440px;
+  }
+
+  .large {
+    width: 100%;
+    margin-left: auto;
+  }
+
 }
 
 @media (max-width: 491px) {
+
+  a {color: pink;} /*temp*/
+
   .logo {
     margin-bottom: auto;
   }
+
   .nav {
     margin-bottom: 40px;
   }
+
   .nav-github, .nav-twitter {
     display: none;
   }
+
   .meta-date {
     padding-left: 0;
   }
+
   .posts {
     padding-left: 0;
   }
+
   .post img {
     margin-left: -20px;
   }
+
   p, .post ul, .post li {
     margin-left: auto;
     width: auto;
   }
+
+  blockquote {
+    width: auto;
+    margin-right: auto;
+  }
+
+  .post ol li, .post ul li {
+    width: auto;
+  }
+
+  h1, h2 {
+    width: auto;
+  }
+
+  .post img {
+    margin-left: auto;
+  }
+
 }
