@@ -456,8 +456,8 @@ color: #6EA188;
 @media (max-width: 740px) {
 
   body {
-    margin-right: 35px;
-    margin-left: 35px;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 
   .permalink {
@@ -499,10 +499,6 @@ color: #6EA188;
 
   .nav {
     margin-bottom: 40px;
-  }
-
-  .nav-github, .nav-twitter {
-    display: none;
   }
 
   .meta-date {
