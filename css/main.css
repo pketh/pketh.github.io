@@ -213,7 +213,7 @@ h1, h2 {
 }
 
 .post ul li {
-  width: 424px;
+  width: 380px;
   margin-bottom: 10px;
 }
 
@@ -469,7 +469,6 @@ color: #6EA188;
   }
 
   .post ol li, .post ul li {
-    width: 380px;
     margin-left: auto;
   }
 
