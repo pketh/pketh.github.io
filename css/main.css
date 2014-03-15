@@ -244,7 +244,7 @@ h1, h2 {
   max-width: 654px
 }
 
-.post .no-shadow {
+.post .no-shadow, .post .emoji {
     box-shadow: none;
     border-radius: 0;
 }
