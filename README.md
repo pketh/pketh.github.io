@@ -12,6 +12,10 @@ Watch and build:
 
 	jekyll serve --watch
 
+Preview locally:
+
+	http://localhost:4000
+
 # License
 
 The content and design are copyrighted by me and may not be used without permission.
