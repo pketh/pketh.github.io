@@ -3,11 +3,9 @@ layout: post
 title:  "Fitness Tracking with Purpose"
 ---
 
-[Fit Report][fit-report] is a fitness visualization I made for myself that tracks my daily workout and nutrition activity and correlates that to how I feel.
+[Fit Report][fit-report] is a simple fitness visualization I made for myself that tracks my daily workout and nutrition activity and correlates that to how I feel.
 
-[<img src="/images/2014/fit-report.png" width="320">][fit-report]
-
-The colored circles next to each date indicate mood (teal is good), while the vertical line graph shows whether I worked out and ate well that day. `worked out`, `ate well` and `good mood` are deliberately qualitative metrics which get redefined as I get fitter. A 5k run might be the workout of a lifetime for one person and a warm up for someone more experienced.
+The visualization attempts to app correlate mood, with whether I worked out and ate well that day. `worked out`, `ate well` and `good mood` are deliberately qualitative metrics which get redefined as I get fitter. A 5k run might be the workout of a lifetime for one person and a warm up for someone more experienced.
 
 Over time, I've had to increase the frequency, intensity and variety of my workouts and get ever stricter about nutrition. This approach sees fitness more like a marathon than a sprint.
 
@@ -37,7 +35,7 @@ Ultimately, the hope is that, by shining a light on my activity patterns, I'll b
 
 I think there's a place for something between the worlds of passive wearable tech and hyper-accurate detailed manual tracking. Just like the endless ways to workout, everybody is going to have something that works best for them.
 
-Fit Report is a purposefully simple tool, because I built it for myself. Also, over-thinking things puts me in a bad mood.
+Fit Report is a purposefully simple and unrefined tool, because I built it for myself. Also, over-thinking things puts me in a bad mood.
 
 <img src="/images/github-logo@2x.png" width="24" height="25" class="no-shadow" style="vertical-align: -30%"> [Fit Report on github][github]
 
