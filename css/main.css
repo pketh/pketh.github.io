@@ -143,6 +143,7 @@ h1, h2 {
 
 .title {
   font-size:20px;
+  line-height: 26px;
   font-weight: normal;
   font-family: palatino, Times, serif;
 }
@@ -532,6 +533,34 @@ color: #6EA188;
 
   .post img {
     margin-left: auto;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .site {
+    margin-top: 40px;
+  }
+
+  body {
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+
+  .nav a {
+    margin-left: 10px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .related {
+    margin-top: 60px;
   }
 
 }
