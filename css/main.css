@@ -287,8 +287,8 @@ blockquote p {
 }
 
 .post pre {
-  border: 1px solid #073642;
-  background-color: #073642;
+  border: 1px solid #e6eef8;
+  background-color: #e6eef8;
   padding: .6em .8em;
   border-radius: 3px;
   font-size: 12px;
@@ -301,7 +301,7 @@ blockquote p {
 
 .post pre code {
   background-color: transparent;
-  color: #93A1A1;
+  color: black;
 }
 
 /* terminal */
