@@ -10,11 +10,7 @@ You've got a brilliant idea for where to go on your next vacation. You've been c
 I started working on **Tello App** so that all you'd need to do is hit a keyboard shortcut, type [“Mykonos, Greece”][wiki-mykonos], and get back to your life. Small victories my friend.
 
 <a href="/images/2014/tello-draft.svg">
-<img class="large" 
-	src="/images/2014/tello-draft.svg" 
-	alt="Tello screenshot"
-	width="633" 
-	height="290">
+<iframe class="large postsvg" width="633" height="290" src="/images/2014/tello-draft.svg"></iframe>
 </a>
 
 The design's still pretty early (I'd love your [feedback][twitter]), but I've already started scaffolding out the app. Native development is new to me though and Tello has a little bit of everything – communicating with a server API, parsing JSON, token security, saving data to coredata, and drawing some views.
