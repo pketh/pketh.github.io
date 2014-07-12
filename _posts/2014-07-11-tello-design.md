@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tello: Tell Trello all the Things"
+title:  "Tello: Quick Entry for Trello"
 ---
 
 If you haven't used it before, [Trello][trello] is a web-based tool to organize the things from life to project collaboration. We use it at work to track sprint backlogs, I use it at home as a project planner and todo list. It's pretty sweet, except for one thing...
