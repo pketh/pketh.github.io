@@ -2,7 +2,7 @@ name: Pketh writes ＿φ(°-°=)
 description: On building softwarey things.
 url: http://pketh.github.io
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 paginate: 4
 paginate_path: "blog/page:num"
 gems:
