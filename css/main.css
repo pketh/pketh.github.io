@@ -305,6 +305,13 @@ blockquote p {
   margin-left: auto;
 }
 
+.post .small-code pre {
+  max-width: 400px;
+  overflow: auto;
+  height: auto;
+  word-break: break-all;
+}
+
 .post pre code {
   background-color: transparent;
   color: black;
@@ -321,6 +328,22 @@ blockquote p {
   background-color: #333;
 }
 
+/* post-specific code highlight twiddles */
+
+.textexpander-kaomoji pre .language-erb .err,
+.textexpander-kaomoji pre .language-erb .p,
+.textexpander-kaomoji pre .language-erb .n,
+.textexpander-kaomoji pre .language-erb .o,
+.textexpander-kaomoji pre .language-erb .no {
+  border: none;
+  color: #B94547;
+}
+.textexpander-kaomoji pre .language-erb .x {
+  color: #0829AF
+}
+.textexpander-kaomoji pre .language-erb .ss {
+  color: #222
+}
 
 /*****************************************************************************/
 /*
