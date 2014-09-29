@@ -3,13 +3,13 @@ layout: post
 title:  "TextExpander all the Kaomoji"
 ---
 
-As trivial as it sounds, one of my favorite secret things in OS X is the quick emoji picker. In any text editor, <span alt="command+control+space">`⌘⌃space`</span> will bring it up.
+As trivial as it sounds, one of my favourite secret things in OS X is the quick emoji picker. In any text editor, <span alt="command+control+space">`⌘⌃space`</span> will bring it up.
 
 <img src="/images/2014/editor-emoji.png" width="378" height="296">
 
 What makes it nicer than the iOS version, is that you can simply type to filter. It's so convenient, you'll be slinging email like a teen girl in no time! 🌺
 
-But what about the humble [kaomoji][kaomoji-post]? On iOS, the only custom keyboard I really want is the upcoming [Kaomoji Keyboard][kaomoji-keyboard], but there's no equivalent on the mac.
+But what about the humble [kaomoji][kaomoji-post]? On iOS, the custom keyboard I really want is the upcoming [Kaomoji Keyboard][kaomoji-keyboard], but there's no equivalent on the mac.
 
 ## ＼(°o°；）
 
