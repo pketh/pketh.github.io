@@ -170,8 +170,16 @@ h1, h2 {
   text-decoration: none;
 }
 
+.twitter-post {
+  margin-top: 80px;
+}
+
+.twitter-post img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 .related {
-  margin-top: 120px;
   color: #6EA188;
   border-top: 1px solid #486C5A;
   border-bottom: 1px solid #486C5A;
@@ -588,7 +596,7 @@ color: #6EA188;
     margin-bottom: 20px;
   }
 
-  .related {
+  .twitter-post {
     margin-top: 60px;
   }
 
