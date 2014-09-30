@@ -510,7 +510,7 @@ color: #6EA188;
 
   h1, h2 {
     margin-left: auto;
-    width: 440px;
+    max-width: 440px;
   }
 
   .post .large {
