@@ -17,7 +17,7 @@ I've been trying to solidify what it is about the little printer and the other B
 
 Whimsical things feel human and relatable when they embrace their inherent oddness, humour and imperfection. Building whimsical things takes courage to do something different, but also the ability to sell yourself and your values to other people. It's also sometimes hard to justify in the typically shallow ways we look at business and design – whether it's making a sale, solving a problem, or improving usability.
 
-Berg may of died, but it's whimsical things, whether it's a smiling printer, a friendly greeting, or an animation tuned [just right][applewatch] that help us humanize new ideas to build the `1`s and `0`s that move us all forward.
+Berg may of died, but it's whimsical things, whether it's a smiling printer, a friendly greeting, or an animation tuned [just right][applewatch] that help us humanize new ideas and the `1`s and `0`s that move us all forward.
 
 
 
