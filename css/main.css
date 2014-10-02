@@ -176,7 +176,15 @@ h1, h2 {
 
 .twitter-post img {
   vertical-align: middle;
-  margin-right: 5px;
+  padding-right: 6px;
+}
+
+.twitter-post a {
+  text-decoration: none;
+}
+
+.twitter-post a:hover {
+  text-decoration: underline;
 }
 
 .related {
