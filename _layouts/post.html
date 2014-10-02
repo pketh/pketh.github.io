@@ -51,3 +51,10 @@ layout: default
   </p>
 
 </div>
+
+<!-- twitter summary card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@pketh">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ content | truncatewords:16 | truncate:200 | strip_html }}">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
