@@ -273,9 +273,9 @@ iframe {
 }
 
 blockquote {
-  border-left: 1px #2D5741 solid;
+  border-left: 1px #326048 solid;
   max-width: 400px;
-  color: #52856B;
+  color: #79b698;
   margin-left: calc(270 / 700 * 100%);
 }
 
@@ -303,7 +303,7 @@ blockquote p {
   width: auto;
   font-family: Menlo, Consolas, "Lucida Console", monospace;
   font-size: 12px;
-  color: #6CA287;
+  color: #79b698;
   padding: 3px 3px;
   border-radius: 3px;
 }
