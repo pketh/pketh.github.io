@@ -28,7 +28,7 @@ Instead of telling users what all the things do upfront, start them with some `h
 
 <img class="" src="/images/2014/1000-spikes/forest-stage.jpg">
 
-[nicalis]:...
+[nicalis]:http://www.nicalis.com
 [1001s]:http://8bits.nukimi.com/1000s/
 [destructoid]:http://www.destructoid.com/review-aban-hawkins-and-the-1001-spikes-275719.phtml
 
