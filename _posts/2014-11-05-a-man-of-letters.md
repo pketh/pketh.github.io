@@ -17,7 +17,7 @@ These days, I enjoy jumping between [design and code to solve problems][dual-wie
 
 What I really hope is that one day I get introduced as something like
 
-> a world-renown maker of joyful software things.
+> a world-renown maker of joyful software.
 
 [dual-wielding]:/2014/08/30/dual-wielding.html
 
