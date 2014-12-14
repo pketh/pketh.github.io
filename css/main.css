@@ -361,6 +361,13 @@ blockquote p {
   color: #222
 }
 
+hr {
+  border-top-style: none;
+  border-color: #326048;
+  width: 420px;
+  margin-right: 0;
+}
+
 /*****************************************************************************/
 /*
 /* Footer
@@ -558,7 +565,7 @@ color: #6EA188;
     margin-left: -20px;
   }
 
-  p, .post ul, .post li {
+  p, .post ul, .post li, hr {
     margin-left: auto;
     width: auto;
   }
