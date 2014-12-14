@@ -368,6 +368,14 @@ hr {
   margin-right: 0;
 }
 
+iframe.twitter-tweet-rendered {
+  margin-left: auto !important;
+  max-width: 420px !important;
+  border-width: 0px !important;
+  box-shadow: 9px 6px 0 rgba(0, 0, 0, .2) !important;
+  border-radius: 3px !important;
+}
+
 /*****************************************************************************/
 /*
 /* Footer
