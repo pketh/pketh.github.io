@@ -26,7 +26,7 @@ What the movie really focuses on is Miyazaki. His 11am to 9pm work days are spen
 	<img class="large" src="/images/2015/ghibli-miyazaki/3.jpg" srcset="/images/2015/ghibli-miyazaki/3@2x.jpg 2x" alt="Miyazaki drawing a storyboard for a scene with a plane">
 </a>
 
-Throughout the movie, Miyazaki’s monologues reveal a man weary of the present and cynical about the future. His final film, ‘The Wind Rises’ deals with the highs and lows that come with putting you’re all into building something you believe in. When he describes his resentment and self-doubt and refers to himself as manic-depressive I can understand and relate.
+Throughout the movie, Miyazaki’s monologues reveal a man weary of the present and cynical about the future. His final film, ‘The Wind Rises’ deals with the highs and lows that come with putting your all into building something you believe in. When he describes his resentment and self-doubt and refers to himself as manic-depressive I can understand and relate.
 
 > “I don’t ever feel happy in daily life. Really, isn’t that how it is? How could that ever be our ultimate goal? Filmmaking only brings suffering.” 
 
