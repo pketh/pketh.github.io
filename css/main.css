@@ -149,7 +149,7 @@ h1, h2 {
 }
 
 
-.title a:hover, .meta:hover, .meta-date:hover {
+.title a:hover, .meta:hover {
   color: #9ff0ac;
   text-decoration: underline;
 }
