@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Software is Eating the World but it’s no Sandwich"
+title:  "Software is Eating the World but it’s No Sandwich"
 ---
 
 It’s probably somewhat weird to admit that after visiting the [MoMA][moma-nyc] in New York a couple years ago, what I remembered most was a [Wall Calendar][moma] in the gift shop. Having recently moved to NYC, I thought I’d treat myself.
