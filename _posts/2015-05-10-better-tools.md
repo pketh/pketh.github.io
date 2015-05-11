@@ -13,7 +13,7 @@ People use this new nicer thing to express themselves in new ways. People from d
 
 Pay attention to the awkwardly held smiles of normals at a party where software design or development is being passionately discussed. I’ve been bored to tears at these things myself.
 
-It’s not that designing and writing software isn’t inherently interesting, it’s that our tools are still so opaque and inaccessible to outsiders we're pushed to consider the puzzles (languages, frameworks, etc.), instead of the cool things we could be expressing and sharing with them. Kanye doesn’t talk about how empowering it is to mix multi-track sessions in Logic Pro – he talks about how satisfying it is to be able to quickly make a thing that your friends think is cool.
+It’s not that designing and writing software isn’t inherently interesting, it’s that our tools are still so opaque and inaccessible to outsiders we're pushed to consider the challenges and puzzles (languages, frameworks, etc.), before the cool things we could be expressing and sharing with them. Kanye doesn’t talk about how empowering it is to mix multi-track sessions in Logic Pro – he talks about how satisfying it is to be able to quickly make a thing that your friends think is cool.
 
 Here’s to a future with great tools in it. 🌌
 
