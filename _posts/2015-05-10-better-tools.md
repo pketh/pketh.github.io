@@ -7,7 +7,7 @@ In a recent issue of [PAPER][paper], Kanye West writes about art school and musi
 
 > “I’d have an assignment to do an ink drawing that took me two weeks, three weeks, and I’d show it to my friends and they’d say, ‘Cool. My friend can draw. Now let’s go play ball. Let’s go downtown and talk to some girls.' But when I’d work on a track, I’d work on it for just that afternoon — chop up a sample, put some drums to it. And if my friends liked it, we’d make a tape of it and play it all the way downtown. We’d listen to it all night, keep rewinding it. I made a decision at that point to focus on painting with sound instead of painting visually.”
 
-Every time you make something a little bit easier to do, the number of people who do it explodes. Then a bunch of really amazing things happen…
+The point, for those of us that make tools, is that every time you make something a little bit easier to do, the number of people who do it explodes. Then a bunch of really amazing things happen…
 
 People use this new nicer thing to express themselves in new ways. People from diverse backgrounds see this as something interesting worth trying out. These people are young, hungry to leave a mark and innately cool. So now this newly accessible thing is cool, and soon after, it’s officially art.
 
