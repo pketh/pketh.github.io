@@ -17,6 +17,6 @@ It’s not that designing and writing software isn’t inherently interesting, i
 
 Here’s to a future with great tools in it. 🌌
 
-> “I believe awesome is possible and I believe that beauty is important.”
+> “I believe awesome is possible and I believe that beauty is important.” – Kanye West
 
 [paper]:http://www.papermag.com/2015/04/kanye_west.php
