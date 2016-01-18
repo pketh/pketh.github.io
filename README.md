@@ -12,12 +12,6 @@ Watch and build:
 
 	jekyll serve --watch
 
-or
-
-	bundle exec jekyll serve --watch
-	
-(bug: https://github.com/jekyll/jekyll/issues/3084)
-
 Preview locally:
 
 	http://localhost:4000

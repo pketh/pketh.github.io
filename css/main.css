@@ -116,10 +116,12 @@ h1, h2 {
 }
 
 .nav-about {
-  margin-left: auto;
+  margin-left: 0;
 }
 
-
+.nav-things-short {
+  display: none;
+}
 
 /*****************************************************************************/
 /*
@@ -595,6 +597,15 @@ color: #6EA188;
     margin-left: auto;
   }
 
+}
+
+@media (max-width: 420px) {
+  .nav-things-long {
+    display: none;
+  }
+  .nav-things-short {
+    display: inline-block;
+  }
 }
 
 @media (max-width: 320px) {

@@ -1,10 +1,11 @@
 name: Pketh writes ＿φ(°-°=)
 description: The joy of building things. Many of them software.
 url: http://pketh.org
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 paginate: 4
 paginate_path: "blog/page:num"
 gems:
   - jemoji
+  - jekyll-paginate
 permalink: none
