@@ -639,6 +639,13 @@ th, td {
   .nav-things-short {
     display: inline-block;
   }
+  figure {
+    margin: 0;
+    width: 90%;
+  }
+  .post .small-code pre {
+    width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
