@@ -23,7 +23,7 @@ body {
   margin-left: 20px;
 }
 
-p, .post li {
+p, .post li, table {
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 20px;
@@ -378,6 +378,12 @@ iframe.twitter-tweet-rendered {
   border-radius: 3px !important;
 }
 
+.standalone-emoji {
+  font-size: 22px;
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+}
+
 /*****************************************************************************/
 /*
 /* Footer
@@ -509,6 +515,33 @@ color: #6EA188;
   text-align: center;
 }
 
+/*****************************************************************************/
+/*
+/* Tables
+/*
+/*****************************************************************************/
+
+table {
+  border-collapse: collapse;
+  border-radius: 3px;
+  padding: 5px;
+  table-layout: fixed;
+  max-width: 100%;
+}
+
+table, td {
+  border: 1px solid #35634c;
+}
+
+th {
+  background-color: #00361b;
+}
+
+th, td {
+  height: 2rem;
+  padding-left: 1em
+}
+
 
 /*****************************************************************************/
 /*
@@ -527,7 +560,7 @@ color: #6EA188;
     padding-left: 0;
   }
 
-  p, .post ul, .post li, blockquote {
+  p, .post ul, .post li, blockquote, table {
     margin-left: auto;
   }
 
