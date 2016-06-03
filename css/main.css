@@ -242,7 +242,8 @@ h1, h2 {
 
 .post ol li {
   margin-left: 237px;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  max-width: 60%;
 }
 
 .post ol li p{
@@ -566,6 +567,8 @@ th, td {
 
   .post ol li, .post ul li {
     margin-left: auto;
+    max-width: 100%;
+    width: 380px;
   }
 
   blockquote {
