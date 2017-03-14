@@ -11,5 +11,6 @@ gems:
   - jemoji
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-redirect-from
 permalink: none
 

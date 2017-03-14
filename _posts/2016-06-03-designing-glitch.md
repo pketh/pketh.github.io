@@ -1,16 +1,23 @@
 ---
+redirect_from: "/designing-hyperdev"
 layout: post
-title:  "Designing HyperDev"
-category: "HyperDev"
+title:  "Designing Glitch – Where We Started"
+category: "Glitch"
 ---
 
-So last week we launched [HyperDev](https://hyperdev.com), a cool way to [write a real web-app](http://joelonsoftware.com/items/2016/05/30.html). It's been almost a year since [DanielX](https://github.com/STRd6) and I first presented the idea to FogCreek. 
+<hr>
+
+> 🎹 Updated to replace `HyperDev` with `Glitch`
+
+<hr>
+
+So last week (in 2016) we launched [Glitch](https://glitch.com) (then known as HyperDev/Gomix), a cool way to [write a real web-app](http://joelonsoftware.com/items/2016/05/30.html). It's been almost a year since [DanielX](https://github.com/STRd6) and I first presented the idea to FogCreek. 
 
 Let's look back 👀✨
 
 [<img src="/images/2016/designing-hyperdev/og-editor.png" srcset="/images/2016/designing-hyperdev/og-editor@2x.png" class="large">](/images/2016/designing-hyperdev/og-editor@2x.png)
 
-If you turn off the lights, squeeze a lemon in your eye, and squint real hard, you might see some similarities to HyperDev today. The asset management stuff wasn't too far off though.
+If you turn off the lights, squeeze a lemon in your eye, and squint real hard, you might see some similarities to Glitch today. The asset management stuff wasn't too far off though.
 
 [<img src="/images/2016/designing-hyperdev/og-assets.png" srcset="/images/2016/designing-hyperdev/og-assets@2x.png" class="large">](/images/2016/designing-hyperdev/og-assets@2x.png)
 
@@ -19,7 +26,7 @@ Real rough, but good enough to help us convey our vision for web development wit
 The next thing we were told to do is come up with some high-level product principles. These also started rough, but we've sharpened them up over time – and as the team has grown:
 
 1. Be the fastest, easiest way to get your own web app and start working on it.
-2. HyperDev is real coding. Copy and pasting an answer from Stack should just work like it would on your local machine. If you want, you can take your code and run it on Heroku or wherever.
+2. Glitch is real coding. Copy and pasting an answer from Stack should just work like it would on your local machine. If you want, you can take your code and run it on Heroku or wherever.
 3. You should get instant, direct feedback when you edit your app. 
 4. You should always feel safe that you won't lose your work and that you can try crazy ideas without irreversibly breaking your project.
 5. The editor should be a fun place to be because it's fast, approachable and puts the emphasis on your content and your team.
@@ -85,6 +92,6 @@ Over the next couple months we slowly trimmed the fat off the [welcome-project](
 
 So we talked about some things, had some laughs. But I've still got so many more HyperDev rabbit holes to dive into for later posts.
 
-In the meantime, If you’re curious, all of my design files are up on [github](https://github.com/FogCreek/HyperDev-design).  `hyperweb.sketch` is the window into my soul: it's messy as fuck, but it's pretty entertaining. I wear my inspirations on my sleeve in these files.
+In the meantime, If you’re curious, all of my design files are up on [github](https://github.com/FogCreek/Glitch-design).  `hyperweb.sketch` is the window into my soul: it's a little bit of a trash fire in there, but it's pretty entertaining. I wear my inspirations on my sleeve in these files.
 
-<img src="/images/github-logo@2x.png" width="24" height="25" class="no-shadow" style="vertical-align: -30%"> [HyperDev-design on github](https://github.com/FogCreek/HyperDev-design)
+<img src="/images/github-logo@2x.png" width="24" height="25" class="no-shadow" style="vertical-align: -30%"> [Glitch-design on github](https://github.com/FogCreek/Glitch-design)
