@@ -2,7 +2,6 @@
 redirect_from: "/hyperdev/designing-hyperdev"
 layout: post
 title:  "Designing Glitch – Where We Started"
-category: "Glitch"
 ---
 
 <hr>
