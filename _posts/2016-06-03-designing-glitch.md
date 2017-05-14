@@ -10,7 +10,7 @@ title:  "Designing Glitch – Where We Started"
 
 <hr>
 
-So last week (in 2016) we launched [Glitch](https://glitch.com) (then known as HyperDev/Gomix), a cool way to [write a real web-app](http://joelonsoftware.com/items/2016/05/30.html). It's been almost a year since [DanielX](https://github.com/STRd6) and I first presented the idea to FogCreek. 
+So last week (in 2016) we launched [Glitch](https://glitch.com) (then known as HyperDev/Gomix), a cool way to [write a real web-app](http://joelonsoftware.com/items/2016/05/30.html). It's been almost a year since [DanielX](https://github.com/STRd6) and I first presented the idea to FogCreek.
 
 Let's look back 👀✨
 
@@ -26,7 +26,7 @@ The next thing we were told to do is come up with some high-level product princi
 
 1. Be the fastest, easiest way to get your own web app and start working on it.
 2. Glitch is real coding. Copy and pasting an answer from Stack should just work like it would on your local machine. If you want, you can take your code and run it on Heroku or wherever.
-3. You should get instant, direct feedback when you edit your app. 
+3. You should get instant, direct feedback when you edit your app.
 4. You should always feel safe that you won't lose your work and that you can try crazy ideas without irreversibly breaking your project.
 5. The editor should be a fun place to be because it's fast, approachable and puts the emphasis on your content and your team.
 
@@ -56,13 +56,13 @@ To make it easier to do common coding tasks, I wrote a feature that would let yo
 
 This made sense in theory, and was easy to sell people on as a magical feature, but it turned out to be too magical to actually be good:
 
-In user tests, no one seemed to know what they expected the feature to do. In FogCreek hackathons, nobody really used it even after they were told what it did. 
+In user tests, no one seemed to know what they expected the feature to do. In FogCreek hackathons, nobody really used it even after they were told what it did.
 
-There were also a lot of hard, scary questions around this feature like: 
+There were also a lot of hard, scary questions around this feature like:
 
-- Where would the snippets come from? Who would write and maintain them? 
-- How would we do non-trivial snippets that required changes across multiple files? (Silently editing files the user couldn't see sounded sketchy.) 
-- Should we add packages to projects if a snippet required it? 
+- Where would the snippets come from? Who would write and maintain them?
+- How would we do non-trivial snippets that required changes across multiple files? (Silently editing files the user couldn't see sounded sketchy.)
+- Should we add packages to projects if a snippet required it?
 - Would we be endlessly porting and updating snippets people relied on?
 
 So eventually we cut the scope of this and simplified it into the 'Add Packages' button that appears when you're in `package.json`. This feels way more predictable, and will be way easier to maintain and adapt to other languages and package management systems.
@@ -79,18 +79,18 @@ In order to do this you had to be using our [hyperweb-init library](https://www.
 
 > If you've ever started an XCode project with Core Data support, you know how shitty boilerplate code can be.
 
-But actually what happened in testing is that people actually felt less comfortable when they couldn't see their express init code. Again we crossed over into too magical territory. 
+But actually what happened in testing is that people actually felt less comfortable when they couldn't see their express init code. Again we crossed over into too magical territory.
 
 Additionally, going from something like `js` to `coffee` was easy, but what about from `coffee` to `python`? How would `hyperweb-init` work in other languages that might not have existing libs for server-side compilation of `coffee` or `less`? If I changed `server.js` to `swift`, what impacts does/should that have on package management?
 
 _\*phew\*_ When your edge-cases have so many branching paths that they start to resemble an AI problem, it's time to step back and try something else.
 
-Over the next couple months we slowly trimmed the fat off the [welcome-project](https://hyperdev.com/#!/project/welcome-project), and removed any first-party dependencies to better walk the line between simple and transparent.
+Over the next couple months we slowly trimmed the fat off the [welcome-project](https://glitch.com/edit/#!/project/welcome-project), and removed any first-party dependencies to better walk the line between simple and transparent.
 
 ## Wrapping Up For Now
 
-So we talked about some things, had some laughs. But I've still got so many more HyperDev rabbit holes to dive into for later posts.
+So we talked about some things, had some laughs. But I've still got so many more Glitch rabbit holes to dive into for later posts.
 
-In the meantime, If you’re curious, all of my design files are up on [github](https://github.com/FogCreek/Glitch-design).  `hyperweb.sketch` is the window into my soul: it's a little bit of a trash fire in there, but it's pretty entertaining. I wear my inspirations on my sleeve in these files.
+In the meantime, If you’re curious, all of my design files are up on [github](https://github.com/FogCreek/Glitch-design).  `glitch.sketch` is the window into my soul: it's a little bit of a trash fire in there, but it's pretty entertaining. I wear my inspirations on my sleeve in these files.
 
 <img src="/images/github-logo@2x.png" width="24" height="25" class="no-shadow" style="vertical-align: -30%"> [Glitch-design on github](https://github.com/FogCreek/Glitch-design)
