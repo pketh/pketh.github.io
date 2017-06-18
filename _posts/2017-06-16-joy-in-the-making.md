@@ -1,6 +1,7 @@
 ---
+redirect_from: "/joy-to-make-is-joy-to-use"
 layout: post
-title:  "Joy to Make Is Joy to Use"
+title:  "Joy in the Making"
 ---
 
 My favorite building in Toronto is the Ontario College of Art and Design (aka OCAD). I never went to design school but I owe a lot to this cool rectangle.
