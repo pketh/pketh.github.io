@@ -23,7 +23,7 @@ In the 80s, we knew computers were going to change the world (well not me, I was
 
 <img src="/images/2017/mac-system-error.png" class="">
 
-In lots of ways, my dreams for the web parallel the optimistic, egalitarian spirit of those times. The web connects us like nothing else ever has – we should use it to make even better book reports, businesses, music and art.
+In lots of ways, my hopes for the web parallel the optimistic, egalitarian spirit of those times. The web connects us like nothing else ever has – we should use it to make even better book reports, businesses, music and art.
 
 ## Web 1.0 Smelled Like Teen Spirit 💔
 
