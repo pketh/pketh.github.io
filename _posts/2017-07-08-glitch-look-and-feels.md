@@ -9,7 +9,12 @@ The recipe for a playful, rebellious aesthetic is pretty simple. Start with an e
 
 Stir until velvety smooth, then throw it in the oven. While we're baking, let's chat like we used to.
 
-<img src="/images/2017/tumblr_o0rbb4TA1k1urr1ryo1_500.gif" class="no-shadow">
+
+<p>
+	<video autoplay loop muted playsinline class="no-shadow">
+		<source src="/images/2017/tumblr-cat.mp4">
+	</video>
+</p>
 
 
 ## The Era of Computer Optimism 🌌
@@ -26,7 +31,11 @@ In the Geocities era we (still not me) told everyone that they should have a web
 
 My friend's secret Livejournal would burn your eyes and your soul. We're talking about paragraphs of yellow and pink comic sans on a purple, sometimes rainbow, background. She set her mood on every post to basically `sensual`, and wrote exclusively about the boys she liked that week.
 
-<img src="/images/2017/ecco-glitch.gif" class="large">
+<p>
+	<video autoplay loop muted playsinline class="large">
+		<source src="/images/2017/ecco-glitch.mp4">
+	</video>
+</p>
 
 None of us were great at making websites, because that wasn't the point. We made things because we felt invited to.
 

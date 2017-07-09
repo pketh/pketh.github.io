@@ -252,7 +252,8 @@ h1, h2 {
   width: 100%;
 }
 
-.post img {
+.post img,
+.post video {
   box-shadow: 9px 6px 0 rgba(0, 0, 0, .2);
   border-radius: 3px;
   height: auto;
