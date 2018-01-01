@@ -8,7 +8,7 @@ All the drawings in this post were drawn this year by cool people using a [tool]
 <img alt="trippy frog" src="/images/2018/f6d39cc8-dec3-4632-a882-1f9e29e25604.png">
 
 
-Speaking of [Frog Feels](http://frogfeels.com), it's in a really good place. Some real [masterpieces]() were made. And in a small, gentle way a new community was created on the internet.
+Speaking of [Frog Feels](http://frogfeels.com), it's in a really good place. Some real [masterpieces](https://frogfeels.glitch.me/masterpieces) were made. And in a small, gentle way a new community was created on the internet.
 
 I start most of the weekly emails with a heartfelt personal newsletter of sorts,
 
