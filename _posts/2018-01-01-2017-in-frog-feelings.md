@@ -39,7 +39,7 @@ I also spent 2 weeks in France 🇫🇷. I hadn't been there since I was 8 and I
 
 <img alt="sadface" src="/images/2018/30b15fca-926a-47a6-a731-6fa92bf00f1e.png">
 
-This year of Glitch was a real rollercoaster. It's good to see that it's really picking up, people also seem to appreciate the work I've put into it's interface and style, and I'm pretty confident about it's future success. But also it's getting more stressful, less fun to work on as the need for features pile up across both the editor and community site applications: both of which I design and write most of the code for. It's crunch time, always be crunching.
+This year of [Glitch](https://glitch.com) was a real rollercoaster. It's good to see that it's really picking up, people also seem to appreciate the work I've put into it's interface and style, and I'm pretty confident about it's future success. But also it's getting more stressful, less fun to work on as the need for features pile up across both the editor and community site applications: both of which I design and write most of the code for. It's crunch time, always be crunching.
 
 <img alt="california" src="/images/2018/a5d9dfa4-0744-4258-8001-a95f8d28c161.png">
 
