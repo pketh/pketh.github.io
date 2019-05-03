@@ -23,7 +23,7 @@ body {
   margin-left: 20px;
 }
 
-p, .post li, table {
+p, .post li, table, summary {
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 20px;
@@ -678,4 +678,24 @@ th, td {
     margin-top: 60px;
   }
 
+}
+
+
+/* extras */
+
+.icon {
+  display: inline-block;
+  width: 85px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.icon-small {
+  width: 30px;
+}
+
+.pre-paragraph {
+  white-space: pre-line;
+  overflow: auto;
+  color: black;
 }

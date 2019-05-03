@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>default-avatar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logged-out---user-options" transform="translate(-22.000000, -65.000000)">
+            <g id="default-avatar" transform="translate(25.000000, 68.000000)">
+                <rect id="logo-default-avatar-box" stroke="#F49CB1" stroke-width="3" fill="#E8CF3D" x="-1.5" y="-1.5" width="20" height="20" rx="3"></rect>
+                <g id="Group" transform="translate(1.459696, 5.475762)">
+                    <circle id="Oval-138" fill="#222222" cx="2.040304" cy="2.02423831" r="1.5"></circle>
+                    <circle id="Oval-138-Copy" fill="#222222" cx="12.040304" cy="2.02423831" r="1.5"></circle>
+                    <path d="M4.540304,4.52423831 C4.540304,4.52423831 6.727804,6.77423831 9.540304,4.52423831" id="Path-1550" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
