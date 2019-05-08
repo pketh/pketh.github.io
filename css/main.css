@@ -31,8 +31,14 @@ p, .post li, table, summary {
   width: 420px;
 }
 
+details {
+  margin-top: 1.5rem;
+}
+
 summary {
   max-width: 100%;
+  cursor: pointer;
+  color: #9ff0ac;
 }
 
 li {
@@ -691,7 +697,7 @@ th, td {
 .icon {
   display: inline-block;
   width: 85px;
-  margin-right: 5px;
+  margin-right: 8px;
   vertical-align: middle;
 }
 

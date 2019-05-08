@@ -28,11 +28,9 @@ We're in Beta until we are
 
 It might be hard to imagine now, but it was a very controversial project. Internally, a couple people thought it would flop because
 
-<pre class="pre-paragraph">
 - It was too simple for 'real' devs, and too advanced for 'regular' people
 - They saw the UI of Glitch as just window dressing, that behind the pretty face we weren't doing anything noteworthy and that it was "trivially copyable"
 - What's the core value prop? Couldn't I just use my more powerful local text-editor and deploy my apps myself?
-</pre>
 
 <details>
     <summary>
