@@ -138,7 +138,7 @@ Later, I added curated categories to the [second version](https://community-site
 
 <a href="https://community-site-v2.glitch.me/"><img class="no-shadow" src="/images/2019/Screen_Shot_2019-04-26_at_2-2d606909-5422-49f8-b1fd-bad162989909.52.26_PM.png"/></a>
 
-The [third version](https://lavender-fir.glitch.me/) I built is still the core of the current design. It added data models, user pages and other dynamic stuff. This was also the first time I worked with an outside illustrator on something, and it turned out rad.
+The [third version](https://lavender-fir.glitch.me/) I built is still the core of the current design. It added data models, user pages and other dynamic stuff. This was also the first time I worked with an [outside illustrator](http://goodboygraphics.tumblr.com) on something, and it turned out rad.
 
 <a href="https://lavender-fir.glitch.me/"><img class="no-shadow" src="/images/2019/Screen_Shot_2019-04-26_at_2-8f7cba89-6a34-4684-82e2-716e1985cf81.52.50_PM.png"/></a>
 
@@ -150,7 +150,7 @@ A year before he started, Anil popped by the office to see Glitch firsthand. I h
 
 That might also have been where I settled on using the word 'Remix' instead of more technical alternatives.
 
-After Anil joined we went from HyperDev → Gomix → Glitch (the name we'd originally wanted). And from hummingbird to fish. With the launch of Glitch, we also put the community first – both technically, [glitch.com](http://glitch.com) now loaded the community site instead of the editor, and culturally as an internal priority.
+After Anil joined we went from HyperDev → Gomix → Glitch (the name we'd originally wanted). And from hummingbird to fish. With the launch of Glitch, we also put the community first – both technically, [glitch.com](http://glitch.com) now loaded the community site instead of the editor, and culturally as an internal priority with it's own team.
 
 <p>
     <img class="no-shadow icon" src="/images/2019/bird-7ae6a312-a2f2-4701-a80c-040432d0fa54.svg"/>
@@ -177,4 +177,4 @@ There's way more things I could talk about but this is already crazy long.
 - [OG product values](https://docs.google.com/document/d/1ZZmlzf-AEjPE28ubJDfoFzLUYWG88KMGTKE_3PwIQp8/edit)
 - [OG design principles](https://docs.google.com/document/d/1TkJoU-Ynmequph2bcqbfhEXmoeOEyUXuqvJxd1BoHBQ/edit#heading=h.1r6nsuavv0qc)
 - [Design principles v2](https://docs.google.com/document/d/1-1Tq716SfDtltlKuwGrv3bhVbgcPGdD_dwGBXHbzTmk/edit#)
-- [Current principles](http://designing.glitch.me)
+- [Current principles at designing.glitch.me](http://designing.glitch.me)
