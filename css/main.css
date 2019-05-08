@@ -31,6 +31,10 @@ p, .post li, table, summary {
   width: 420px;
 }
 
+summary {
+  max-width: 100%;
+}
+
 li {
   clear: both;
   margin-bottom: 82px;
@@ -148,6 +152,7 @@ h1, h2 {
   line-height: 26px;
   font-weight: normal;
   font-family: palatino, Times, serif;
+  word-break: break-all;
 }
 
 
@@ -562,7 +567,7 @@ th, td {
     padding-left: 0;
   }
 
-  p, .post ul, .post li, blockquote, table {
+  p, .post ul, .post li, blockquote, table, summary {
     margin-left: auto;
   }
 
