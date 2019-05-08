@@ -134,7 +134,7 @@ Once it started to actually work, we started getting a couple cool apps built in
 
 <a href="https://original-community-site.glitch.me"><img class="no-shadow large" src="/images/2019/Screen_Shot_2019-04-26_at_2-7318540c-25c1-4b1b-b71e-cd280d463a5f.51.45_PM.png"/></a>
 
-Later, I added categories to the [second version](https://community-site-v2.glitch.me/) , and the design slowly started to evolve
+Later, I added curated categories to the [second version](https://community-site-v2.glitch.me/) , and the design slowly started to evolve
 
 <a href="https://community-site-v2.glitch.me/"><img class="no-shadow" src="/images/2019/Screen_Shot_2019-04-26_at_2-2d606909-5422-49f8-b1fd-bad162989909.52.26_PM.png"/></a>
 
