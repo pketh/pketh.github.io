@@ -66,7 +66,7 @@ The point about VB 1.0 is that you could build any Windows application. You were
 
 And the REAL PROGRAMMERS (TM) laughed because it was BASIC and therefore "beneath their dignity" but at its peak Visual Basic was 2/3rds of all compilers sold. (people used to buy compilers) and 90% of the people who had occasion to program computers said that they would be willing to use BASIC.
 
-Where does Hyperweb come in? There are, it turns out, a lot of stupid crufty complications in programming today that are unnecessary and obsolete, and if you get rid of all those complications and options you can make a much, much simpler programming environment WITHOUT removing any flexibility in what you can create.
+Where does [Glitch] come in? There are, it turns out, a lot of stupid crufty complications in programming today that are unnecessary and obsolete, and if you get rid of all those complications and options you can make a much, much simpler programming environment WITHOUT removing any flexibility in what you can create.
 
 For example, git is WAY too powerful. Probably 75% of developers are working alone and all they need is a way to go back when they make mistakes. This feature can be provided COMPLETELY AUTOMATICALLY with no user interface. So 75% of developers just need time machine for their code and they're happier than they would be with git.
 
@@ -76,7 +76,7 @@ If you give them a simple way to make very basic feature branches, well now you'
 
 Most developers don't need make files or ant or build tools. They just want everything built always. If they have written tests, they want all tests to run all the time. So why even give them a button to run tests? Run everything always and don't deploy until all tests pass. When all tests pass, deploy automatically. That's all. Now all I have to know as a programmer is that if my tests pass, the code is on the server.
 
-So this is the idea of Hyperweb. Get rid of all the nonsense around programming which doesn't matter. Focus first on the 90% of people who would be programming if it wasn't so unnecessarily tedious. Hide all that baloney about branches and deployments and editors and how you get your code to a URL and hide every detail about hosting except where you hook up your amazon/paypal/appleID to pay for it.
+So this is the idea of [Glitch]. Get rid of all the nonsense around programming which doesn't matter. Focus first on the 90% of people who would be programming if it wasn't so unnecessarily tedious. Hide all that baloney about branches and deployments and editors and how you get your code to a URL and hide every detail about hosting except where you hook up your amazon/paypal/appleID to pay for it.
 
 This is NOT squarespace. Squarespace is a GUI website builder. GUI tools always limit what you can do, because they don't map perfectly to HTML and CSS. They're clunky and never really win in the marketplace. We're giving you a real programming language (JavaScript, HTML, CSS) and we'll let you turn on things like node and angular. Our goal is not to reinvent programming languages because a lot of people have tried that and it doesn't always go so well. Our goal is just to eliminate the yak-shaving nonsense it takes to get code you just wrote to run.
 
@@ -84,9 +84,9 @@ How do we make money? Just like github. It's free for open source, paid for clos
 
 For the first couple of years, Github and Atlassian ignore it, because it's too simple. It's like a toy joke and they don't even understand what it is.
 
-On year three, they start to think "hm we need a hyperweb competitor", so they start to design GitHub Jira Lite which is awful and nobody uses.
+On year three, they start to think "hm we need a [Glitch] competitor", so they start to design GitHub Jira Lite which is awful and nobody uses.
 
-On year five, they realize that they have been completely outflanked. Yes, the y-combinator kids doing startups and the Tesla engineers writing code for self-driving cars are still using PROFESSIONAL tools. But everybody else is using Hyperweb because it's just really simple.
+On year five, they realize that they have been completely outflanked. Yes, the y-combinator kids doing startups and the Tesla engineers writing code for self-driving cars are still using PROFESSIONAL tools. But everybody else is using [Glitch] because it's just really simple.
 
 Joel
 </pre>
