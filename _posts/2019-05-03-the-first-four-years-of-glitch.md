@@ -142,6 +142,10 @@ The [third version](https://lavender-fir.glitch.me/) I built is still the core o
 
 <a href="https://lavender-fir.glitch.me/"><img class="no-shadow" src="/images/2019/Screen_Shot_2019-04-26_at_2-8f7cba89-6a34-4684-82e2-716e1985cf81.52.50_PM.png"/></a>
 
+It included the copy I'm most proud of writing
+
+<img class="" src="/images/2019/Screen-Shot-2019-05-09.png" alt="You might know us for making Trello, FogBugz, and co-creating Stack Overflow. We're a friendly, self-funded company that's been helping people make stuff for over 18 years." />
+
 # Meeting Anil
 
 In the early days FogCreek didn't have a CEO, instead it had a council of elders (really) who kept trying to 'manage' our small team of 2-3. It came off more like meddling by people who felt we needed 'adult' supervision so we mostly ignored them, checked-in-with Joel occasionally, and kept doing our own thing.
