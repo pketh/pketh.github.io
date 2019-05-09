@@ -148,7 +148,7 @@ It included the copy I'm most proud of writing
 
 # Meeting Anil
 
-In the early days FogCreek didn't have a CEO, instead it had a council of elders (really) who kept trying to 'manage' our small team of 2-3. It came off more like meddling by people who felt we needed 'adult' supervision so we mostly ignored them, checked-in-with Joel occasionally, and kept doing our own thing.
+In the early days, FogCreek didn't have a CEO. Instead it had a council of elders (really) who kept trying to 'manage' our small team of 2-3. It came off more like meddling by people who felt we needed 'adult' supervision so we mostly ignored them, checked-in-with Joel occasionally, and kept doing our own thing.
 
 A year before he started, Anil popped by the office to see Glitch firsthand. I had no idea that he was planning to be CEO, but I was hyped to discuss it as a fan of his series on [The Web We Lost](https://anildash.com/2012/12/13/the_web_we_lost/). Here are [my notes from that meeting](https://docs.google.com/document/d/1AmMeTDN5EKgRpWX0yoIUToXjMcQLFsXRxvC53Dlyquo/edit#heading=h.ykg6r2dy4bdk). I'm still trash at stuff like messaging so hearing his thoughts on how he'd present it to the world was real inspiring. (At the time, it was assumed we'd eventually do the whole big TechCrunch conference presentation like Trello did).
 
