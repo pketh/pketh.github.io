@@ -10,7 +10,12 @@ It's been 3~ months since I quit Glitch. From outside the city, amidst community
   <figcaption>Kinopio Beta Logo</figcaption>
 </figure>
 
-[Kinopio](https://kinopio.club) is designed to get out the chaotic messy thoughts in your head, to help figure out what they mean, and how they're connected. Instead of writing in neatly structured forms and lists like a traditional planning tool, Kinopio works like your brain does. The best way to explain that is with a little tour of [kinopio.club](https://kinopio.club):
+[Kinopio](https://kinopio.club) is designed to:
+1. Get the chaotic messy thoughts out of your head
+2. Show you how they’re connected
+3. Help you figure out what they mean
+
+Instead of neatly structured forms and lists like a traditional planning tool, Kinopio works like your brain does. The best way to explain that is with a little tour of [kinopio.club](https://kinopio.club):
 
 Tap anywhere to make a new card. Put an idea, thought, or feeling in it. It doesn't need to make sense right now. Make some more, wherever you want. Drag cards to move them with a jolly wiggle.
 
@@ -23,7 +28,7 @@ Tap anywhere to make a new card. Put an idea, thought, or feeling in it. It does
   <figcaption>Get your feelings out</figcaption>
 </figure>
 
-By now some of these ideas might be connected, thematically, or whatever – so let's connect them by dragging from one card connector to another.
+By now some of these ideas might be connected – so let's connect them by dragging from one card connector to another.
 
 <p>
   <video autoplay loop muted playsinline>
@@ -34,7 +39,7 @@ By now some of these ideas might be connected, thematically, or whatever – so 
   <figcaption>Connect your thoughts</figcaption>
 </figure>
 
-Connections can also be tapped on and edited, you can also set a connection to be the `default` type for future connections.
+Connections can also be tapped on and edited. You can also set a connection to be the `default` type for future connections.
 
 <p>
   <video autoplay loop muted playsinline>
