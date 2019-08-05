@@ -23,12 +23,22 @@ body {
   margin-left: 20px;
 }
 
-p, .post li, table, summary {
+p, .post li, table, summary, figure, figure img, figcaption {
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 20px;
   margin-left: 240px;
   width: 420px;
+}
+
+figure img {
+  max-width: 100%;
+}
+figcaption {
+  font-size: 12px;
+  color: #52856b;
+  margin-top: -15px;
+  max-width: 100%;
 }
 
 details {
@@ -264,6 +274,7 @@ h1, h2 {
 }
 
 .post img,
+.post figure img,
 .post video {
   box-shadow: 9px 6px 0 rgba(0, 0, 0, .2);
   border-radius: 3px;
@@ -279,6 +290,10 @@ h1, h2 {
 .post .no-shadow, .post .emoji {
     box-shadow: none;
     border-radius: 0;
+}
+
+figure {
+  margin: 0;
 }
 
 iframe {
@@ -573,8 +588,13 @@ th, td {
     padding-left: 0;
   }
 
-  p, .post ul, .post li, blockquote, table, summary {
+  p, .post ul, .post li, blockquote, table, summary, figure {
     margin-left: auto;
+  }
+
+  figure img,
+  figcaption {
+    margin-left: 0;
   }
 
   .post ol li, .post ul li {
@@ -587,7 +607,6 @@ th, td {
     margin-left: auto;
     width: 360px
   }
-
 
   h1, h2 {
     margin-left: auto;
@@ -619,11 +638,12 @@ th, td {
     padding-left: 0;
   }
 
-  .post img {
+  .post img,
+  .post figure img {
     margin-left: -20px;
   }
 
-  p, .post ul, .post li, hr {
+  p, .post ul, .post li, hr, figure {
     margin-left: auto;
     width: auto;
   }
@@ -641,22 +661,16 @@ th, td {
     width: auto;
   }
 
-  .post img {
+  .post img,
+  .post figure img {
     margin-left: auto;
   }
 
 }
 
 @media (max-width: 420px) {
-  .nav-things-long {
-    display: none;
-  }
-  .nav-things-short {
-    display: inline-block;
-  }
   figure {
     margin: 0;
-    width: 90%;
   }
   .post .small-code pre {
     width: 100%;
