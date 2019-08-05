@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Hello Kinopio"
+---
+
 It's been 3~ months since I quit Glitch. From outside the city, amidst community gardens, fireflies, and lazing cats, I want to tell you what I've been working on.
 
 <figure>
@@ -9,31 +14,55 @@ It's been 3~ months since I quit Glitch. From outside the city, amidst community
 
 Tap anywhere to make a new card. Put an idea, thought, or feeling in it. It doesn't need to make sense right now. Make some more, wherever you want. Drag cards to move them with a jolly wiggle.
 
-
-[! mov. click to add a card](#)
-> protip: making magic . 420width or 654px, a weird dream last night, you were there, and You were there, puppies
+<p>
+  <video autoplay loop muted playsinline>
+    <source src="/images/2019/basic-cards.mp4">
+  </video>
+</p>
+<figure>
+  <figcaption>Get your feelings out</figcaption>
+</figure>
 
 By now some of these ideas might be connected, thematically, or whatever – so let's connect them by dragging from one card connector to another.
 
-[! mov. connecting cards together](#)
+<p>
+  <video autoplay loop muted playsinline>
+    <source src="/images/2019/connecting.mp4">
+  </video>
+</p>
+<figure>
+  <figcaption>Connect your thoughts</figcaption>
+</figure>
 
-Connections can also be tapped on and edited, you can also set a connection type to be the `default` for future connections.
+Connections can also be tapped on and edited, you can also set a connection to be the `default` type for future connections.
 
-[!mov. connection details editing, showing defaults](#)
+<p>
+  <video autoplay loop muted playsinline>
+    <source src="/images/2019/connection-details.mp4">
+  </video>
+</p>
+<figure>
+  <figcaption>Edit connections</figcaption>
+</figure>
 
 You've got the gist!
 
-I made Kinopio for people who have ideas they're struggling to express, or  feelings and thoughts that they're trying to organize and understand. I used it to plan out this blog post [[screenshot](#)]. Oh and it also works great on mobile.
+I made Kinopio for people who have ideas they're struggling to express, or feelings and thoughts that they're trying to organize and understand. I used it to plan out this blog post [[screenshot]](/images/2019/screenshot-blog-planning-kinopio.png). Oh and it also works great on mobile.
 
-I'll eventually add collaboration features that will allow the ability to whiteboard together, to make meetings more organized, and to help better connect _what_ you're doing to [_why_ you're doing it](http://pketh.org/better-things.html).
+I'll eventually add collaboration features that'll let you whiteboard with a team, have more efficient meetings, and help better connect _what_ you're doing to [_why_](http://pketh.org/better-things.html) you're doing it.
 
 Here's one more thing. You can use your art skills to manipulate multiple cards at once. Just paint over them and a menu of multi-card options will appear. Of course you can also drag those selected cards around together too.
 
-[!mov of multi card select, and multi move](#)
+<p>
+  <video autoplay loop muted playsinline>
+    <source src="/images/2019/multi-card-actions.mp4">
+  </video>
+</p>
+<figure>
+  <figcaption>Paint cards for bulk actions</figcaption>
+</figure>
 
-Come through and let me know what you think. You can also follow my progress at [are.na](https://www.are.na/kinopio) or [twitter](https://twitter.com/KinopioClub).
-
-[button Kinopio.club](#)
+[Come through](https://kinopio.club) and let me know what you think. You can also follow my progress at [are.na](https://www.are.na/kinopio) or [twitter](https://twitter.com/KinopioClub).
 
 In future posts, I'll talk about design choices, aesthetic influences, how I built it, and my business 'plan'.
 
@@ -41,29 +70,4 @@ See you later,
 
 Be kind to animals,
 
----- ----
-
-
-
-
-Most ideas never sprout into fully formed plans,
-
-most people don't understand their feelings
-
-If real life really worked like then Jira would've got us to world peace by now.
-
-
-Whether it's trello
-
-
-is for
-
-Stuff like To-Do list and project planning software are designed around
-
-
-Computers have always encouraged us to tell them things in structured, perfect linear lists
-
-I built a tool for creative thinking
-
-
-What's creative thinking? It's how we all think, jumbled disorganized thoughts in our heads that make no sense
+✌️

@@ -99,7 +99,9 @@ After that, the grind gets mad blurry. Every week I gave demos to the company, a
 
 <img class="large" src="/images/2019/3ec1d746-45d8-11e5-828f-4ac904ef0a29-0df668d4-184c-408f-963f-d7c9df47d840.png"/>
 
-`^ loading forever, not an unfamiliar sight`
+<figure>
+  <figcaption>loading forever, not an unfamiliar sight</figcaption>
+</figure>
 
 The visual design of Glitch evolved piece by piece over time, as we sorted out our principles, we also sorted out our [influences and what we were trying to say aesthetically](http://pketh.org/glitch-look-and-feels.html). As I added new interface elements, I'd tweak or rewrite the older parts to fit. It was a lot of trial and error, and tweaking, and feeling.
 
