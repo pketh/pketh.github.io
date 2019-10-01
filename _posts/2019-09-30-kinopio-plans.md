@@ -18,7 +18,7 @@ My plan is to eventually require people to pay $4/month to create more than 100 
 
 ## What About User Data and Privacy?
 
-I haven't written a legalese privacy policy yet. But either way, here's the commonsense human version. 
+I haven't written a legalese privacy policy yet. But either way, here's the common sense human version. 
 
 - Kinopio won't show you ads of any kind. 
 - No cookies are used for anything. `LocalStorage` is used to save your info. Unlike cookies, other websites cannot access `localStorage`.
