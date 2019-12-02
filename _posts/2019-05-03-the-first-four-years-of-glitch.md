@@ -97,11 +97,7 @@ Joel
 
 After that, the grind gets mad blurry. Every week I gave demos to the company, and every week they crashed almost immediately.
 
-<img class="large" src="/images/2019/3ec1d746-45d8-11e5-828f-4ac904ef0a29-0df668d4-184c-408f-963f-d7c9df47d840.png"/>
-
-<figure>
-  <figcaption>loading forever, not an unfamiliar sight</figcaption>
-</figure>
+<img class="large" src="/images/2019/glitch-no-assets.png"/>
 
 The visual design of Glitch evolved piece by piece over time, as we sorted out our principles, we also sorted out our [influences and what we were trying to say aesthetically](http://pketh.org/glitch-look-and-feels.html). As I added new interface elements, I'd tweak or rewrite the older parts to fit. It was a lot of trial and error, and tweaking, and feeling.
 
@@ -175,6 +171,12 @@ The original illustration kit I drew for marketing
 <img class="large" src="/images/2019/Screen_Shot_2018-01-24_at_10-feee235a-1370-439d-877f-cf1d0ef4d9ba.17.56_PM.png" title="glitch-design/illustration-kit.sketch"/>
 
 There's way more things I could talk about but this is already crazy long.
+
+<p>
+  <video autoplay loop muted playsinline class="large">
+    <source src="/images/2019/hw-success.mp4">
+  </video>
+</p>
 
 # Resources
 
