@@ -723,3 +723,32 @@ th, td {
   overflow: auto;
   color: black;
 }
+
+/* kinopio promo */
+
+.kinopio-promo {
+  width: 420px;
+  max-width: 100%;
+  margin-left: auto;
+  display: block;
+  margin-top: 60px;
+}
+
+.kinopio-promo img {
+  width: 70px;
+}
+
+.kinopio-promo .content-wrap {
+  display: flex;
+}
+
+.kinopio-promo p {
+  margin-left: 15px;
+  width: 100%;
+}
+.kinopio-promo p:first-child {
+  margin-top: 0;
+  /*width: 100%;*/
+}
+
+
