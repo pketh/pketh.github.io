@@ -64,4 +64,4 @@ Good software comes from a vision, combined with conversations not commandments.
 
 So here's what's up, I'm working on my own right now, in a race between my diminishing savings and my typing fingers. But I'm not stressing too much. I've got a lot of work to do, but people seem to like what I'm making. Maybe one day though, it won't just be me. When that happens I'd love to build a small company/collective/*thing* that's the best place for creators to work.
 
-> Special thanks to Michelle and Hao for helping edit this.
+> Special thanks to Michelle and [Hao](https://twitter.com/haoformayor) for helping edit this.
