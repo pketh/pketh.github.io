@@ -143,6 +143,12 @@ h1, h2 {
   display: none;
 }
 
+.kinopio-logo {
+  width: 16px;
+  vertical-align: -2px;
+  padding-right: 5px;
+}
+
 /*****************************************************************************/
 /*
 /* Posts List
