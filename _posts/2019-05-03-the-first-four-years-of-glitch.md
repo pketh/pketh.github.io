@@ -185,4 +185,3 @@ There's way more things I could talk about but this is already crazy long.
 - [OG product values](https://docs.google.com/document/d/1ZZmlzf-AEjPE28ubJDfoFzLUYWG88KMGTKE_3PwIQp8/edit)
 - [OG design principles](https://docs.google.com/document/d/1TkJoU-Ynmequph2bcqbfhEXmoeOEyUXuqvJxd1BoHBQ/edit#heading=h.1r6nsuavv0qc)
 - [Design principles v2](https://docs.google.com/document/d/1-1Tq716SfDtltlKuwGrv3bhVbgcPGdD_dwGBXHbzTmk/edit#)
-- [Current principles at designing.glitch.me](http://designing.glitch.me)

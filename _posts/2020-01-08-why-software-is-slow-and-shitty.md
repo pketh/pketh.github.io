@@ -24,7 +24,7 @@ As an industry, we've moved from putting engineering innovation and efficiency f
 I mean, except for the way most software companies are organized.
 
 <figure>
-  <img src="/images/2020/supreme-problem-solves.png">
+  <img src="/images/2020/supreme-problem-solves.jpg">
   <figcaption>
     <a href="https://www.are.na/block/1975355">(Source)</a>
   </figcaption>
