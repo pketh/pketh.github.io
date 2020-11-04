@@ -220,8 +220,8 @@ h1, h2 {
   color: #6EA188;
   border-top: 1px solid #486C5A;
   border-bottom: 1px solid #486C5A;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .related a {
@@ -751,11 +751,10 @@ th, td {
 
 .kinopio-promo p {
   margin-left: 15px;
-  width: 100%;
+  width: calc(100% - 15px);
 }
 .kinopio-promo p:first-child {
   margin-top: 0;
-  /*width: 100%;*/
 }
 
 .kinopio-promo .badge {
