@@ -38,18 +38,16 @@ layout: default
   </div>
 
   <div class="post-actions-container">
+    <p>Reply at <a href="mailto:hi@pirijan.com?subject=regarding {{page.title}}">hi@pirijan.com</a>,
+      <br>or follow me on Twitter <a href="https://twitter.com/pketh">@pketh</a>.
+    </p>
     <p>
-      <a href="mailto:hi@pirijan.com?subject=regarding {{page.title}}">
-        <img src="/assets/e-mail.png" width="26" height="26"><span>Reply by Email</span></a>
+        If you liked this, you might also enjoy
+        {% for post in site.related_posts limit:3 %}
+          <span class="related-posts"><a href="{{ post.url }}">{{ post.title }}</a></span>
+        {% endfor %}
     </p>
   </div>
-
-  <p class="related">
-      If you liked this, you might also enjoy
-      {% for post in site.related_posts limit:3 %}
-        <span class="related-posts"><a href="{{ post.url }}">{{ post.title }}</a></span>
-      {% endfor %}
-  </p>
 
   <aside class="kinopio-promo">
     <div class="content-wrap">
@@ -58,7 +56,7 @@ layout: default
       </a>
       <div>
         <p>
-          <span>( ﾟ▽ﾟ)／ I make </span>
+          <span>I make </span>
           <a href="https://kinopio.club">Kinopio</a><span>, a visual thinking tool for new ideas and hard problems. It works how our brains work,</span>
         </p>
 
@@ -70,14 +68,6 @@ layout: default
       </div>
     </div>
   </aside>
-
-  <footer class="footer">
-    <div class="nav">
-      <a href="/archives">Archives</a>
-      <a href="https://twitter.com/pketh" class="">Twitter</a>
-      <a href="http://pketh.org/feed.xml">RSS</a>
-    </div>
-  </footer>
 
 </div>
 

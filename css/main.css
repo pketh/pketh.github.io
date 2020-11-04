@@ -73,7 +73,6 @@ h1, h2 {
 .site {
   max-width: 700px;
   width: 100%;
-  margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -128,6 +127,10 @@ h1, h2 {
   color: #52856B;
   text-decoration: none;
   margin-left: 15px;
+}
+
+.nav a:first-child {
+  margin-left: 0;
 }
 
 .nav a:hover {
@@ -201,7 +204,14 @@ h1, h2 {
 
 .post-actions-container {
   margin-top: 3rem;
+  color: #6EA188;
 }
+
+.post-actions-container p:first-child{
+  border-top: 1px solid #486C5A;
+  padding-top: 10px;
+}
+
 .post-actions-container img {
   vertical-align: middle;
   padding-right: 6px;
@@ -218,10 +228,6 @@ h1, h2 {
 
 .related {
   color: #6EA188;
-  border-top: 1px solid #486C5A;
-  border-bottom: 1px solid #486C5A;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .related a {
@@ -429,15 +435,6 @@ footer {
   text-align: center;
   margin-bottom: 50px;
   padding-top: 50px;
-}
-
-footer .nav {
-  float: none;
-  margin-top: 0;
-}
-
-footer .nav a:first-child {
-  margin-left: 0;
 }
 
 .paginator-wrap {
@@ -690,10 +687,6 @@ th, td {
 @media (max-width: 320px) {
   .header {
     margin-bottom: 20px;
-  }
-
-  .site {
-    margin-top: 40px;
   }
 
   body {
