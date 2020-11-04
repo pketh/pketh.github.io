@@ -138,14 +138,6 @@ h1, h2 {
   text-decoration: underline;
 }
 
-.nav-about {
-  margin-left: 0;
-}
-
-.nav-things-short {
-  display: none;
-}
-
 .kinopio-logo {
   width: 16px;
   vertical-align: -2px;
