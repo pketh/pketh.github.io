@@ -5,11 +5,13 @@ title: pketh.org
 
 <div id="home">
 
-  <div class="tags-list">
-    {% for tag in site.tags %}
-      <a href="/tags/#{{ tag[0] }}"><div class="tags-header badge {{ tag[0] }}">{{ tag[0] }}</div></a>
-    {% endfor %}
-  </div>
+  {% if page.url == "/" %}
+    <div class="tags-list">
+      {% for tag in site.tags %}
+        <a href="/tags/#{{ tag[0] }}"><div class="tags-header badge {{ tag[0] }}">{{ tag[0] }}</div></a>
+      {% endfor %}
+    </div>
+  {% endif %}
 
   <ul class="posts">
     {% for post in paginator.posts %}
@@ -49,7 +51,7 @@ title: pketh.org
     {% endfor %}
   </ul>
 
-  <div class="footer">
+  <footer class="footer">
 
     {% if paginator.total_pages > 1 %}
       <div class="paginator-wrap">
@@ -70,10 +72,12 @@ title: pketh.org
 
     {% endif %}
 
+    <div class="nav">
+      <a href="/archives">Archives</a>
+      <a href="https://twitter.com/pketh" class="">Twitter</a>
+      <a href="http://pketh.org/feed.xml">RSS</a>
+    </div>
 
-    <a href="/archives" class="archives-link">Archives</a>
-    <a href="http://pketh.org/feed.xml">RSS</a>
-
-  </div>
+  </footer>
 
 </div>

@@ -199,20 +199,20 @@ h1, h2 {
   text-decoration: none;
 }
 
-.twitter-post {
-  margin-top: 80px;
+.post-actions-container {
+  margin-top: 3rem;
 }
-
-.twitter-post img {
+.post-actions-container img {
   vertical-align: middle;
   padding-right: 6px;
 }
-
-.twitter-post a {
+.post-actions-container span {
+  vertical-align: middle;
+}
+.post-actions-container a {
   text-decoration: none;
 }
-
-.twitter-post a:hover {
+.post-actions-container a:hover {
   text-decoration: underline;
 }
 
@@ -220,8 +220,8 @@ h1, h2 {
   color: #6EA188;
   border-top: 1px solid #486C5A;
   border-bottom: 1px solid #486C5A;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .related a {
@@ -424,11 +424,20 @@ iframe.twitter-tweet-rendered {
 /*
 /*****************************************************************************/
 
-.footer {
+footer {
   font-size: .9em;
   text-align: center;
   margin-bottom: 50px;
   padding-top: 50px;
+}
+
+footer .nav {
+  float: none;
+  margin-top: 0;
+}
+
+footer .nav a:first-child {
+  margin-left: 0;
 }
 
 .paginator-wrap {
@@ -494,10 +503,6 @@ iframe.twitter-tweet-rendered {
 .lastpage {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-}
-
-.archives-link {
-  margin-bottom: 120px;
 }
 
 /*****************************************************************************/
@@ -704,10 +709,6 @@ th, td {
     margin-bottom: 20px;
   }
 
-  .twitter-post {
-    margin-top: 60px;
-  }
-
 }
 
 
@@ -737,7 +738,7 @@ th, td {
   max-width: 100%;
   margin-left: auto;
   display: block;
-  margin-top: 60px;
+  margin-top: 3rem;
 }
 
 .kinopio-promo img {
@@ -757,6 +758,10 @@ th, td {
   /*width: 100%;*/
 }
 
+.kinopio-promo .badge {
+  display: inline-block;
+  width: initial;
+}
 
 /*****************************************************************************/
 /*
@@ -820,4 +825,3 @@ th, td {
 .badge.learning {
   background-color: #65cdaa;
 }
-
