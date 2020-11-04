@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "A Highly-Regarded Man of Letters"
+tags: life
 ---
 
-Somewhere in an old issue of [Monkey Business][monkey-business], a journal of Japanese fiction, an editor was introduced as 
+Somewhere in an old issue of [Monkey Business][monkey-business], a journal of Japanese fiction, an editor was introduced as
 
 > Motoyuki Shibata, **one of Japan’s most highly regarded men of letters.**
 

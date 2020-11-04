@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Knowing When to Walk Away"
+tags: life biz
 ---
 
 <img src="/images/2014/metome-key.png" class="no-shadow" width="420" height="149">

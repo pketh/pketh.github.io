@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Music and Software"
+tags: biz
 ---
 
 ## Once upon a time...
 
 | Artists | Engineers |
-| Selling albums | Selling versions | 
+| Selling albums | Selling versions |
 | Selling albums | Selling versions |
 | CDs | Boxes |
 | Record shops | Computer stores |

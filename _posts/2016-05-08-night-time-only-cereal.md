@@ -86,7 +86,7 @@ Some time passes.
 
 "Your name is on my list." She lets go of your hand. "So I'd like you to come with me. By the way, do you know what the best thing about cereal is?"
 
-"Cereal? Like the breakfast food?" She nods. "I dunno, it tastes good? or something?" You need to wrap this up and get out of here. 
+"Cereal? Like the breakfast food?" She nods. "I dunno, it tastes good? or something?" You need to wrap this up and get out of here.
 
 With a smirk she replies, "Everyone says that, but no one thinks about the things that happen around you when you're eating it. Cereal is innocence. Saturday morning cartoons, the breakfast table, getting ready for school, sunlight pouring in over your glass of OJ. Back then everything was okay. You were okay."
 

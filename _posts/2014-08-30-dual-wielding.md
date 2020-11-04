@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Dual Wielding"
+tags: life
 ---
 
 Seems like every week someone new joins the crew at FreshBooks. At a place growing so rapidly, it's not uncommon for a preference towards predictability and specialization. In that context, striving to be both a designer and developer is increasingly like swimming upstream.

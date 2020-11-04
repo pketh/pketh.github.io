@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hello Kinopio"
+tags: kinopio
 ---
 
 It's been ~3 months since I quit Glitch. From outside the city, amidst community gardens, fireflies, and lazing cats, I want to tell you what I've been working on.

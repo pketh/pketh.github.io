@@ -13,7 +13,7 @@ But what about the humble [kaomoji][kaomoji-post]? On iOS, the custom keyboard I
 
 ## ＼(°o°；）
 
-Thankfully there's [TextExpander][textexpander]. 
+Thankfully there's [TextExpander][textexpander].
 
 Instead of doing something productive, I created TextExpander snippets that allow me to insert kaomoji without having to copy paste them from [elsewhere][kmcat]. So typing `kmhappy` or `kmconfuse` in any editor brings up a fill-in popup menu with matching kaomoji to choose from.
 

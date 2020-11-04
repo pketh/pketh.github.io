@@ -1,22 +1,23 @@
 ---
 layout: post
 title:  "1001 Spikes and the Design of Failure"
+tags: design
 ---
 
 I'm a huge fan of pain and pixels. So, inevitably, I'm a huge fan of [Nicalis][nicalis] and their games.
 
-[1001 Spikes][1001s] is a game of endless danger, where death is both inevitable and constant. Each new life is a chance to learn from your previous mistake of tripping a hidden spike trap – only to get an arrow through the heart. 
+[1001 Spikes][1001s] is a game of endless danger, where death is both inevitable and constant. Each new life is a chance to learn from your previous mistake of tripping a hidden spike trap – only to get an arrow through the heart.
 
 <img class="large" src="/images/2014/1000-spikes/early-stage.png">
 
-You could say 1001 Spikes is a game about failure, but it's just as much about reveling in each small victory. 1001 Spikes teaches the player through failure - death is expected (sometimes even  cute), and rebirth is immediate. As the lessons from each death bring you closer to the goal, you'll start to move with confidence. You'll know when to wait and when to run, when to jump and when to fall. 
+You could say 1001 Spikes is a game about failure, but it's just as much about reveling in each small victory. 1001 Spikes teaches the player through failure - death is expected (sometimes even  cute), and rebirth is immediate. As the lessons from each death bring you closer to the goal, you'll start to move with confidence. You'll know when to wait and when to run, when to jump and when to fall.
 
 For that brief moment, it'll all be worth it.
 
 > For the tenacious, nothing is impossible.<br>
 > — [Jonathan Holmes][destructoid]
 
-Then you'll make it to the next stage and do it all over again. 
+Then you'll make it to the next stage and do it all over again.
 
 # So what did we learn?
 

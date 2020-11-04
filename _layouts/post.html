@@ -26,9 +26,10 @@ layout: default
       {% endcase %} ’{{ page.date | date: "%y" }}
     </span>
 
-    <a href="{{ page.url }}">
-      {{ page.title }}
-    </a>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+    {% for tag in page.tags %}
+      <a href="/tags/#{{ tag }}"><div class="badge {{ tag }}">{{ tag }}</div></a>
+    {% endfor %}
 
   </div>
 

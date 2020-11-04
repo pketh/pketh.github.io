@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Designing for Thinking"
+tags: kinopio design
 ---
 
 It sounds obvious that software isn't like real world objects, it has no inherent gravity, softness, or squeeze-ability.  But it does have its own kind of shape and weight.
@@ -38,11 +39,11 @@ There are, of course, fancy options like card frames and checkboxes, but it's al
 
 # Text as Text
 
-My earliest [mockups](https://www.are.na/kinopio/kinopio-design) of creating cards imposed a lot of structure like status, custom fields and comments. 
+My earliest [mockups](https://www.are.na/kinopio/kinopio-design) of creating cards imposed a lot of structure like status, custom fields and comments.
 
 <img src="/images/2020/card-comments2.png">
 
-I built the first version with just a single textarea because it was the simple, [iterative](http://pketh.org/why-software-is-slow-and-shitty) thing to do. But right away, it was obvious that a single field was calmer, inviting, and creatively expressive. 
+I built the first version with just a single textarea because it was the simple, [iterative](http://pketh.org/why-software-is-slow-and-shitty) thing to do. But right away, it was obvious that a single field was calmer, inviting, and creatively expressive.
 
 Turns out, you can do a lot with just a textarea. If you want to add a link, paste it in. If you want to comment, make a card and connect it. If you want a checkbox, prepend `[]`:
 
@@ -56,7 +57,7 @@ Software is a conversation between you and a computer. Conversations are better 
 
 # A Short Update
 
-It's been a year or so since I started Kinopio. Encouragingly, I learned that I wasn't that only one with fragile ideas to plant and grow, or thorny problems to think through. 
+It's been a year or so since I started Kinopio. Encouragingly, I learned that I wasn't that only one with fragile ideas to plant and grow, or thorny problems to think through.
 
 <figure>
   <img src="/images/2020/hiro-isono.jpg" class="">

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why Software is Slow and Shitty"
+tags: engineering biz
 ---
 <p></p>
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Less than Perfect on the Internet"
+tags: life
 ---
 
 Brent Simmons' recent post, [How to Be Wrong on the Internet][brentSimmons], got me thinking about why I don't write or share as much as I should.

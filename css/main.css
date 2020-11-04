@@ -758,3 +758,66 @@ th, td {
 }
 
 
+/*****************************************************************************/
+/*
+/* Tag Badges
+/*
+/*****************************************************************************/
+
+.badge {
+  display: inline-block;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
+  font-size: 14px;
+  margin-left: 6px;
+  padding: 0px 8px;
+  border-radius: 3px;
+  background-color: teal;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.25);
+  color: black;
+}
+.badge:first-letter {
+  text-transform: capitalize;
+}
+.badge:hover {
+  box-shadow: 5px 5px 0 rgba(0,0,0,0.25);
+}
+.badge:active {
+  box-shadow: inset 0 2px 2px rgba(0,0,0,0.35);
+}
+.tags-header.badge {
+  padding: 4px 8px;
+  padding-bottom: 5px;
+  margin-left: 0;
+  margin-bottom: 1rem;
+}
+.tags-list {
+  margin-bottom: 2rem;
+}
+.tags-list .tags-header.badge {
+  margin-left: 6px;
+}
+
+/* tag colors */
+
+.badge.kinopio {
+  background-color: #90ffff;
+}
+.badge.design {
+  background-color: #b9a8ff;
+}
+.badge.glitch {
+  background-color: #ee82ee;
+}
+.badge.engineering {
+  background-color: #fec1cb;
+}
+.badge.biz {
+  background-color: #fa8072;
+}
+.badge.life {
+  background-color: #f0e68c;
+}
+.badge.learning {
+  background-color: #65cdaa;
+}
+

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Software is Eating the World but it’s No Sandwich"
+tags: design
 ---
 
 It’s probably somewhat weird to admit that after visiting the [MoMA][moma-nyc] in New York a couple years ago, what I remembered most was a [Wall Calendar][moma] in the gift shop. Having recently moved to NYC, I thought I’d treat myself.
@@ -9,7 +10,7 @@ It’s probably somewhat weird to admit that after visiting the [MoMA][moma-nyc]
 
 The pattern is customized by arranging and stacking differently shaped colored panels to make new combinations. The dates are also swappable panels. It’s pretty low-fi, but zen in it’s own way.
 
-Not so shockingly however, I haven’t remembered to stop and rearrange those vibrant panels or update the date in over two weeks. So for no particular reason I spent a weekend making a [web version][project] of the calendar. 
+Not so shockingly however, I haven’t remembered to stop and rearrange those vibrant panels or update the date in over two weeks. So for no particular reason I spent a weekend making a [web version][project] of the calendar.
 
 In some ways it’s better than the  MoMA original:
 

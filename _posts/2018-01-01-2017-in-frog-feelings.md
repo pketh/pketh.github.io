@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "2017 in (Frog) Feelings"
+tags: life
 ---
 
 All the drawings in this post were drawn this year by cool people using a [tool](http://frogfeels.com) I made. That's a really awesome Feeling.
@@ -43,6 +44,6 @@ This year of [Glitch](https://glitch.com) was a real rollercoaster. It's good to
 
 <img alt="california" src="/images/2018/a5d9dfa4-0744-4258-8001-a95f8d28c161.png">
 
-The best part of the year was the two weeks I spent in San Diego and LA. California made a real impression on me to the extent that I almost moved there. LA is where all my favorite things are now, the best planetarium, the hollywood hills, venice beach, palm trees, chill vibez. 
+The best part of the year was the two weeks I spent in San Diego and LA. California made a real impression on me to the extent that I almost moved there. LA is where all my favorite things are now, the best planetarium, the hollywood hills, venice beach, palm trees, chill vibez.
 
 The only thing that stopped me this time was my work VISA, but I'm sure it's a hurdle I can get around soon. Also I like driving, but there's a chance I might regret saying that.

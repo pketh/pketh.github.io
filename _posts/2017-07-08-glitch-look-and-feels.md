@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Designing Glitch – Look and Feels"
+tags: glitch design
 ---
 
 The recipe for a playful, rebellious aesthetic is pretty simple. Start with an era of optimism 🌌, add your old emo highschool blog 💔, mix in an old synth 🎹, season with a fallible human touch 💅.
 
-(∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ 
+(∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ
 
 Stir until velvety smooth, then throw it in the oven. While we're baking, let's chat like we used to.
 
@@ -55,7 +56,7 @@ Culturally, music software, and communities like Soundcloud, are where the next 
 
 Have you ever bought a _really_ [fancy notebook](https://soundcloud.com/good-goods/)? Maybe it was imported from Japan and the paper is hand pressed from 100 year old oaks. How do you live up to this? Am I supposed to write my shitty grocery list in this masterpiece?
 
-Every color, element, illustration, and interaction is something I've killed myself over in Glitch. But I hope when you use it, you'll treat it like scrap paper that blew into your yard. Put whatever you want in it, the rougher, the more daring, the more useless, the better. 
+Every color, element, illustration, and interaction is something I've killed myself over in Glitch. But I hope when you use it, you'll treat it like scrap paper that blew into your yard. Put whatever you want in it, the rougher, the more daring, the more useless, the better.
 
 Not everything has to be serious and not every app has to be a business. Sometimes software can just be for fun.
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fitness Tracking with Purpose"
+tags: design
 ---
 
 [Fit Report][fit-report] is a simple fitness visualization I made for myself that tracks my daily workout and nutrition activity and correlates that to how I feel.

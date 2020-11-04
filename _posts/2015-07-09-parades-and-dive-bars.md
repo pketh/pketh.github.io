@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Parades and Dive Bars"
+tags: life engineering
 ---
 
-Submitted for the approval of the Midnight Society, ”The tale of the 90s that were and are again”. 
+Submitted for the approval of the Midnight Society, ”The tale of the 90s that were and are again”.
 
 Fellow 90s kids may well remember our dreams of the future; robots, jet-packs, hover-cars, and other things that fly. Our internet with it’s telephonic hisses and beeps was a neon `<table>` and gif-laden monument to laissez-faire individualism and liberty. Both free of borders and more American than Coke™.
 
-It was a nerd-party. Inverse to real-life parties in that the hip and the mainstream didn’t really have a place until social networks became a thing. We have all kinds of party parades now: high-school reunions, singles mixers, baby showers for multiple babies, and cat appreciation societies. 
+It was a nerd-party. Inverse to real-life parties in that the hip and the mainstream didn’t really have a place until social networks became a thing. We have all kinds of party parades now: high-school reunions, singles mixers, baby showers for multiple babies, and cat appreciation societies.
 
 👙🐱🎉
 

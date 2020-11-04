@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What Better Tools Really Mean"
+tags: design
 ---
 
 In a recent issue of [PAPER][paper], Kanye West writes about art school and music:

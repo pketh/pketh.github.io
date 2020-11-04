@@ -1,0 +1,32 @@
+---
+layout: default
+title: Tags
+---
+
+<div id="tags">
+
+  <div class="tags-list">
+    {% for tag in site.tags %}
+      <a href="#{{ tag[0] }}"><div class="tags-header badge {{ tag[0] }}">{{ tag[0] }}</div></a>
+    {% endfor %}
+  </div>
+
+  <ul class="posts">
+    {% for tag in site.tags %}
+      <div>
+        <a href="#{{ tag[0] }}"><div id="{{ tag[0] }}" class="tags-header badge {{ tag[0] }}">{{ tag[0] }}</div></a>
+      </div>
+
+      {% for post in tag[1] %}
+        <li class="meta-page-list">
+          <div class="title meta-page-title">
+            <span class="meta-date">
+              {{ post.date | date: "%Y" }}
+            </span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </div>
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>

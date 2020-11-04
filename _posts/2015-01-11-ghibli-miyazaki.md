@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The Kingdom of Dreams and Madness"
+tags: learning biz
 ---
 
 Last night I watched [The Kingdom of Dreams and Madness][movie], an unguarded documentary about [Hayao Miyazaki][miyazaki] and the very personal creation of his final film at [Studio Ghibli][ghibli].
@@ -28,7 +29,7 @@ What the movie really focuses on is Miyazaki. His 11am to 9pm work days are spen
 
 Throughout the movie, Miyazaki’s monologues reveal a man weary of the present and cynical about the future. His final film, ‘The Wind Rises’ deals with the highs and lows that come with putting your all into building something you believe in. When he describes his resentment and self-doubt and refers to himself as manic-depressive I can understand and relate.
 
-> “I don’t ever feel happy in daily life. Really, isn’t that how it is? How could that ever be our ultimate goal? Filmmaking only brings suffering.” 
+> “I don’t ever feel happy in daily life. Really, isn’t that how it is? How could that ever be our ultimate goal? Filmmaking only brings suffering.”
 
 > “Suffering?”
 

@@ -2,6 +2,7 @@
 redirect_from: "/joy-to-make-is-joy-to-use"
 layout: post
 title:  "Joy in the Making"
+tags: life design
 ---
 
 My favorite building in Toronto is the Ontario College of Art and Design (aka OCAD). I never went to design school but I owe a lot to this cool rectangle.
@@ -14,9 +15,9 @@ Sometimes I'd take notes, sometimes I'd try and reproduce things. I'd given up o
 
 <img src="/images/2017/ocad-lib.jpg" class="large">
 
-I wonder if I would've been on that grind in the same way if OCAD looked like any every other school. Whether we realize it or not, ambitious things draw us in and inspire us with the personality of the people who made them. 
+I wonder if I would've been on that grind in the same way if OCAD looked like any every other school. Whether we realize it or not, ambitious things draw us in and inspire us with the personality of the people who made them.
 
-Speaking of, this particular building was designed by a particular architect named [Will Alsop](https://en.wikipedia.org/wiki/Will_Alsop). 
+Speaking of, this particular building was designed by a particular architect named [Will Alsop](https://en.wikipedia.org/wiki/Will_Alsop).
 
 I caught one of his talks at a local university, he seems like a cool guy, I hope I give as few fucks when I'm that old. He talked about a bar he designed and dropped a line about how _the joy people get out of something is directly proportional to the joy the creators had while making it._
 

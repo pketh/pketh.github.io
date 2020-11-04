@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The First Four Years of HyperWeb/HyperDev/Gomix/Glitch"
+tags: glitch design engineering
 ---
 
 DanielX and I originally pitched Glitch in 2015 after a CreekWeek aimed at figuring out what FogCreek should make after Fogbugz, Trello, and Stack Overflow.
