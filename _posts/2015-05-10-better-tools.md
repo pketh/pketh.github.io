@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "What Better Tools Really Mean"
-tags: design
+tags: learning
 ---
 
-In a recent issue of [PAPER][paper], Kanye West writes about art school and music:
+In an old issue of [PAPER][paper], Kanye West writes about art school and music:
 
 > “I’d have an assignment to do an ink drawing that took me two weeks, three weeks, and I’d show it to my friends and they’d say, ‘Cool. My friend can draw. Now let’s go play ball. Let’s go downtown and talk to some girls.' But when I’d work on a track, I’d work on it for just that afternoon — chop up a sample, put some drums to it. And if my friends liked it, we’d make a tape of it and play it all the way downtown. We’d listen to it all night, keep rewinding it. I made a decision at that point to focus on painting with sound instead of painting visually.”
 
