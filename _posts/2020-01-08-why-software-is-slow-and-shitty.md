@@ -2,6 +2,7 @@
 layout: post
 title:  "Why Software is Slow and Shitty"
 tags: engineering biz
+hackernews: "https://news.ycombinator.com/item?id=23884598"
 ---
 <p></p>
 
