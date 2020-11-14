@@ -549,6 +549,10 @@ color: #6EA188;
 /*
 /*****************************************************************************/
 
+.table-wrap { /* applied with js */
+  overflow-x: scroll;
+}
+
 table {
   border-collapse: collapse;
   border-radius: 3px;
@@ -620,7 +624,7 @@ th, td {
 
 }
 
-@media (max-width: 491px) {
+@media (max-width: 500px) {
 
   .logo {
     margin-bottom: auto;
