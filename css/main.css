@@ -179,6 +179,7 @@ h1, h2 {
 .title a {
   color: white;
   text-decoration: none;
+  word-break:  break-word;
 }
 
 .meta {
