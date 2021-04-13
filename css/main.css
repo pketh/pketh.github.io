@@ -729,10 +729,17 @@ th, td {
   margin-left: auto;
   display: block;
   margin-top: 3rem;
+  margin-bottom:  3rem;
 }
 
-.kinopio-promo img {
+.kinopio-promo .promo-logo {
   width: 70px;
+}
+
+.kinopio-promo .promo-cards {
+  width: 212px;
+  margin-top:  -1.5rem;
+  margin-bottom:  -1rem;
 }
 
 .kinopio-promo .content-wrap {
