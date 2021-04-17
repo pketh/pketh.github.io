@@ -822,3 +822,14 @@ th, td {
 .badge.learning {
   background-color: #65cdaa;
 }
+
+.inline-badge {
+  margin-left: 6px;
+  padding: 0px 8px;
+  border-radius: 3px;
+  background-color: cyan;
+  color:  black;
+}
+.inline-badge.inspiration-badge {
+  background-color: #f99ff5;
+}
