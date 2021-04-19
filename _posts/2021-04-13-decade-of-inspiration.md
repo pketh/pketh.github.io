@@ -2,6 +2,7 @@
 layout: post
 title:  "11 Years of Inspiration"
 tags: design
+hackernews: "https://news.ycombinator.com/item?id=26863405"
 ---
 
 If you visit the rich parts of Paris, it's a beautiful place. I fondly recall narrow cobble-stone streets, road-side cafés, funky french cars, homes, shops, and chapels each more ornate and gracefully detailed than the last.
