@@ -10,7 +10,7 @@ Coming from a suburb designed by bean-counters and losers, I imagined that I'd b
 
 I'm glad I travelled to all these places. Everyone should see more of everything.
 
-In my case though, every journey leads me back to my ever-growing collection of charming, beautiful, and peculiar `jpeg`’s.
+That said, every journey inevitably leads me back to my ever-growing collection of charming, beautiful, and peculiar `jpeg`’s.
 
 <img src="/images/2021/hiro-isono.jpg" class="large"/>
 <figure>
@@ -46,9 +46,9 @@ At first I threw everything into a folder. Then I moved everything to [LittleSna
 
 ## Using Inspiration
 
-Scrolling through the years, it's as if I've been growing a garden of eras and aesthetics. I visit often, sometimes to wander and wonder, other times to gather ideas and inspiration for something new.
+I visit this space often. Sometimes to wander and wonder, other times to gather ideas for something new.
 
-Speaking of, one of my original Kinopio references, nestled alongside drawings of nature with bright colors, and '80s digital synthesizers with chunky buttons and sliders, is this gig poster:
+One of my original Kinopio references – nestled alongside drawings of nature with bright colors, and '80s digital synthesizers with chunky buttons and sliders – is this gig poster:
 
 <img src="/images/2021/techno-music-gig-poster.jpg" class=""/>
 <figure>
