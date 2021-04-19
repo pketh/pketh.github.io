@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Collecting and Using 11 Years of Inspiration"
+title:  "11 Years of Inspiration"
 tags: design
 ---
 
