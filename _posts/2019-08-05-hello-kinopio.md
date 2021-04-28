@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hello Kinopio"
+image: "/images/2019/kinopio-beta-logo.jpg"
 tags: kinopio
 ---
 

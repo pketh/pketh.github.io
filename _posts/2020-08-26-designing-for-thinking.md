@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Designing for Thinking"
+image: "/images/2020/delica-van.jpg"
 tags: kinopio design
 ---
 

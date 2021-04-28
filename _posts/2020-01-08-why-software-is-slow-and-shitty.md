@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why Software is Slow and Shitty"
+image: "/images/2020/mario64-camera.jpg"
 tags: engineering biz
 hackernews: "https://news.ycombinator.com/item?id=23884598"
 ---

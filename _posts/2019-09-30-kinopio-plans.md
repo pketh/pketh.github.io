@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "My Plans for Kinopio"
+image: "/images/2019/kinopio-cat.png"
 tags: kinopio biz
 ---
 
