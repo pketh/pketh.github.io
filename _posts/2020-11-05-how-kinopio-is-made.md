@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How Kinopio is Made"
+image: "/images/2020/porco-rosso-engine.jpg"
 tags: kinopio engineering
 hackernews: "https://news.ycombinator.com/item?id=25082650"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "11 Years of Inspiration"
+image: "/images/2021/hiro-isono.jpg"
 tags: design
 hackernews: "https://news.ycombinator.com/item?id=26863405"
 ---
