@@ -45,8 +45,9 @@ layout: default
       {% endif %}
       Reply to <a href="mailto:hi@pirijan.com?subject=regarding {{page.title}}">hi@pirijan.com</a>,
       <br>Subscribe to the <a href="/feed.xml">RSS feed</a>,
-      <br>or follow me on Twitter <a href="https://twitter.com/pketh">@pketh</a>.
+      <br>or, Follow me on Twitter <a href="https://twitter.com/pketh">@pketh</a>.
     </p>
+
     <p>
         If you liked this, you might also enjoy
         {% for post in site.related_posts limit:3 %}
@@ -55,7 +56,10 @@ layout: default
     </p>
   </div>
 
+  {% include subscribe-by-email.html %}
+
   {% include kinopio-promo.html %}
+
 
 </div>
 
