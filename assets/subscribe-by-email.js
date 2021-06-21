@@ -47,7 +47,7 @@ const submitForm = async (event) => {
   }
   savingBadge.classList.remove('hidden')
   try {
-    const host = 'https://f924fe8787bd.ngrok.io' // → https://api.kinopio.club
+    const host = 'https://api.kinopio.club'
     const headers = new Headers({
       'Content-Type': 'application/json',
       'Cache-Control': 'must-revalidate, no-store, no-cache, private'
