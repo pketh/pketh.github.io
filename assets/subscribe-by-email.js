@@ -1,4 +1,5 @@
-const form = document.getElementById('subscribe-by-email')
+const forms = document.querySelectorAll('.subscribe-by-email-form')
+
 let savingBadge, successBadge, errorBadge, resultDescription
 
 const clearAll = () => {
@@ -10,10 +11,13 @@ const clearAll = () => {
 
 const showSuccess = () => {
   clearAll()
-  const title = document.getElementById('subscribe-by-email-title')
-  const form = document.getElementById('subscribe-by-email')
-  title.classList.add('hidden')
-  form.classList.add('hidden')
+  titles = document.querySelectorAll('.subscribe-by-email-title')
+  titles.forEach(title => {
+    title.classList.add('hidden')
+  })
+  forms.forEach(form => {
+    form.classList.add('hidden')
+  })
   successBadge.classList.remove('hidden')
   showDescription("( ´ ▽ ` )ﾉ \nThanks, I just sent you a welcome email! \n(check your spam folder if you don't see it)")
 }
@@ -36,10 +40,11 @@ const submitForm = async (event) => {
   event.preventDefault()
   const email = event.target[0].value
   console.log('🍄', email)
-  savingBadge = document.getElementById('saving-badge')
-  successBadge = document.getElementById('success-badge')
-  errorBadge = document.getElementById('error-badge')
-  resultDescription = document.getElementById('result-description')
+  const form = event.target.parentNode
+  savingBadge = form.querySelector('.saving-badge')
+  successBadge = form.querySelector('.success-badge')
+  errorBadge = form.querySelector('.error-badge')
+  resultDescription = form.querySelector('.result-description')
   clearAll()
   if (!email) {
     showError('Email address is missing')
@@ -72,7 +77,9 @@ const submitForm = async (event) => {
   showSuccess()
 }
 
-if (form) {
-  form.addEventListener('submit', submitForm)
+if (forms) {
+  forms.forEach(form => {
+    form.addEventListener('submit', submitForm)
+  })
 }
 
