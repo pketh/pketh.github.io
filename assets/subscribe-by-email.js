@@ -19,7 +19,7 @@ const showSuccess = () => {
 }
 
 const showError = (message) => {
-  message = message || '(シ_ _)シ Something went wrong, please refresh and try again'
+  message = message || '(シ_ _)シ \nSomething went wrong, please refresh and try again'
   clearAll()
   errorBadge.classList.remove('hidden')
   showDescription(message)
