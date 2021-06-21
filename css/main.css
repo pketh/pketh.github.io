@@ -671,6 +671,12 @@ th, td {
     margin-left: auto;
   }
 
+  .subscribe-by-email button {
+    margin-left: 0 !important;
+    margin-top: 5px;
+    margin-bottom: 1em;
+  }
+
 }
 
 @media (max-width: 420px) {
@@ -786,7 +792,9 @@ th, td {
 }
 
 .subscribe-by-email input {
-  width: 220px;
+  width: 100%;
+  max-width: 220px;
+  border-radius: 0;
   font-size: 14px;
   border-color:  #6ea188;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
