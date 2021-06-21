@@ -10,10 +10,12 @@ const clearAll = () => {
 
 const showSuccess = () => {
   clearAll()
+  const title = document.getElementById('subscribe-by-email-title')
   const form = document.getElementById('subscribe-by-email')
+  title.classList.add('hidden')
   form.classList.add('hidden')
   successBadge.classList.remove('hidden')
-  showDescription('( ´ ▽ ` )ﾉ Thanks! I just sent you a welcome email')
+  showDescription("( ´ ▽ ` )ﾉ \nThanks, I just sent you a welcome email! \n(check your spam folder if you don't see it)")
 }
 
 const showError = (message) => {
