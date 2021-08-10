@@ -60,3 +60,11 @@ One of my original Kinopio references – nestled alongside drawings of nature w
 </figure>
 
 Maybe one day I'll make something charming-enough, beautiful-enough, and peculiar-enough to be in someone else's collection.
+
+## Bonus Note
+
+I found this [comic](http://glander.co/Purple-Slime-Molds) while going through some my old inspiration, it probably inspired the Kinopio logo.
+
+<a href="https://us-east-1.linodeobjects.com/kinopio-uploads/B0vzvN1tv4aJatRIzV3ve/Screen-Shot-2017-02-10-at-8.44.17-PM.png">
+  <img src="https://us-east-1.linodeobjects.com/kinopio-uploads/B0vzvN1tv4aJatRIzV3ve/Screen-Shot-2017-02-10-at-8.44.17-PM.png" class="large"/>
+</a>
