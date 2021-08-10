@@ -61,7 +61,10 @@ One of my original Kinopio references – nestled alongside drawings of nature w
 
 Maybe one day I'll make something charming-enough, beautiful-enough, and peculiar-enough to be in someone else's collection.
 
-## Bonus Note
+<h2>
+  Bonus
+  <img src="https://us-east-1.linodeobjects.com/kinopio-uploads/QoZYzRcLrO1DTnHGwC-mo/updated.gif"/>
+</h2>
 
 I found this [comic](http://glander.co/Purple-Slime-Molds) while going through some my old inspiration, it probably inspired the Kinopio logo.
 
