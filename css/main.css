@@ -736,7 +736,7 @@ th, td {
   margin-left: auto;
   display: block;
   margin-top: 3rem;
-  margin-bottom:  3rem;
+  margin-bottom:  4rem;
 }
 
 .kinopio-promo .promo-logo {
@@ -765,6 +765,11 @@ th, td {
   display: inline-block;
   width: initial;
 }
+
+.kinopio-promo .promo-cta {
+  margin-bottom: 10px;
+}
+
 
 /* subscribe by email form */
 
