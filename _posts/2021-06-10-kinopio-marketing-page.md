@@ -18,27 +18,9 @@ I started with words. If I can make something compelling in a .txt file, that's 
 
 ## How it Looks, How it Works
 
-My design process began by writing out my goals and [collecting inspiration](/decade-of-inspiration.html) in a [mood-board space](https://kinopio.club/about-site-redesign-w-fonts-La3P2hMCw_4s6PGvuv-R_).
+Much of my initial inspiration came from going down the rabbit holes of [Fonts in Use](https://fontsinuse.com). Besides finding typefaces, there's a lot of compelling layouts and art direction to be found in the books and posters on the site that we don't really see on the web.
 
-Much of the initial inspiration came from going down the rabbit holes of [Fonts in Use](https://fontsinuse.com). Besides finding typefaces, there's a lot of compelling layouts and art direction to be found in the books and posters on the site that we rarely see on the web.
-
-..goals..
-I’m trying to sell the idea of Kinopio to you – not some amo
-
-comes with a lot clarity
-, I’m trying to sell to you
-
-different, but still feels like kinopio, rather than an aesthetic bait and switch.
-
-Aesthetically, I wanted the page to feel approachable, but also be memorable and characterful.
-
-craftsmanship, higher quality – but different
-pro, but not
-whimsy, uniqueness, utility
-a thinking tool should be personal and human-scale, differentiate from competitors that are corpo
-
-
-
+My design process began by putting the goals I had for the page along with pieces of inspiration in a [mood-board space](https://kinopio.club/about-site-redesign-w-fonts-La3P2hMCw_4s6PGvuv-R_).
 
 <p>
   <video autoplay controls loop muted playsinline class="large" width="654" height="470">
@@ -51,69 +33,77 @@ a thinking tool should be personal and human-scale, differentiate from competito
   </figcaption>
 </figure>
 
+- Aesthetically, I wanted the page to feel approachable and conventional – but also be memorable and characterful.
+- The page should feel like a genuine counterpart to the app’s design.
+- Exude the qualities of craftsmanship and a focus on small details that differentiates Kinopio from more corporate competitors.
 
+For the fonts I was interested in, I tried out free trial versions on the page itself using `css @fontface`
 
+The page headers are set in the very french [Jean Luc](http://carvalho-bernau.com/jlg/). I've had this font on my hard drive – and in the back of my mind – for 10 years, and I finally found a use for it.
 
+![](/images/2021/jean-luc-font.png)
 
+Contrasting this, the organic and earthy [Recoleta](http://latinotype.com/display-weights) is used for headlines.
 
+<img src="/images/2021/recoleta-font.png" class="no-shadow"/>
 
-### font process
+From here, I poked, then hoped, then tweaked, and repeated my way towards a layout in the `html` and `css` itself. I created new template spaces for each example use-case, and recorded videos using the macOS screen recorder (`⌘-Shift-5`) which were then converted to web-friendly mp4 files with [Handbrake](https://handbrake.fr).
 
-downloaded font trials,
-going through all the fonts
-- I didn’t end up that close to the stuff in my inspiration space, a starting point, inpsiration is not a destination.
+As is so often the case, the early ideas in my head were very far away from the end result.
 
+<img src="/images/2021/about-site-header.png" class=""/>
 
-<a href="https://help.kinopio.club/about">
-  <img src="/images/2021/about-site-header.png" class=""/>
-</a>
-
-page headers set in Jean Luc typeface (http://carvalho-bernau.com/jlg/), had for 10years, liked the 60s cigarette-y frenchness of it, inspired by movie titles.
-
-I've had teh font on my harddrive for 10? years, survived teh migration across various computers, never used
-
-![](https://us-east-1.linodeobjects.com/kinopio-uploads/dPASMkU3Q4CUGJa87Jxa8/5C99D6F8-898A-4DCD-88DE-6327C4C02D2F.gif)
-
-https://walkerart.org/magazine/godards-intertitles2
-
-
-
-recolleta from fonts in use, free and bold, like the feel kinda organic
-
-
-
-
-
-
-> templates for use cases
-
-
-
-
-
-through out most of the copy and pulled and poked at the rest of the copy inline with the design, new templates. (after/past a point,) `html` and `css` are the only design tools that matter.
-
-
+## Auto-Paint
 
 Just like with Kinopio itself, I wanted the way you interact with this page to have a little extra somethin' somethin'.
 
 So, the page paints itself. Kind of like I'm sitting on your shoulder and I'm saying "hey check this out, and also this part is really cool".
 
-![](https://us-east-1.linodeobjects.com/kinopio-uploads/nzWO9f9n07XHgVEb8b1B-/auto-paint-example.gif)
+<p>
+  <video autoplay controls loop muted playsinline class="" width="1094" height="666">
+    <source src="https://kinopio-updates.us-east-1.linodeobjects.com/auto-paint.mp4">
+  </video>
+</p>
 
 
+<img src="/images/github-logo@2x.png" width="24" height="25" class="no-shadow" style="vertical-align: -30%"> To build auto-painting, I wrote some code that [records](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/magic-paint.js) the x,y position and timings of my paint strokes on the page. On page load, these recorded strokes have their positions [transformed](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/recorded-strokes.js) to be relative to specific elements on the page. When you scroll the elements into view, [auto-painting](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/auto-paint.js) happens.
 
-## Building Auto-Paint
 
-?twizzler reference
-
-To build auto-painting, I wrote some code that [recorded](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/magic-paint.js) my paint strokes, and then transforms the position and timing of those [recorded strokes](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/recorded-strokes.js) to [auto-paint](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/auto-paint.js) them next to specific elements on the page.
 
 Honestly, this was kind of a nightmare. I should've chosen an easier profession, like navy seal.
 
-![](https://us-east-1.linodeobjects.com/kinopio-uploads/9DNJnz13mv9CWvFg1tQFi/seal-1.jpg)
+<!-- ![](https://us-east-1.linodeobjects.com/kinopio-uploads/9DNJnz13mv9CWvFg1tQFi/seal-1.jpg) -->
+<!-- smaller seal pic? -->
 
 
 
-# CTA..
+
+
+
+
+
+
+
+
+
+
+## Putting it all together // How it Came Out
+
+<!-- TODO webpage scroll vid, existing -->
+<p>
+  <video autoplay controls loop muted playsinline class="large" width="1784" height="1080">
+    <source src="https://kinopio-updates.us-east-1.linodeobjects.com/about-kinopio-page.mp4">
+  </video>
+</p>
+
+<figure>
+  <figcaption>
+    <a href="https://help.kinopio.club/about/">About Page</a>
+  </figcaption>
+</figure>
+
+
+
+
 check out the about site if you haven't already. send it to a friend that's looking for something new.
+
