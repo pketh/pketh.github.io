@@ -5,7 +5,7 @@ image: "/images/2021/island.jpeg"
 tags: kinopio design
 ---
 
-In theory, every marketing website has the same basic job “Here’s _what_ this thing is, here’s _how_ you can use it, and _why_ it can help you.”
+In theory, every marketing website has the same basic job “Here’s _what_ this thing is, here’s _how_ it can help you.”
 
 Beyond that, I hope to vibe with your higher aspirations. “This will help you live the calm, creative life that you yearn for.”
 
@@ -48,8 +48,6 @@ Contrasting this, the organic and earthy [Recoleta](http://latinotype.com/displa
 <img src="/images/2021/recoleta-font.png" class="no-shadow"/>
 
 From here, I poked, then hoped, then tweaked my way towards a layout in the `html` and `css` itself. I created new template spaces for each example use-case. And also recorded videos using the macOS screen recorder (`⌘-Shift-5`) which were then converted to web-friendly mp4 files with [Handbrake](https://handbrake.fr).
-
-As is so often the case, the early ideas in my head were very far away from the end result.
 
 <img src="/images/2021/about-site-header.png" class=""/>
 
