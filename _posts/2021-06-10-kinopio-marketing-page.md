@@ -7,7 +7,7 @@ tags: kinopio design
 
 In theory, every marketing website has the same basic job “Here’s _what_ this thing is, here’s _how_ you can use it, and _why_ it can help you.”
 
-Beyond that, special products hope to vibe with your higher aspirations. “This will help you live the calm, creative life that you yearn for.”
+Beyond that, I hope to vibe with your higher aspirations. “This will help you live the calm, creative life that you yearn for.”
 
 <img src="/images/2021/island.jpeg" class="large"/>
 
@@ -18,7 +18,7 @@ I started with words. If I can make something compelling in a .txt file, that's 
 
 ## How it Looks, How it Works
 
-Much of my initial inspiration came from going down the rabbit holes of [Fonts in Use](https://fontsinuse.com). Besides finding typefaces, there's a lot of compelling layouts and art direction to be found in the books and posters on the site that we don't really see on the web.
+Much of my initial inspiration came from going down the rabbit holes of [Fonts in Use](https://fontsinuse.com). Besides finding cool typefaces, there's a lot of compelling layouts and art direction to be found in the books and posters on the site that we don't really see on the web.
 
 My design process began by putting the goals I had for the page along with pieces of inspiration in a [mood-board space](https://kinopio.club/about-site-redesign-w-fonts-La3P2hMCw_4s6PGvuv-R_).
 
@@ -47,11 +47,12 @@ Contrasting this, the organic and earthy [Recoleta](http://latinotype.com/displa
 
 <img src="/images/2021/recoleta-font.png" class="no-shadow"/>
 
-From here, I poked, then hoped, then tweaked, and repeated my way towards a layout in the `html` and `css` itself. I created new template spaces for each example use-case, and recorded videos using the macOS screen recorder (`⌘-Shift-5`) which were then converted to web-friendly mp4 files with [Handbrake](https://handbrake.fr).
+From here, I poked, then hoped, then tweaked my way towards a layout in the `html` and `css` itself. I created new template spaces for each example use-case. And also recorded videos using the macOS screen recorder (`⌘-Shift-5`) which were then converted to web-friendly mp4 files with [Handbrake](https://handbrake.fr).
 
 As is so often the case, the early ideas in my head were very far away from the end result.
 
 <img src="/images/2021/about-site-header.png" class=""/>
+
 
 ## Auto-Paint
 
@@ -65,45 +66,19 @@ So, the page paints itself. Kind of like I'm sitting on your shoulder and I'm sa
   </video>
 </p>
 
-
-<img src="/images/github-logo@2x.png" width="24" height="25" class="no-shadow" style="vertical-align: -30%"> To build auto-painting, I wrote some code that [records](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/magic-paint.js) the x,y position and timings of my paint strokes on the page. On page load, these recorded strokes have their positions [transformed](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/recorded-strokes.js) to be relative to specific elements on the page. When you scroll the elements into view, [auto-painting](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/auto-paint.js) happens.
-
-
+<img src="/images/github-logo@2x.png" width="24" height="25" class="no-shadow" style="vertical-align: -30%"> To build auto-painting, I wrote some code that [records](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/magic-paint.js) the x,y position and timings of my paint strokes on the page. On page load, these recorded strokes have their positions [transformed](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/recorded-strokes.js) to be relative to specific elements on the page. When you scroll those elements into view, [auto-painting](https://github.com/kinopio-club/kinopio-help/blob/master/assets/js/auto-paint.js) happens.
 
 Honestly, this was kind of a nightmare. I should've chosen an easier profession, like navy seal.
 
-<!-- ![](https://us-east-1.linodeobjects.com/kinopio-uploads/9DNJnz13mv9CWvFg1tQFi/seal-1.jpg) -->
-<!-- smaller seal pic? -->
+![](https://us-east-1.linodeobjects.com/kinopio-uploads/AJKnq_XNYHpE6K7roE978/image.jpeg)
 
 
+## Putting It All Together
 
-
-
-
-
-
-
-
-
-
-
-## Putting it all together // How it Came Out
-
-<!-- TODO webpage scroll vid, existing -->
 <p>
   <video autoplay controls loop muted playsinline class="large" width="1784" height="1080">
     <source src="https://kinopio-updates.us-east-1.linodeobjects.com/about-kinopio-page.mp4">
   </video>
 </p>
 
-<figure>
-  <figcaption>
-    <a href="https://help.kinopio.club/about/">About Page</a>
-  </figcaption>
-</figure>
-
-
-
-
-check out the about site if you haven't already. send it to a friend that's looking for something new.
-
+Here's how [the page](https://help.kinopio.club/about) turned out. Weeks from now, after the pain is forgotten, I'll be really happy with it.
