@@ -3,6 +3,7 @@ layout: post
 title:  "Making a Marketing Page"
 image: "/images/2021/island.jpeg"
 tags: kinopio design
+hackernews: "https://news.ycombinator.com/item?id=28158320"
 ---
 
 In theory, every marketing website has the same basic job “Here’s _what_ this thing is, here’s _how_ it can help you.”
