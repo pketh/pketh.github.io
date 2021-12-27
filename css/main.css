@@ -289,9 +289,12 @@ h1, h2 {
   max-width: 654px
 }
 
-.post .no-shadow, .post .emoji {
-    box-shadow: none;
-    border-radius: 0;
+.post .no-shadow,
+.post .emoji {
+  box-shadow: none;
+}
+.post .emoji {
+  border-radius: 0;
 }
 
 figure {
@@ -374,6 +377,36 @@ blockquote p {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.highlighter-rouge {
+  width: 420px;
+  margin-left: auto;
+}
+.highlight {
+  margin-left: auto;
+}
+
+.images-wrap {
+  display: flex;
+  margin-left: auto;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.images-wrap * {
+  max-height: 400px;
+}
+.images-wrap *:first-child {
+  margin-right: 10px
+}
+@media (max-width: 740px) {
+  .images-wrap {
+    flex-direction: column;
+  }
+  .images-wrap *:first-child {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
 
 /* post-specific code highlight twiddles */
