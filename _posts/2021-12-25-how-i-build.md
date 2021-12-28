@@ -3,6 +3,7 @@ layout: post
 title:  "How I Build"
 image: "/images/2021/sensory-experiences.png"
 tags: design engineering
+hackernews: "https://news.ycombinator.com/item?id=29714510"
 ---
 
 My idea of a vacation might be weird to some. Sure, I like sunshine, I like beaches – but more than all that, I like making stuff with computers. 
