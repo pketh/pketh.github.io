@@ -66,7 +66,7 @@ I benefit from these in my own spaces. Especially in [Life Tasks](https://kinopi
 
 # Designing, Coding, Sometimes in That Order
 
-In 2014, [I wrote]( /dual-wielding.html) about my belief that design and engineering are best when tigthly woven together. That's truer now than ever.
+In 2014, [I wrote]( /dual-wielding.html) about my belief that design and engineering are best when tightly woven together. That's truer now than ever.
 
 If I’m feeling confident, I’ll jump right into my text editor and write something like this to create a new controls,
 
