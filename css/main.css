@@ -965,3 +965,43 @@ th, td {
 .inline-badge.inspiration-badge {
   background-color: #f99ff5;
 }
+
+/* post-specific badges */
+
+/* /redesigning-futureland.html  */
+
+.fl-badge {
+  box-shadow: none;
+  border-radius: 15px;
+}
+.fl-badge:hover {
+  box-shadow: none;
+}
+.fl-badge:active {
+  box-shadow: none;
+}
+.fl-new-post {
+  background-color: #9a98ff;
+}
+.fl-activity-streak {
+  background-color: #05d55b;
+}
+.fl-post-metadata {
+  background-color: #ffb048;
+}
+.fl-journal-metadata {
+  background-color: #a3e0f9;
+}
+.fl-scheduling {
+  background-color: #ffed9c;
+}
+.fl-sharing {
+  background-color: #ffbec1;
+}
+
+.post .fl-table-image {
+  margin-top: 0.5em;
+  margin-left:  -0.5em;
+  border-radius:  6px;
+  box-shadow: none;
+}
