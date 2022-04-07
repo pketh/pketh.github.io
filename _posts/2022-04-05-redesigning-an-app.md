@@ -9,11 +9,11 @@ tags: design
 
 <img class="large" src="/images/2022/fl-overview.jpg"/>
 
-This is the tale of my redesign of Futureland over the last year – how I started, what I did, and what I learned.
+This is the tale of my redesign of the Futureland (FL) web app over the last year – how I started, what I did, and what I learned.
 
 # How I got Involved
 
-I chanced upon FL when looking for a place to write [rough thoughts](https://futureland.tv/pirijan/pirijan-meta) and [development diaries](https://futureland.tv/pirijan/kinopio-development-diary) that I wanted to share. Creating journals and posting was straight-forward enough, and I liked it's simple aesthetic and it's tight-knit community,
+I chanced upon FL when looking for a place to write [rough thoughts](https://futureland.tv/pirijan/pirijan-meta) and [development diaries](https://futureland.tv/pirijan/kinopio-development-diary) that I wanted to share. Creating journals and posting was straight-forward, and I liked it's light-weight feel, simple aesthetic and tight-knit community,
 
 <img class="large" src="/images/2022/fl-original.jpeg"/>
 <figure>
@@ -24,7 +24,7 @@ I chanced upon FL when looking for a place to write [rough thoughts](https://fut
 But while trying it out, I kept giving myself paper cuts on confusing parts of the interface,
 
 - The [sidebar](https://futureland.tv/pirijan/entry/45713) grouped journals under 'All','Daily', and 'Shadows', but it was never explained what these meant
-- On small screens, [important controls](https://futureland.tv/pirijan/entry/49579) were hidden inside a [hamburger menu](https://gerrymcgovern.com/the-hamburger-menu-and-the-zombie-apocalypse) (yuck), or removed altogether
+- On small screens, [important controls](https://futureland.tv/pirijan/entry/49579) were hidden inside a [hamburger menu](https://gerrymcgovern.com/the-hamburger-menu-and-the-zombie-apocalypse), or removed altogether
 - When opening a journal, the sidebar that listed your journals would slide away, with no obvious way to get it back
 
 <p>
@@ -68,13 +68,17 @@ I started by proposing [little adjustments](https://futureland.tv/pirijan/entry/
 
 ![](/images/2022/fl-daily.png)
 
+<figure>
+  <figcaption>An early update to the sidebar</figcaption>
+</figure>
+
 Now that the fundamentals were set, this was a good time to step back and shape an aesthetic unique to FL.
 
 # A New Look with Functional Colors
 
 We used Kinopio to create a [Mood Board space](https://kinopio.club/-futureland-moodboard-fbJXhE9nYFtB-rDv1Z-pK). 
 
-I started with Vin's original inspirations which I described as `sleek, graphic, sterile, minimalist` 
+I started with Vin's original inspirations which I described as `sleek, graphic, minimalist`
 
 <img class="large" src="/images/2022/moodboard-1.png" />
 
@@ -119,7 +123,7 @@ I used this system to design self-documenting components that were easy to devel
 
 I was only contracting 1-2 days a week. To make the most of that time, Vin would summarize the community, product, and business problems or aspirations of the week, and I'd tackle these in public in the [Futureland.design journal](https://futureland.tv/vin/futureland-design).
 
-We managed to improve almost every part of FL – here are some highlights,
+We managed to touch almost every part of FL – here are some highlights,
 
 
 ## Organizing Journals, Onboarding, and Grouping
@@ -133,6 +137,10 @@ The `Today, Not Today` concept is a little hard to explain though, so dismiss-ab
     <source src="/images/2022/sidebar-tips2.mp4">
   </video>
 </p>
+<figure>
+  <figcaption>Jumping between your ‘Today’ and ‘Not Today’ journals</figcaption>
+</figure>
+
 
 Additionally, a welcome journal was added for new users with more in-depth explanations,
 
@@ -155,7 +163,7 @@ Posting everyday to a journal increments an activity streak count that is public
 
 As people grew ever-higher streak counts, they got more anxious about losing them. Requests started coming in for ways to conditionally forgive missing a streak. In response, others raised concerns about diluting the meaning of a streak. 
 
-Public streaks – which therefore have social value – are potentially toxic. But we were softened the preciousness and anxiety associated with streaks through:
+Public streaks – which therefore have social value – are potentially toxic. But we softened the preciousness and anxiety associated with streaks through:
 
 1. [Streak History](https://futureland.tv/pirijan/entry/102459), so if you lose a streak you'll still have a record of it that is publicly visible <br/><br/><img class="" src="images/2022/streak-history2.png" />
 
