@@ -203,12 +203,37 @@ I'm particularly happy with how this turned out IRL, Lucas did a great job imple
 
 ## The Web App is the Best App
 
-The sum of all these changes and others means that every feature of Futureland is now completely usable on Android and iOS. Having less platform specific code to maintain helps a small team do more with less – hopefully for years to come.
-
 <p>
   <video autoplay loop muted playsinline class="">
     <source src="images/2022/fl-mobile-scroll.mp4">
   </video>
 </p>
+
+The sum of all these changes and others means that every feature of Futureland is now completely usable on Android and iOS. Having less platform specific code to maintain helps a small team do more with less – hopefully for years to come.
+
+# Ending on Some Thoughts on Contracting
+
+I stopped working on FL a couple months ago to refocus on Kinopio full-time.
+
+Looking back, this was my first time working as a contractor. I used a simple [time tracking space](https://kinopio.club/-futureland-time-tracking-trnAFer9T5m1_mHdAOnW4) to track my billable hours, which I'd compile into an invoice at the end of each month or so.
+
+<img class="no-shadow" src="/images/2022/time-tracking.png" />
+
+The main thing I wish I did differently was charge by the day instead of hourly to give myself a bit more breathing room to think long-term without the feeling that I had to make every second count.
+
+So would I do it again? I'm not sure.
+
+On one hand, it was pretty stressful working on two products at the same time. On the other, the perspective from being placed inside the beating heart of another community helped inspire Kinopio features like [notifications](https://twitter.com/KinopioClub/status/1354093037580738560), and [weekly review emails](https://twitter.com/KinopioClub/status/1466552573364772874).
+
+
+<img class="" src="https://us-east-1.linodeobjects.com/kinopio-uploads/E9Mn39mnIAsj4eW_m3WUu/image.jpeg" />
+<figure>
+  <figcaption>
+    <a href="https://www.1101.com/home.html">(source)</a></figcaption>
+</figure>
+
+It's not so often in life that you get to help grow a new and promising community. I've been lucky (or unlucky) enough to have been here a couple times. The only constant is that it's different every time.
+
+Working with Futureland was a unique and interesting experience that I'm happy to have been a part of.
 
 [Futureland.tv →](https://futureland.tv)
