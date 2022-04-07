@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Re-designing Futureland.tv, One Day a Week at a Time"
+title:  "Redesigning an App, One Day a Week at a Time"
 image: "/images/2022/fl-overview.jpg"
 tags: design
 ---
@@ -9,7 +9,7 @@ tags: design
 
 <img class="large" src="/images/2022/fl-overview.jpg"/>
 
-This is the tale of my re-design of Futureland over the last year – how I started, what I did, and what I learned.
+This is the tale of my redesign of Futureland over the last year – how I started, what I did, and what I learned.
 
 # How I got Involved
 
@@ -36,7 +36,7 @@ But while trying it out, I kept giving myself paper cuts on confusing parts of t
   <figcaption>Opening a journal and completely losing navigation</figcaption>
 </figure>
 
-The cumulative result of these little paper cuts was an interface that appeared minimalist but required regular pauses in workflow to remember how to use.
+The cumulative result of these paper cuts was an interface that appeared minimalist but required regular pauses in workflow to remember how to use.
 
 I posted about these issues, in case it was helpful, with no expectation of anything more coming of it. But the founder and lead developer, [Vin](https://futureland.tv/vin) and [Lucas](https://futureland.tv/lucas) replied, and later on asked if I'd like to help make FL more usable.
 
@@ -51,11 +51,9 @@ My goal has always been to work on Kinopio full-time. But especially back then, 
 
 # Step 1, Fixing the Floor
 
-Making mockups is easy, communicating is hard. So the first thing to do was establish a shared foundation and vision. 
+Making mockups is easy, communicating is hard. So the first thing to do was establish a shared foundation and vision. I started by asking questions to understand the thinking behind the existing design, and by collecting feedback from the community.
 
-I started by asking questions to understand the thinking behind the existing design, and by collecting feedback from the community publicly in [Futureland.design](https://futureland.tv/vin/futureland-design).
-
-Adapting Maslow's [hierarchy of needs](https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs), I proposed a [pyramid of needs](https://futureland.tv/pirijan/entry/45672) for Futureland. With basic usability right as the foundation.
+Adapting Maslow's [hierarchy of needs](https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs), I proposed a [pyramid of needs](https://futureland.tv/pirijan/entry/45672) for Futureland, with basic usability as it's foundation.
 
 FL already had vocal power-users who'd climbed it pretty high up the pyramid by being manually 1:1 onboarded by Vin, but basic usability issues still slowed them down and were a barrier for newcomers.
 
@@ -119,7 +117,7 @@ I used this system to design self-documenting components that were easy to devel
 
 ## Some Stuff I Did
 
-I was only contracting 1-2 days a week. To make the most of that time, Vin would summarize the community, product, and business problems or aspirations of the week, and I'd tackle these in public in the [Futureland.design](https://futureland.tv/vin/futureland-design) journal.
+I was only contracting 1-2 days a week. To make the most of that time, Vin would summarize the community, product, and business problems or aspirations of the week, and I'd tackle these in public in the [Futureland.design journal](https://futureland.tv/vin/futureland-design).
 
 We managed to improve almost every part of FL – here are some highlights,
 
@@ -128,7 +126,7 @@ We managed to improve almost every part of FL – here are some highlights,
 
 On FL, journals are separated by posting frequency. Journals you post to regularly are `Today` journals, and everything else is `Not Today`. `Today` journals are listed first and show activity streak counts to encourage frequent updates.
 
-The `Today, Not Today` concept is a little hard to explain though so dismiss-able inline tips are meant to gently guide new users towards that use, without being dogmatic about it. 
+The `Today, Not Today` concept is a little hard to explain though, so dismiss-able inline tips are meant to gently guide new users towards that use, without being dogmatic about it.
 
 <p>
   <video autoplay loop muted playsinline>
