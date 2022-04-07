@@ -3,6 +3,7 @@ layout: post
 title:  "Redesigning an App, One Day a Week at a Time"
 image: "/images/2022/fl/fl-overview.jpg"
 tags: design
+hackernews: "https://news.ycombinator.com/item?id=30947082"
 ---
 
 [Futureland](https://futureland.tv) is a journaling platform that helps you build habits or learn new skills through daily posting and activity streaks.
