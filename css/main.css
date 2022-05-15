@@ -918,6 +918,7 @@ th, td {
 .badge:active {
   box-shadow: inset 0 2px 2px rgba(0,0,0,0.35);
 }
+
 .tags-header.badge {
   padding: 4px 8px;
   padding-bottom: 5px;
@@ -955,6 +956,7 @@ th, td {
   background-color: #65cdaa;
 }
 
+
 .inline-badge {
   margin-left: 6px;
   padding: 0px 8px;
@@ -965,6 +967,24 @@ th, td {
 .inline-badge.inspiration-badge {
   background-color: #f99ff5;
 }
+
+.static-badge,
+.static-badge:hover,
+.static-badge:active {
+  box-shadow:  none;
+  margin: 0;
+  margin-right: 4px;
+/*  border: 1px solid cyan;
+  background-color: transparent;
+  color: cyan;
+*/}
+
+.static-badge.danger {
+  background-color: #ffb8b3;
+/*  border-color: #ffb8b3;
+  color: #ffb8b3;*/
+}
+
 
 /* post-specific badges */
 
