@@ -18,7 +18,7 @@ So over the last couple weeks, I've been talking to [VCs](https://www.investoped
 
 
 
-I'm open to the idea of selling ~5-10% equity in Kinopio for 💰 to live a smoother life right now. But the relatively-easy money of VCs has a cost – once you get on the VC ferris wheel 🎡, the primary goal of a businesses changes:
+I'm open to the idea of selling ~5-10% equity in Kinopio for 💰 to live a smoother life right now. But the relatively-easy money of VCs has a cost – once you get on the VC ferris wheel 🎡, the primary goal of a business changes:
 
 <p>
   <span class="success-badge badge inline-badge static-badge">Before</span>
@@ -92,4 +92,4 @@ And, if you are making organic software, please proudly tell the world because w
 <img class="no-shadow" src="https://us-east-1.linodeobjects.com/kinopio-uploads/isTTFjLV6YwvGph1Rkzq1/image.gif"/>
 
 
-> p.p.s Thank you to everyone I talked to about funding. And special thanks to [Aneesha](https://twitter.com/aneeshade) for helping edit this.
+> p.p.s Thanks to everyone who graciously took the time to talk to me about funding. And special thanks to [Aneesha](https://twitter.com/aneeshade) for helping edit this.
