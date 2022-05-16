@@ -3,7 +3,7 @@ layout: post
 title:  "In Search of Organic Software"
 image: "/images/2022/expressionism.jpg"
 tags: biz
-# hackernews: "https://news.ycombinator.com/item?id=30947082"
+hackernews: "https://news.ycombinator.com/item?id=31395759"
 ---
 
 So over the last couple weeks, I've been talking to [VCs](https://www.investopedia.com/terms/v/venturecapital.asp) and founders who have and haven't taken VC to learn whether it makes sense for Kinopio. I don't think it does.
