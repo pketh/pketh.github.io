@@ -92,4 +92,4 @@ And, if you are making organic software, please proudly tell the world because w
 <img class="no-shadow" src="https://us-east-1.linodeobjects.com/kinopio-uploads/isTTFjLV6YwvGph1Rkzq1/image.gif"/>
 
 
-> p.p.s Thanks to everyone who graciously took the time to talk to me about funding. And special thanks to [Aneesha](https://twitter.com/aneeshade) for helping edit this.
+> p.p.s Thanks to everyone who graciously took the time to talk to me about funding. And special thanks to [Aneesha](https://twitter.com/aneeshade) for editing this.
