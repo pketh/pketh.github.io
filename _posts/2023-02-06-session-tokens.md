@@ -49,7 +49,8 @@ Based on our assumption, a weak point of scripted sign ups is that the script is
 Here's how we can do that using temporary tokens:
 
 - When you load Kinopio and open the sign up form, a randomly generated session token is created by the client and saved to the server database.
-- When you submit the sign up form, the session token is included and the server first checks to see if that session token exists. If it does, then the token is removed from the database, and the sign up process continues.
+- When you submit the sign up form, the session token is included and the server first checks to see if that session token exists. If it does, then the token is removed from the database, and the sign up process continues. If it doesn't, than the server responds with an error instead.
+- Periodically, old unused tokens are purged from the database
 
 This is definitely more towards the convenience end of the security spectrum, but no single solution here is perfect and the advantage of session tokens is that they can stack nicely on top of other measures down the line if needed.
 
