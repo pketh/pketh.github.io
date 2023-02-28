@@ -27,8 +27,8 @@ Berg may of died, but it's whimsical things, whether it's a smiling printer, a f
 [littleprinter]:http://bergcloud.com/case-studies/little-printer
 [casestudies]:http://bergcloud.com/case-studies
 
-[vimeo]:http://vimeo.com/bergstudio
-[washing-machine-vid]:http://vimeo.com/87522764
+[vimeo]:https://vimeo.com/bergstudio
+[washing-machine-vid]:https://vimeo.com/87522764
 
 [applewatch]:https://twitter.com/Eric_Robinson/status/513040669020266496/photo/1
 
