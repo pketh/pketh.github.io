@@ -9,6 +9,11 @@ hackernews: "https://news.ycombinator.com/item?id=36129660"
 As far back as I can remember, I've struggled to be able to express what was in my head. Whether it was drawing, writing, design, I was never happy with the result. 
 
 <img class="" src="https://us-east-1.linodeobjects.com/kinopio-uploads/8-LDDl-duGfgku3bhvFuQ/balcony-smoking-2x.gif"/>
+<figure>
+  <figcaption>
+    <a href="http://fading-afternoon.by-yeo.ru/">(Source)</a>
+  </figcaption>
+</figure>
 
 It took me over a decade to be able to give life to my ideas and ideals in the form of words, software, and art, in a way that satisfies me. 10+ years probably sounds like a long time, because it is. But it took creating Kinopio for me to realize just how powerful expressing yourself to turn ideas into understanding really can be. 
 
