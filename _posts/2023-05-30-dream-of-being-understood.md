@@ -41,7 +41,7 @@ But getting the thoughts out of your head is it's own special kind of work.
 
 We have an endless number of thoughts and ideas swimming around our heads every second of every day. Because the mind is an inherently messy, creative space, organizing your thoughts is less like cleaning your room, and more like fishing for pearls: 
 
-Dive into the ocean with a bucket, swim deep and collect what shines. Then refine and polish what you find for others to cherish. 
+Dive in, swim deep and collect what shines. Then refine and polish what you find for others to cherish. 
 
 <img class="" src="/images/2023/ama.jpg"/>
 <figure>
