@@ -3,6 +3,7 @@ layout: post
 title:  "For Those Who Dream of Being Understood"
 image: "/images/2023/piggy-bank.jpg"
 tags: life kinopio
+hackernews: "https://news.ycombinator.com/item?id=36129660"
 ---
 
 
@@ -35,7 +36,7 @@ We've all read vague, flowery, way-too-long documents and plans that use a lot o
 
 Being able to clearly express your thoughts is the unsung productivity superpower: your thoughts become actions that you feel confident doing, and your plans become tasks that your team feels inspired to execute on. 
 
-But getting the thoughts out of your head is it's own special kind of work.
+But getting the thoughts out of your head is its own special kind of work.
 
 # The Thinking Work Before the Work
 
