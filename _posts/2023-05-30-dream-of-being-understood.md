@@ -28,7 +28,7 @@ But it's all basically just,
 1. Write tasks,
 2. Do tasks
 
-Instead of putting lipstick on a pig, what if we looked a little close at the little oinker?
+Instead of putting lipstick on a pig, what if we looked a little closer at the little oinker?
 
 <img class="" src="/images/2023/piggy-bank.jpg"/>
 
