@@ -3,6 +3,7 @@ layout: post
 title:  "The Hybrid Architecture of Kinopio for iOS"
 image: "https://updates.kinopio.club/ios-app-title.jpg"
 tags: kinopio engineering
+hackernews: https://news.ycombinator.com/item?id=37404820
 ---
 
 <p>
