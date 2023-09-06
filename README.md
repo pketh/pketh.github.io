@@ -11,15 +11,9 @@ It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) in
 
 # Run
 
-Force a build with:
-
-	jekyll build
-	arch -arch x86_64 bundle exec jekyll build
-
 Watch and build:
 
-	jekyll serve --watch
-	arch -arch x86_64 bundle exec jekyll serve --watch
+	bundle exec jekyll serve --watch
 
 Preview locally:
 

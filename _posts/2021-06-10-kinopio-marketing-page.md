@@ -24,7 +24,7 @@ My design process began by putting the goals I had for the page along with piece
 
 <p>
   <video autoplay controls loop muted playsinline class="large" width="654" height="470">
-    <source src="https://kinopio-updates.us-east-1.linodeobjects.com/about-kinopio-inspiration-space.mp4">
+    <source src="https://updates.kinopio.club/about-kinopio-inspiration-space.mp4">
   </video>
 </p>
 <figure>
@@ -60,7 +60,7 @@ So, the page paints itself. Kind of like I'm sitting on your shoulder and I'm sa
 
 <p>
   <video autoplay controls loop muted playsinline class="" width="1094" height="666">
-    <source src="https://kinopio-updates.us-east-1.linodeobjects.com/auto-paint.mp4">
+    <source src="https://updates.kinopio.club/auto-paint.mp4">
   </video>
 </p>
 
@@ -75,7 +75,7 @@ Honestly, this was kind of a nightmare. I should've chosen an easier profession,
 
 <p>
   <video autoplay controls loop muted playsinline class="large" width="1784" height="1080">
-    <source src="https://kinopio-updates.us-east-1.linodeobjects.com/about-kinopio-page.mp4">
+    <source src="https://updates.kinopio.club/about-kinopio-page.mp4">
   </video>
 </p>
 

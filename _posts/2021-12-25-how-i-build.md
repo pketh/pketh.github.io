@@ -18,7 +18,7 @@ That week included [card resizing](https://twitter.com/KinopioClub/status/147041
 
 <p>
   <video autoplay loop muted playsinline class="">
-    <source src="https://kinopio-updates.us-east-1.linodeobjects.com/multi-connect-small.mp4">
+    <source src="https://updates.kinopio.club/multi-connect-small.mp4">
   </video>
 </p>
 <figure>

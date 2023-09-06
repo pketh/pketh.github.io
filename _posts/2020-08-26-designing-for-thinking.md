@@ -32,7 +32,7 @@ Just like life, everything’s simpler when we're not pretending to be something
 
 <p>
 	<video autoplay loop muted playsinline class="large">
-		<source src="https://kinopio-updates.us-east-1.linodeobjects.com/overview3.mp4">
+		<source src="https://updates.kinopio.club/overview3.mp4">
 	</video>
 </p>
 
