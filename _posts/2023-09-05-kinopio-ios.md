@@ -8,7 +8,7 @@ hackernews: https://news.ycombinator.com/item?id=37404820
 
 <p>
 <video class="wide" autoplay loop muted playsinline>
-  <source src="https://updates.kinopio.club/ios-app-demo.mp4">
+  <source src="https://updates.kinopio.club/ios-app-demo2.mp4">
 </video>
 <figure>
   <figcaption>Using Kinopio iOS running on my scratched up iPhone 12 mini</figcaption>
