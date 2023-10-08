@@ -3,6 +3,7 @@ layout: post
 title:  "Kinopio's Design Principles"
 image: "https://updates.kinopio.club/house.jpeg"
 tags: kinopio design
+hackernews: https://news.ycombinator.com/item?id=37812297
 ---
 
 
