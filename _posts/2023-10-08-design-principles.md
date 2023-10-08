@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Design Principles to Build With"
+title:  "Kinopio's Design Principles"
 image: "https://updates.kinopio.club/house.jpeg"
 tags: kinopio design
 ---
@@ -9,7 +9,7 @@ tags: kinopio design
 > This post is adapted from a talk I did at the [Design Matters](https://designmatters.io) conference in Copenhagen.
 
 
-I've been working on Kinopio for over 4 years now. It's felt more like raising a house by piling up little bricks and wood planks, just a little bit each day. But this house is never finished. 
+I've been working on Kinopio for over 4 years now. It's felt more like building a house, piling up little bricks and wood planks, just a little bit each day. Except that, this house is never finished. 
 
 <img src="https://updates.kinopio.club/house.jpeg" class="large">
 
@@ -18,7 +18,6 @@ Something I learned from my time at [Glitch](http://pketh.org/the-first-four-yea
 The more unique and definitive your values are, the more useful they'll be as a decision making tool later on. 
 
 These are some of the principles that I use to design (and redesign) Kinopio:
-
 
     1. Embrace smallness
     2. Build for fidget-ability
