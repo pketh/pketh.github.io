@@ -56,11 +56,11 @@ When you're on the inside, each of these on it's own sounds reasonable. But take
 
 > The 'clean', minimal experience is a design principle in UI UX today... You reject this in Kinopio. How does this affect the user? Are there other UI UX principles of design you do not subscribe to?
 
-Our [inspiration](https://pketh.org/decade-of-inspiration.html) shapes what we build. If all you see is clean minimal product design, then you'll inevitably make the same. I think that's why art schools, teach art history in year 1, because knowing the varied history and styles of your medium – software included – really helps expand your perspective of what's possible, interesting, and cool.
+Our [inspiration](https://pketh.org/decade-of-inspiration.html) shapes what we build. If all you see is clean minimal product design, then you'll inevitably make the same. I think that's why art schools teach art history in year 1, because knowing the varied history and styles of your medium – software included – really helps expand your perspective of what's possible, interesting, and cool.
 
 Minimalism as an art-style is a pretty tight leash. But if you think of 'less' as merely one of many possible techniques used to not overwhelm or confuse users, then you're in the right place to ask yourself questions like _Why is this confusing_? From there, maybe you can use other techniques like contextual relevance, or a more intuitive layout, to make important options less confusing, instead of hiding them.
 
-I like to think of Kinopio as a professional tool, like a keyboard synthesizer, or a race car. If you were going 200mph would you rather find your controls inside a clean/minimal/aesthetic menu, or just hit some boring but direct buttons and dials?
+I like to think of Kinopio as a professional tool, like a keyboard synthesizer, or a race car. If you were going 200mph would you rather find your controls inside a clean/minimal/aesthetic menu, or just hit some upfront buttons and dials?
 
 <img src="/images/2023/race-car.jpg" class="">
 <figure>
