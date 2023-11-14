@@ -804,6 +804,28 @@ th, td {
   margin-bottom: 10px;
 }
 
+button {
+  display: inline-block;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
+  font-size: 14px;
+  margin-left: 6px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #9ff0ac;
+  background-color: transparent;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.25);
+  color: #9ff0ac;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 5px 5px 0 rgba(0,0,0,0.25);
+}
+
+button:active {
+  background-color: rgba(0,0,0,0.25);
+  box-shadow: inset 0 2px 2px rgba(0,0,0,0.35);
+}
 
 /* subscribe by email form */
 
@@ -847,29 +869,6 @@ th, td {
 .subscribe-by-email input::placeholder {
   color: #6ea188;
   opacity: 1; /* firefox */
-}
-
-.subscribe-by-email button {
-  display: inline-block;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
-  font-size: 14px;
-  margin-left: 6px;
-  padding: 6px 10px;
-  border-radius: 5px;
-  border: 1px solid #9ff0ac;
-  background-color: transparent;
-  box-shadow: 2px 2px 0 rgba(0,0,0,0.25);
-  color: #9ff0ac;
-  cursor: pointer;
-}
-
-.subscribe-by-email button:hover {
-  box-shadow: 5px 5px 0 rgba(0,0,0,0.25);
-}
-
-.subscribe-by-email button:active {
-  background-color: rgba(0,0,0,0.25);
-  box-shadow: inset 0 2px 2px rgba(0,0,0,0.35);
 }
 
 .subscribe-by-email .badge {
