@@ -3,6 +3,7 @@ layout: post
 title:  "Productivity vs Insight, Tools for Reflection, and Other Questions Answered"
 image: "/images/2023/mail-art.jpg"
 tags: kinopio
+hackernews: https://news.ycombinator.com/item?id=38266324
 ---
 
 A couple days ago I was emailed by [Pema](https://www.instagram.com/pemaranian) about her thesis paper,
