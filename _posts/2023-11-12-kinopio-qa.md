@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Productivity vs Insight, Tools for Reflection, and Other Questions"
+title:  "Productivity vs Insight, Tools for Reflection, and More Questions Answered"
 image: "/images/2023/mail-art.jpg"
 tags: kinopio
 ---
