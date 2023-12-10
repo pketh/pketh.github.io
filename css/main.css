@@ -811,7 +811,8 @@ th, td {
   margin-bottom: 10px;
 }
 
-button {
+button,
+input[type=submit] {
   display: inline-block;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
   font-size: 14px;
@@ -825,18 +826,24 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button:hover,
+input[type=submit]:hover {
   box-shadow: 5px 5px 0 rgba(0,0,0,0.25);
 }
 
-button:active {
+button:active,
+input[type=submit]:active {
   background-color: rgba(0,0,0,0.25);
   box-shadow: inset 0 2px 2px rgba(0,0,0,0.35);
 }
 
-/* subscribe by email form */
+input[type=submit] {
+  width: max-content;
+}
 
-.subscribe-by-email {
+/* forms */
+
+form {
   width: 420px;
   max-width: 100%;
   margin-left: auto;
@@ -859,7 +866,8 @@ button:active {
   border-top: none;
 }
 
-.subscribe-by-email input {
+form input,
+form textarea {
   width: 100%;
   max-width: 220px;
   border-radius: 0;
@@ -873,7 +881,8 @@ button:active {
   align-items: flex-start;
 }
 
-.subscribe-by-email input::placeholder {
+form input::placeholder,
+form textarea::placeholder {
   color: #6ea188;
   opacity: 1; /* firefox */
 }
@@ -896,6 +905,13 @@ button:active {
 
 .hidden {
   display: none !important;
+}
+
+.post-comments-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*****************************************************************************/

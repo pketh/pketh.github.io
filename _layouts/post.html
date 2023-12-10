@@ -40,11 +40,21 @@ layout: default
   <p class="post-comments-container">
     <details class="post-comments-details">
       <summary>
-        6 comments
+        comments…
       </summary>
-      <p>lkjsad flsakdfj</p>
+      <aside>
+        <p>Comments loading…</p>
+      </aside>
+      <form class="post-comments-form" action="" method="post">
+        <input placeholder="name" type="text" name="name" id="name" required />
+        <input placeholder="email" type="email" name="email" id="email" required />
+        <textarea placeholder="comment"></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+
     </details>
   </p>
+  <script src="/assets/post-comments.js"></script>
 
   <div class="post-actions-container">
     <p>
