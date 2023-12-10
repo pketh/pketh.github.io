@@ -219,6 +219,24 @@ h1, h2 {
 .post-comments-container {
   border-top: 1px solid #486C5A;
 }
+.post-comments-details summary {
+  width: fit-content;
+  padding: 6px 8px;
+  padding-bottom: 8px;
+/*  transform: translateX(-8px);*/
+  margin-top: -6px;
+  margin-bottom: -8px;
+}
+.post-comments-details[open] summary,
+.post-comments-details summary:hover {
+  background-color: #03331b;
+  border-radius: 6px;
+}
+@media(max-width: 740px) {
+  .post-comments-details summary {
+    margin: 0;
+  }
+}
 .post-comments-details {
   margin-top: 0
 }
@@ -839,11 +857,13 @@ input[type=submit]:active {
 
 input[type=submit] {
   width: max-content;
+  margin-left: 0;
 }
 
 /* forms */
 
-form {
+form,
+.subscribe-by-email {
   width: 420px;
   max-width: 100%;
   margin-left: auto;
@@ -851,6 +871,12 @@ form {
   margin-bottom: 4rem;
   display: flex;
   align-items: flex-start;
+}
+
+.subscribe-by-email form {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .subscribe-by-email .mushroom {
@@ -910,8 +936,13 @@ form textarea::placeholder {
 .post-comments-form {
   display: flex;
   flex-direction: column;
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 0;
+}
+
+.post-comments-form input,
+.post-comments-form textarea {
+  margin-bottom: 1rem;
 }
 
 /*****************************************************************************/
