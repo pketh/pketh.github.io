@@ -197,7 +197,7 @@ h1, h2 {
   color: #6EA188;
 }
 
-.post-actions-container p:first-child{
+.post-actions-container p:first-child {
   border-top: 1px solid #486C5A;
   padding-top: 10px;
 }
@@ -214,6 +214,13 @@ h1, h2 {
 }
 .post-actions-container a:hover {
   text-decoration: underline;
+}
+
+.post-comments-container {
+  border-top: 1px solid #486C5A;
+}
+.post-comments-details {
+  margin-top: 0
 }
 
 .related {
