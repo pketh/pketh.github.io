@@ -1,4 +1,4 @@
-const summary = document.querySelector('.post-comments-details summary')
+const countElement = document.querySelector('.post-comments-count')
 const comments = document.querySelector('.post-comments-details aside')
 
 let slug = window.location.pathname
@@ -17,7 +17,7 @@ const fetchComments = async () => {
     const data = await response.json()
     let count = 0
     count = data?.length
-    summary.innerText = `${count || 0} Comments`
+    countElement.innerText = `${count || 0} Comments`
 
 
     console.log('🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸', comments, summary, slug, data, count)

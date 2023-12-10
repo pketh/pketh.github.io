@@ -37,23 +37,17 @@ layout: default
     {{ content }}
   </div>
 
-  <p class="post-comments-container">
-    <details class="post-comments-details">
-      <summary>
-        Comments…
-      </summary>
-      <aside>
-        <!-- written by js -->
-      </aside>
-      <form class="post-comments-form" action="" method="post">
-        <input placeholder="name" type="text" name="name" id="name" required />
-        <input placeholder="email" type="email" name="email" id="email" required />
-        <textarea placeholder="comment"></textarea>
-        <input type="submit" value="Submit" />
-      </form>
+  <div class="post-actions-container post-comments-container">
+    <p class="post-comments-count">Comments…</p>
+    <aside></aside> <!-- written by js -->
+    <form class="post-comments-form" action="" method="post">
+      <input placeholder="name" type="text" name="name" id="name" required />
+      <input placeholder="email" type="email" name="email" id="email" required />
+      <textarea placeholder="comment" rows="4"></textarea>
+      <input type="submit" value="Submit" />
+    </form>
 
-    </details>
-  </p>
+  </div>
   <script src="/assets/post-comments.js"></script>
 
   <div class="post-actions-container">
