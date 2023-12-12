@@ -38,13 +38,35 @@ layout: default
   </div>
 
   <div class="post-actions-container post-comments-container">
-    <p class="post-comments-count">Comments…</p>
-    <aside></aside> <!-- written by js -->
+    <hr/>
+    <div class="post-comments-count">
+      <p class="comments-string">
+        Comments…
+      </p>
+      {% include loader.html %}
+    </div>
+    <aside>
+    <!-- post-comments.js -->
+    <!--
+      .comment-meta
+        .comment-meta-name
+        .comment-meta-time
+      .comment-content
+    -->
+    </aside>
     <form class="post-comments-form" action="" method="post">
-      <input placeholder="name" type="text" name="name" id="name" required />
-      <input placeholder="email" type="email" name="email" id="email" required />
-      <textarea placeholder="comment" rows="4"></textarea>
-      <input type="submit" value="Submit" />
+      <input placeholder="name*" type="text" name="name" required />
+      <input placeholder="email*" type="email" name="email" required />
+      <input placeholder="website" type="url" name="website" />
+      <textarea placeholder="comment* (markdown supported)" name="comment" rows="4" maxlength="15000"></textarea>
+      <div class="comments-subscribe">
+        <input type="checkbox" name="shouldNotify" id="shouldNotify" checked>
+        <label for="shouldNotify">Subscribe to Updates</label>
+      </div>
+      <div>
+        <input type="submit" value="Add Comment" />
+        {% include loader.html %}
+      </div>
     </form>
 
   </div>
