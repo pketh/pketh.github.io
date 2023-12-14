@@ -7,7 +7,6 @@ layout: default
 <div class="permalink">
 
   <div class="title">
-
     <span class="meta-date">
       {% assign m = page.date | date: "%-m" %}
       {% case m %}
@@ -25,17 +24,16 @@ layout: default
         {% when '12' %}Dec
       {% endcase %} ’{{ page.date | date: "%y" }}
     </span>
-
     <a href="{{ page.url }}">{{ page.title }}</a>
     {% for tag in page.tags %}
       <a href="/tags/#{{ tag }}"><div class="badge {{ tag }}">{{ tag }}</div></a>
     {% endfor %}
-
   </div>
-
   <div class="post">
     {{ content }}
   </div>
+
+  <!-- comments -->
 
   <div class="post-actions-container post-comments-container">
     <hr/>
@@ -54,7 +52,6 @@ layout: default
       .comment-content
     -->
     </aside>
-
     <div class="comment-success-badge hidden">
       <div class="badge success title inline-badge static-badge">Comment added. Because this is your first comment, it is awaiting moderation. But after being approved, future comments will be posted immediately (シ_ _)シ</div>
     </div>
@@ -83,6 +80,8 @@ layout: default
 
   <script src="/assets/cache.js"></script>
   <script src="/assets/post-comments.js"></script>
+
+  <!-- other actions -->
 
   <div class="post-actions-container">
     <p>

@@ -78,8 +78,7 @@ commentsForm.onsubmit = async (event) => {
     if (response.status !== 200) {
       throw { data }
     }
-    // const isAlreadyApproved = data.isModerated === false
-    console.log('🌍 added comment',data, data.isModerated)
+    console.log('🌍 added comment',data, data.isModerated, data.kinopioUserId, data.isModerator)
     updateCommenterCache(body)
     clearCacheCommentContent(slug)
     hideCommentsForm()
