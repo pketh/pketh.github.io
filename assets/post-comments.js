@@ -1,9 +1,17 @@
 const countElement = document.querySelector('.post-comments-count .comments-string')
 const commentsElement = document.querySelector('.post-comments-container aside')
+
 const commentsForm = document.querySelector('.post-comments-container form')
+const commentsFormName = document.querySelector('.post-comments-container form input[name="name"')
+const commentsFormEmail = document.querySelector('.post-comments-container form input[name="email"')
+const commentsFormWebsite = document.querySelector('.post-comments-container form input[name="website"')
+const commentsFormContent = document.querySelector('.post-comments-container form textarea[name="content"')
 
 const commentsCountLoader = document.querySelector('.post-comments-count .loader')
 const commentsFormLoader = document.querySelector('.post-comments-container form .loader')
+
+const commentsSuccessBadge = document.querySelector('.post-comments-container .comment-success-badge')
+const commentsErrorBadge = document.querySelector('.post-comments-container .comment-error-badge')
 
 let slug = window.location.pathname
 slug = slug.replaceAll('/', '')
@@ -80,11 +88,24 @@ const updateAll = async () => {
   })
 }
 
-updateAll()
+const updateFormFromCache = () => {
+  const commenter = cacheCommenter()
+  const content = cacheCommentContent(slug)
+  commentsFormName.value = commenter.name
+  commentsFormEmail.value = commenter.email
+  commentsFormWebsite.value = commenter.website
+  commentsFormContent.value = content || ''
+  console.log(content, slug, commentsFormContent.value)
+}
+
+commentsFormContent.addEventListener('input', () => {
+  cacheUpdateCommentContent(slug, commentsFormContent.value)
+})
 
 commentsForm.onsubmit = async (event) => {
   event.preventDefault()
   if (isSubmitting) { return }
+  hideCommentsError()
   commentsFormLoader.classList.remove('hidden')
   isSubmitting = true
   let body = {}
@@ -98,9 +119,6 @@ commentsForm.onsubmit = async (event) => {
     }
     body[key] = value
   }
-
-  console.log('💖',body)
-
   try {
     const url = `${apiHost}/personal-blog/comment/create`
     let response = await fetch(url, {
@@ -111,28 +129,56 @@ commentsForm.onsubmit = async (event) => {
       }
     })
     const data = await response.json()
-    console.log('🌍🌍🌍',data)
-
-    // clear form
-    // success state (w moderation msg)
+    console.log('🌍 added comment',data)
+    cacheUpdateCommenter(body)
+    cacheClearCommentContent(slug)
+    hideCommentsForm()
+    // if ..
+      // updateAll()
+      // showCommentsSuccess() // TODO optional take msg, based on if user already passed moderation
+    // else ..
+      showCommentsSuccess() // msg: "Comment added and awaiting moderation. Thanks!" after being approved, you won't need to wait for moderation the next time you post
   } catch (error) {
     console.error('🚒 commentsForm submit', error)
-    // showError()
+    showCommentsError()
   }
   updateLoadersIsVisible(false)
   isSubmitting = false
 }
 
+// toggle views
 
-
-// global cache.js
-// restore commentPreferences from cache (name, email, ..)
-// restore inProgressComment for slug (save on change, clear on submit)
-
-// progressive moderation?
-
-// is awaiting verification??
-// is awaiting moderation??
+const showCommentsError = () => {
+  commentsErrorBadge.classList.remove('hidden')
+}
+const showCommentsSuccess = (message) => {
+  hideCommentsError()
+  commentsSuccessBadge.classList.remove('hidden')
+  // if (message) {
+    // TODO commentsSuccessBadge.innerText = message
+  // }
+}
+const hideCommentsForm = () => {
+  commentsForm.classList.add('hidden')
+}
+const hideCommentsError = () => {
+  commentsErrorBadge.classList.add('hidden')
+}
 
 
 // send emails: new postmark server: blog-comments
+// moderation
+  // is awaiting moderation
+// notifications to users
+
+// style comment content: with blockquotre, code, img
+
+
+
+// update kinopio promo img
+// add hover logo states
+
+
+
+updateAll()
+updateFormFromCache()

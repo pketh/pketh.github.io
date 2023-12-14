@@ -23,7 +23,18 @@ body {
   margin-left: 20px;
 }
 
-p, .post li, table, summary, figure, figure img, figcaption, .subscribe-by-email, .loader {
+p,
+.post
+li,
+table,
+summary,
+figure,
+figure img,
+figcaption,
+.subscribe-by-email,
+.loader,
+.comment-success-badge,
+.comment-error-badge {
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 20px;
@@ -994,6 +1005,17 @@ form textarea::placeholder {
   line-height: 15px;
 }
 
+.comment-success-badge,
+.comment-error-badge {
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+.comment-error-badge a {
+  color: black;
+  text-decoration: underline;
+}
+
 /*****************************************************************************/
 /*
 /* Tag Badges
@@ -1056,6 +1078,9 @@ form textarea::placeholder {
 }
 .badge.learning {
   background-color: #65cdaa;
+}
+.badge.success {
+  background-color: #66ffbb;
 }
 
 
