@@ -182,33 +182,56 @@ const updateComments = async () => {
   console.log('🐸 comments', comments)
   commentsElement.innerHTML = ''
   comments.forEach(comment => {
-    // name
     let metaNode = document.createElement('p')
+    let infoNode
     metaNode.className = 'comment-meta'
+
+    // name
     if (comment.website) {
-      let websiteNode = document.createElement('a')
-      websiteNode.innerText = comment.name
-      websiteNode.setAttribute('href', comment.website)
-      metaNode.websiteNode = 'comment-meta-name'
-      metaNode.appendChild(websiteNode)
+      infoNode = document.createElement('a')
+      infoNode.innerText = comment.name
+      infoNode.setAttribute('href', comment.website)
+      infoNode.className = 'comment-meta-name'
+      metaNode.appendChild(infoNode)
     } else {
-      let nameNode = document.createElement('span')
-      nameNode.innerText = comment.name
-      nameNode.websiteNode = 'comment-meta-name'
-      metaNode.appendChild(nameNode)
+      let node = document.createElement('span')
+      node.innerText = comment.name
+      node.className = 'comment-meta-name'
+      metaNode.appendChild(node)
     }
     commentsElement.appendChild(metaNode)
-    // time
-    let timeNode = document.createElement('span')
-    timeNode.className = 'comment-meta-time'
-    timeNode.innerText = comment.createdAtRelative
+    // badges
+    let badgesNode = document.createElement('span')
+    badgesNode.className = 'comment-meta-badges'
+    metaNode.appendChild(badgesNode)
+    // time badge
+    let timeNode = document.createElement('div')
+    timeNode.className = 'comment-meta-badge'
+    timeNode.classList.add('comment-time-badge')
+    timeNode.innerText = `${comment.createdAtRelative}`
     if (comment.isNew) {
-      let newNode = document.createElement('div')
-      newNode.className = 'comment-meta-new'
-      newNode.innerText = 'new'
-      timeNode.prepend(newNode)
+      timeNode.classList.add('comment-new-badge')
+      timeNode.setAttribute('title', 'Recently posted')
     }
-    metaNode.appendChild(timeNode)
+    badgesNode.prepend(timeNode)
+    // kinopio user badge
+    if (comment.kinopioUser) {
+      let node = document.createElement('div')
+      node.className = 'comment-meta-badge'
+      node.classList.add('comment-kinopio-badge')
+      node.innerText = 'Kinopio User'
+      node.style.background = comment.kinopioUser.color
+      badgesNode.prepend(node)
+    }
+    // moderator badge
+    if (comment.isModerator) {
+      let node = document.createElement('div')
+      node.className = 'comment-meta-badge'
+      node.innerText = 'Author'
+      node.setAttribute('title', 'Article Author')
+      badgesNode.prepend(node)
+    }
+    metaNode.appendChild(badgesNode)
     // content
     let contentNode = document.createElement('blockquote')
     contentNode.className = 'comment-content'

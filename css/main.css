@@ -994,15 +994,33 @@ form textarea::placeholder {
   vertical-align: -2px;
 }
 
-.comment-meta-new {
+.comment-meta-badge {
   border-radius: 10px;
   background-color: #03371d;
   display: inline-block;
   vertical-align: 2px;
-  margin-right: 6px;
+  margin-right: 2px;
   font-size: 10px;
   padding: 0 6px;
   line-height: 15px;
+}
+.comment-meta-badge {
+  color: #79b698;
+  margin-left: 6px;
+  margin-right: 0;
+}
+.comment-kinopio-badge {
+  color: black;
+}
+.comment-meta-name {
+  margin-top: -2px;
+}
+.comment-time-badge {
+  margin-right: 4px;
+}
+.comment-new-badge {
+  background-color: #57a8ff;
+  color: black;
 }
 
 .comment-success-badge,
