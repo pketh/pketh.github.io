@@ -76,6 +76,9 @@ layout: default
         {% include loader.html %}
       </div>
     </form>
+    {% if page.hackernews %}
+      <p>Or, discuss this post on <a href="{{page.hackernews}}">Hacker News</a></p>
+    {% endif %}
   </div>
 
   <script src="/assets/cache.js"></script>
@@ -85,11 +88,7 @@ layout: default
 
   <div class="post-actions-container">
     <p>
-      {% if page.hackernews %}
-        Discuss this post on <a href="{{page.hackernews}}">Hacker News</a>,
-        <br>
-      {% endif %}
-      <br>Subscribe to the <a href="/feed.xml">RSS feed</a>,
+      Subscribe to the <a href="/feed.xml">RSS feed</a>,
       <br>Follow me on <a href="https://c.im/@pirijan">Mastodon</a> or <a href="https://twitter.com/pketh">Twitter/X</a>.
     </p>
 
