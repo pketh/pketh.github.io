@@ -56,7 +56,7 @@ layout: default
     </aside>
 
     <div class="comment-success-badge hidden">
-      <div class="badge success title inline-badge static-badge">Comment added and awaiting moderation. Thanks!</div>
+      <div class="badge success title inline-badge static-badge">Comment added. Because this is your first comment, it is awaiting moderation. But after being approved, future comments will be posted immediately (シ_ _)シ</div>
     </div>
     <div class="comment-error-badge hidden">
       <div class="badge danger title inline-badge static-badge">
@@ -69,10 +69,10 @@ layout: default
       <input placeholder="name*" type="text" name="name" required />
       <input placeholder="email*" type="email" name="email" required />
       <input placeholder="website" type="url" name="website" />
-      <textarea placeholder="comment* (markdown supported)" name="content" rows="4" maxlength="15000"></textarea>
+      <textarea placeholder="comment* (markdown supported)" name="content" rows="4" maxlength="15000" required></textarea>
       <div class="comments-subscribe">
-        <input type="checkbox" name="shouldNotify" id="shouldNotify" checked>
-        <label for="shouldNotify">Subscribe to Updates</label>
+        <input type="checkbox" name="shouldEmailNotifications" id="shouldEmailNotifications" checked>
+        <label for="shouldEmailNotifications">Subscribe to Updates</label>
       </div>
       <div>
         <input type="submit" value="Add Comment" />

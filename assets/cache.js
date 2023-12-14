@@ -1,12 +1,12 @@
-const storeLocal = (key, value) => {
+const cacheStoreLocal = (key, value) => {
   try {
-    console.log('🏬 storeLocal', key, value)
+    // console.log('🏬 cacheStoreLocal', key, value)
     window.localStorage.setItem(key, value)
   } catch (error) {
-    console.error('🚒 storeLocal could not save to localStorage', { key, value, valueType: typeof value }, error)
+    console.error('🚒 cacheStoreLocal could not save to localStorage', { key, value, valueType: typeof value }, error)
   }
 }
-const getLocal = (key) => {
+const cacheGetLocal = (key) => {
   try {
     return window.localStorage[key]
   } catch (error) {}
@@ -17,30 +17,4 @@ const removeLocal = (key) => {
   } catch (error) {
     console.warn('removeLocal', error)
   }
-}
-
-// comments
-
-const cacheCommenter = () => {
-  let body = {
-    name: getLocal('name'),
-    email: getLocal('email'),
-    website: getLocal('website')
-  }
-  return body
-}
-const cacheUpdateCommenter = (body) => {
-  storeLocal('name', body.name)
-  storeLocal('email', body.email)
-  storeLocal('website', body.website)
-}
-// content
-const cacheUpdateCommentContent = (slug, content) => {
-  storeLocal(`post-${slug}`, content)
-}
-const cacheCommentContent = (slug) => {
-  return getLocal(`post-${slug}`)
-}
-const cacheClearCommentContent = (slug) => {
-  removeLocal(`post-${slug}`)
 }

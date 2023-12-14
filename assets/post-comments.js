@@ -6,6 +6,7 @@ const commentsFormName = document.querySelector('.post-comments-container form i
 const commentsFormEmail = document.querySelector('.post-comments-container form input[name="email"')
 const commentsFormWebsite = document.querySelector('.post-comments-container form input[name="website"')
 const commentsFormContent = document.querySelector('.post-comments-container form textarea[name="content"')
+const commentsFormShouldNotify = document.querySelector('.post-comments-container input[name="shouldEmailNotifications"')
 
 const commentsCountLoader = document.querySelector('.post-comments-count .loader')
 const commentsFormLoader = document.querySelector('.post-comments-container form .loader')
@@ -22,6 +23,14 @@ const apiHost = 'https://kinopio.local:3000' // dev
 
 let isSubmitting
 
+const stringToBoolean = (string) => {
+  if (string === 'false') {
+    return false
+  } else {
+    return true
+  }
+}
+
 const fetchComments = async () => {
   const url = `${apiHost}/personal-blog/comments/${slug}`
   try {
@@ -33,8 +42,79 @@ const fetchComments = async () => {
     return data
   } catch (error) {
     console.error('🚒 fetchComments', error)
-    // showError()
+    showCommentsError()
+    hideCommentsForm()
   }
+}
+
+// add comment
+
+commentsForm.onsubmit = async (event) => {
+  event.preventDefault()
+  if (isSubmitting) { return }
+  hideCommentsError()
+  commentsFormLoader.classList.remove('hidden')
+  isSubmitting = true
+  let body = {}
+  let formData = new FormData(commentsForm)
+  formData.append('postSlug', slug)
+  for (var pair of formData.entries()) {
+    const key = pair[0]
+    let value = pair[1]
+    body[key] = value
+  }
+  body.shouldEmailNotifications = commentsFormShouldNotify.checked
+  console.log('💐 comment body', body)
+  try {
+    const url = `${apiHost}/personal-blog/comment/create`
+    let response = await fetch(url, {
+      method: 'POST',
+      body: JSON.stringify(body),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    const data = await response.json()
+    if (response.status !== 200) {
+      throw { data }
+    }
+    // const isAlreadyApproved = data.isModerated === false
+    console.log('🌍 added comment',data, data.isModerated)
+    updateCommenterCache(body)
+    clearCacheCommentContent(slug)
+    hideCommentsForm()
+    if (data.isModerated) {
+      updateComments()
+      showCommentsSuccess('Comment added ( ^o^)ノ')
+    } else {
+      showCommentsSuccess()
+    }
+  } catch (error) {
+    console.error('🚒 commentsForm submit', error)
+    showCommentsError()
+  }
+  updateLoadersIsVisible(false)
+  isSubmitting = false
+}
+
+// toggle views
+
+const showCommentsError = () => {
+  commentsErrorBadge.classList.remove('hidden')
+}
+const showCommentsSuccess = (message) => {
+  hideCommentsError()
+  commentsSuccessBadge.classList.remove('hidden')
+  if (message) {
+    const badge = commentsSuccessBadge.querySelector('.badge')
+    badge.innerText = message
+  }
+}
+const hideCommentsForm = () => {
+  commentsForm.classList.add('hidden')
+}
+const hideCommentsError = () => {
+  commentsErrorBadge.classList.add('hidden')
 }
 
 const updateLoadersIsVisible = (value) => {
@@ -47,11 +127,61 @@ const updateLoadersIsVisible = (value) => {
   }
 }
 
-const updateAll = async () => {
+
+
+// style comment content: with blockquotre, code, img
+
+
+// server moderation emails
+// send emails: new postmark server: blog-comments
+
+
+// update kinopio promo img
+// add hover logo states
+
+
+
+
+// cache
+
+
+const commenterFromCache = () => {
+  let body = {
+    name: cacheGetLocal('name'),
+    email: cacheGetLocal('email'),
+    website: cacheGetLocal('website'),
+    shouldEmailNotifications: cacheGetLocal('shouldEmailNotifications'),
+  }
+  return body
+}
+const updateCommenterCache = (body) => {
+  cacheStoreLocal('name', body.name)
+  cacheStoreLocal('email', body.email)
+  cacheStoreLocal('website', body.website)
+  cacheStoreLocal('shouldEmailNotifications', body.shouldEmailNotifications)
+}
+
+commentsFormContent.addEventListener('input', () => {
+  updateContentCache(slug, commentsFormContent.value)
+})
+const updateContentCache = (slug, content) => {
+  cacheStoreLocal(`post-${slug}`, content)
+}
+const commentContentFromCache = (slug) => {
+  return cacheGetLocal(`post-${slug}`)
+}
+const clearCacheCommentContent = (slug) => {
+  removeLocal(`post-${slug}`)
+}
+
+// init
+
+const updateComments = async () => {
   updateLoadersIsVisible(true)
   const comments = await fetchComments()
   updateLoadersIsVisible(false)
   console.log('🐸 comments', comments)
+  commentsElement.innerHTML = ''
   comments.forEach(comment => {
     // name
     let metaNode = document.createElement('p')
@@ -88,97 +218,15 @@ const updateAll = async () => {
   })
 }
 
-const updateFormFromCache = () => {
-  const commenter = cacheCommenter()
-  const content = cacheCommentContent(slug)
+const updateFormDefaults = () => {
+  const commenter = commenterFromCache()
+  const content = commentContentFromCache(slug)
   commentsFormName.value = commenter.name
   commentsFormEmail.value = commenter.email
   commentsFormWebsite.value = commenter.website
   commentsFormContent.value = content || ''
-  console.log(content, slug, commentsFormContent.value)
+  commentsFormShouldNotify.checked = stringToBoolean(commenter.shouldEmailNotifications)
 }
 
-commentsFormContent.addEventListener('input', () => {
-  cacheUpdateCommentContent(slug, commentsFormContent.value)
-})
-
-commentsForm.onsubmit = async (event) => {
-  event.preventDefault()
-  if (isSubmitting) { return }
-  hideCommentsError()
-  commentsFormLoader.classList.remove('hidden')
-  isSubmitting = true
-  let body = {}
-  let formData = new FormData(commentsForm)
-  formData.append('postSlug', slug)
-  for (var pair of formData.entries()) {
-    const key = pair[0]
-    let value = pair[1]
-    if (value === 'on') {
-      value = true
-    }
-    body[key] = value
-  }
-  try {
-    const url = `${apiHost}/personal-blog/comment/create`
-    let response = await fetch(url, {
-      method: 'POST',
-      body: JSON.stringify(body),
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
-    const data = await response.json()
-    console.log('🌍 added comment',data)
-    cacheUpdateCommenter(body)
-    cacheClearCommentContent(slug)
-    hideCommentsForm()
-    // if ..
-      // updateAll()
-      // showCommentsSuccess() // TODO optional take msg, based on if user already passed moderation
-    // else ..
-      showCommentsSuccess() // msg: "Comment added and awaiting moderation. Thanks!" after being approved, you won't need to wait for moderation the next time you post
-  } catch (error) {
-    console.error('🚒 commentsForm submit', error)
-    showCommentsError()
-  }
-  updateLoadersIsVisible(false)
-  isSubmitting = false
-}
-
-// toggle views
-
-const showCommentsError = () => {
-  commentsErrorBadge.classList.remove('hidden')
-}
-const showCommentsSuccess = (message) => {
-  hideCommentsError()
-  commentsSuccessBadge.classList.remove('hidden')
-  // if (message) {
-    // TODO commentsSuccessBadge.innerText = message
-  // }
-}
-const hideCommentsForm = () => {
-  commentsForm.classList.add('hidden')
-}
-const hideCommentsError = () => {
-  commentsErrorBadge.classList.add('hidden')
-}
-
-
-// send emails: new postmark server: blog-comments
-// moderation
-  // is awaiting moderation
-// notifications to users
-
-// style comment content: with blockquotre, code, img
-
-
-
-// update kinopio promo img
-// add hover logo states
-
-
-
-updateAll()
-updateFormFromCache()
+updateComments()
+updateFormDefaults()
