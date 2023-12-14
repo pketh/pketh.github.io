@@ -201,7 +201,7 @@ const updateComments = async () => {
     // time
     let timeNode = document.createElement('span')
     timeNode.className = 'comment-meta-time'
-    timeNode.innerText = comment.updatedAtRelative
+    timeNode.innerText = comment.createdAtRelative
     if (comment.isNew) {
       let newNode = document.createElement('div')
       newNode.className = 'comment-meta-new'
