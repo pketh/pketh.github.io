@@ -343,7 +343,8 @@ blockquote p {
   text-transform: capitalize;
 }
 
-.post code {
+.post code,
+.comment-content code {
   display: inline;
   background-color: #1A5538;
   width: auto;
@@ -1033,6 +1034,23 @@ form textarea::placeholder {
   color: black;
   text-decoration: underline;
 }
+
+/* comment content */
+
+.comment-content img {
+  max-width: 100%;
+  border-radius: 3px;
+  padding-right: 0;
+}
+
+.comment-content blockquote {
+  margin-left: 20px;
+}
+
+.comment-content > code {
+  margin-left: 15px;
+}
+
 
 /*****************************************************************************/
 /*

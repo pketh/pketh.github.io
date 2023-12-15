@@ -128,8 +128,8 @@ const updateLoadersIsVisible = (value) => {
 
 
 
-// style comment content: with blockquotre, code, img
 
+// increase size of text area while typing (carddetails)
 
 // server moderation emails
 // send emails: new postmark server: blog-comments
