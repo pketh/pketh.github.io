@@ -126,23 +126,7 @@ const updateLoadersIsVisible = (value) => {
   }
 }
 
-
-
-
-// increase size of text area while typing (carddetails)
-
-// server moderation emails
-// send emails: new postmark server: blog-comments
-
-
-// update kinopio promo img
-// add hover logo states
-
-
-
-
 // cache
-
 
 const commenterFromCache = () => {
   let body = {
@@ -209,7 +193,7 @@ const updateComments = async () => {
     timeNode.className = 'comment-meta-badge'
     timeNode.classList.add('comment-time-badge')
     timeNode.innerText = `${comment.createdAtRelative}`
-    if (comment.isNew) {
+    if (comment.isDateNew) {
       timeNode.classList.add('comment-new-badge')
       timeNode.setAttribute('title', 'Recently posted')
     }
