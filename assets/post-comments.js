@@ -24,7 +24,7 @@ const apiHost = 'https://kinopio.local:3000' // dev
 let isSubmitting
 
 const stringToBoolean = (string) => {
-  if (string === 'false') {
+  if (string === 'false' || !string) {
     return false
   } else {
     return true
@@ -32,7 +32,7 @@ const stringToBoolean = (string) => {
 }
 
 const fetchComments = async () => {
-  const url = `${apiHost}/personal-blog/comments/${slug}`
+  const url = `${apiHost}/personal-blog/comment/${slug}`
   try {
     const response = await fetch(url)
     const data = await response.json()
@@ -243,9 +243,9 @@ const updateComments = async () => {
 const updateFormDefaults = () => {
   const commenter = commenterFromCache()
   const content = commentContentFromCache(slug)
-  commentsFormName.value = commenter.name
-  commentsFormEmail.value = commenter.email
-  commentsFormWebsite.value = commenter.website
+  commentsFormName.value = commenter.name || ''
+  commentsFormEmail.value = commenter.email || ''
+  commentsFormWebsite.value = commenter.website || ''
   commentsFormContent.value = content || ''
   commentsFormShouldNotify.checked = stringToBoolean(commenter.shouldEmailNotifications)
 }

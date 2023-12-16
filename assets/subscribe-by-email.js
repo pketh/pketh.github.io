@@ -57,7 +57,7 @@ const submitForm = async (event) => {
       'Content-Type': 'application/json',
       'Cache-Control': 'must-revalidate, no-store, no-cache, private'
     })
-    const response = await fetch(`${host}/personal-blog/subscribe`, {
+    const response = await fetch(`${host}/personal-blog/new-post/subscribe`, {
       method: 'POST',
       body: JSON.stringify({ email }),
       headers

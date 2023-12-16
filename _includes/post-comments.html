@@ -1,0 +1,48 @@
+<div class="post-actions-container post-comments-container">
+  <hr/>
+  <div class="post-comments-count">
+    <p class="comments-string">
+      Comments…
+    </p>
+    {% include loader.html %}
+  </div>
+  <aside>
+  <!-- post-comments.js -->
+  <!--
+    .comment-meta
+      .comment-meta-name
+      .comment-meta-time
+    .comment-content
+  -->
+  </aside>
+  <div class="comment-success-badge hidden">
+    <div class="badge success title inline-badge static-badge">Comment added. Because this is your first comment, it is awaiting moderation. But after being approved, future comments will be posted immediately (シ_ _)シ</div>
+  </div>
+  <div class="comment-error-badge hidden">
+    <div class="badge danger title inline-badge static-badge">
+      (シ_ _)シ Something went wrong. <br>Please try again or
+      <a href="mailto:hi@pirijan.com">email me</a>
+    </div>
+  </div>
+
+  <form class="post-comments-form" action="" method="post">
+    <input placeholder="name*" type="text" name="name" required />
+    <input placeholder="email*" type="email" name="email" required />
+    <input placeholder="website" type="url" name="website" />
+    <textarea placeholder="comment* (markdown supported)" name="content" rows="4" maxlength="15000" required></textarea>
+    <div class="comments-subscribe">
+      <input type="checkbox" name="shouldEmailNotifications" id="shouldEmailNotifications" checked="false">
+      <label for="shouldEmailNotifications">Subscribe to Updates</label>
+    </div>
+    <div>
+      <input type="submit" value="Add Comment" />
+      {% include loader.html %}
+    </div>
+  </form>
+  {% if page.hackernews %}
+    <p>Or, discuss this post on <a href="{{page.hackernews}}">Hacker News</a></p>
+  {% endif %}
+</div>
+
+<script src="/assets/cache.js"></script>
+<script src="/assets/post-comments.js"></script>
