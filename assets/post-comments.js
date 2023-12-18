@@ -32,7 +32,7 @@ const stringToBoolean = (string) => {
 }
 
 const fetchComments = async () => {
-  const url = `${apiHost}/personal-blog/comment/${slug}`
+  const url = `${apiHost}/personal-blog/comment/by-post/${slug}`
   try {
     const response = await fetch(url)
     const data = await response.json()
@@ -78,15 +78,15 @@ commentsForm.onsubmit = async (event) => {
     if (response.status !== 200) {
       throw { data }
     }
-    console.log('🌍 added comment',data, data.isModerated, data.kinopioUserId, data.isModerator)
+    console.log('🌍 added comment',data, data.isApproved, data.kinopioUserId, data.isAuthor)
     updateCommenterCache(body)
     clearCacheCommentContent(slug)
     hideCommentsForm()
-    if (data.isModerated) {
+    if (data.isApproved) {
       updateComments()
       showCommentsSuccess('Comment added ( ^o^)ノ')
     } else {
-      showCommentsSuccess()
+      showCommentsSuccess() // default message
     }
   } catch (error) {
     console.error('🚒 commentsForm submit', error)
@@ -207,8 +207,8 @@ const updateComments = async () => {
       node.style.background = comment.kinopioUser.color
       badgesNode.prepend(node)
     }
-    // moderator badge
-    if (comment.isModerator) {
+    // author badge
+    if (comment.isAuthor) {
       let node = document.createElement('div')
       node.className = 'comment-meta-badge'
       node.innerText = 'Author'
