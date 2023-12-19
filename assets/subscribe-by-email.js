@@ -1,8 +1,5 @@
 const forms = document.querySelectorAll('.subscribe-by-email-form')
 
-// const apiHost = 'https://kinopio.local:3000' // dev
-const apiHost = 'http://api.kinopio.club' // prod
-
 let savingBadge, successBadge, errorBadge, resultDescription
 
 const clearAll = () => {
@@ -84,4 +81,3 @@ if (forms) {
     form.addEventListener('submit', submitForm)
   })
 }
-
