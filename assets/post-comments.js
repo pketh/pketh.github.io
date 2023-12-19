@@ -31,7 +31,12 @@ const stringToBoolean = (string) => {
 const fetchComments = async () => {
   const url = `${apiHost}/personal-blog/comment/by-post/${slug}`
   try {
-    const response = await fetch(url)
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
     const data = await response.json()
     let count = 0
     count = data?.length
