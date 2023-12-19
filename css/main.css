@@ -23,7 +23,18 @@ body {
   margin-left: 20px;
 }
 
-p, .post li, table, summary, figure, figure img, figcaption, .subscribe-by-email {
+p,
+.post
+li,
+table,
+summary,
+figure,
+figure img,
+figcaption,
+.subscribe-by-email,
+.loader,
+.comment-success-badge,
+.comment-error-badge {
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 20px;
@@ -197,7 +208,7 @@ h1, h2 {
   color: #6EA188;
 }
 
-.post-actions-container p:first-child{
+.post-actions-container p:first-child {
   border-top: 1px solid #486C5A;
   padding-top: 10px;
 }
@@ -332,7 +343,8 @@ blockquote p {
   text-transform: capitalize;
 }
 
-.post code {
+.post code,
+.comment-content code {
   display: inline;
   background-color: #1A5538;
   width: auto;
@@ -775,12 +787,20 @@ th, td {
 
 .kinopio-promo .promo-logo {
   width: 70px;
+  height: 60px;
+  background-image: url('/assets/logo-base.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.kinopio-promo .promo-logo:hover {
+  background-image: url('/assets/logo-hover.png');
+}
+.kinopio-promo .promo-logo:active {
+  background-image: url('/assets/logo-active.png');
 }
 
-.kinopio-promo .promo-cards {
-  width: 212px;
-  margin-top:  -1.5rem;
-  margin-bottom:  -1rem;
+.kinopio-promo .promo-image {
+  width: 204px;
 }
 
 .kinopio-promo .content-wrap {
@@ -804,7 +824,8 @@ th, td {
   margin-bottom: 10px;
 }
 
-button {
+button,
+input[type=submit] {
   display: inline-block;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
   font-size: 14px;
@@ -818,17 +839,25 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button:hover,
+input[type=submit]:hover {
   box-shadow: 5px 5px 0 rgba(0,0,0,0.25);
 }
 
-button:active {
+button:active,
+input[type=submit]:active {
   background-color: rgba(0,0,0,0.25);
   box-shadow: inset 0 2px 2px rgba(0,0,0,0.35);
 }
 
-/* subscribe by email form */
+input[type=submit] {
+  width: max-content;
+  margin-left: 0;
+}
 
+/* forms */
+
+form,
 .subscribe-by-email {
   width: 420px;
   max-width: 100%;
@@ -837,6 +866,16 @@ button:active {
   margin-bottom: 4rem;
   display: flex;
   align-items: flex-start;
+}
+
+form.subscribe-by-email-form {
+  align-items: center;
+}
+
+.subscribe-by-email form {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .subscribe-by-email .mushroom {
@@ -852,7 +891,8 @@ button:active {
   border-top: none;
 }
 
-.subscribe-by-email input {
+form input,
+form textarea {
   width: 100%;
   max-width: 220px;
   border-radius: 0;
@@ -866,7 +906,8 @@ button:active {
   align-items: flex-start;
 }
 
-.subscribe-by-email input::placeholder {
+form input::placeholder,
+form textarea::placeholder {
   color: #6ea188;
   opacity: 1; /* firefox */
 }
@@ -890,6 +931,141 @@ button:active {
 .hidden {
   display: none !important;
 }
+.pre-cached {
+  visibility: hidden;
+  width: 1px;
+  position: absolute;
+  pointer-events: none;
+}
+
+
+/* comments */
+
+.post-comments-container hr {
+  display: block;
+  padding-right: 0;
+  max-width: 100%;
+  margin-left: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.post-comments-form {
+  background-color: #03371d;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,0.20);
+}
+
+.post-comments-form input,
+.post-comments-form textarea {
+  margin-bottom: 1rem;
+}
+
+.post-comments-container aside p,
+.post-comments-container p:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.post-comments-container .comment-meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-comments-container .comments-subscribe {
+  display: flex;
+}
+.post-comments-container label {
+  font-size: 14px;
+  display: inline-block;
+}
+.post-comments-container input,
+.post-comments-container textarea {
+  max-width: initial;
+}
+.post-comments-container input[type=checkbox] {
+  width: initial;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.post-comments-container input[type=submit] {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.post-actions-container .comments-string {
+  display: inline;
+  width: fit-content;
+}
+.post-actions-container .loader {
+  margin: 0;
+  margin-left: 5px;
+  vertical-align: -2px;
+}
+
+.comment-meta-badge {
+  border-radius: 10px;
+  background-color: #03371d;
+  display: inline-block;
+  vertical-align: 2px;
+  margin-right: 2px;
+  font-size: 10px;
+  padding: 0 6px;
+  line-height: 15px;
+}
+.comment-meta-badge {
+  color: #79b698;
+  margin-left: 6px;
+  margin-right: 0;
+}
+.comment-kinopio-badge {
+  color: black;
+}
+.comment-meta-name {
+  margin-top: -2px;
+}
+.comment-time-badge {
+  margin-right: 4px;
+}
+.comment-new-badge {
+  background-color: #57a8ff;
+  color: black;
+}
+
+.comment-success-badge,
+.comment-error-badge {
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+.comment-error-badge a {
+  color: black;
+  text-decoration: underline;
+}
+
+/* comment content */
+
+.comment-content img {
+  max-width: 100%;
+  border-radius: 3px;
+  padding-right: 0;
+}
+
+.comment-content blockquote {
+  margin-left: 20px;
+}
+
+.comment-content > code {
+  margin-left: 15px;
+}
+
 
 /*****************************************************************************/
 /*
@@ -953,6 +1129,9 @@ button:active {
 }
 .badge.learning {
   background-color: #65cdaa;
+}
+.badge.success {
+  background-color: #66ffbb;
 }
 
 
@@ -1023,4 +1202,98 @@ button:active {
   margin-left:  -0.5em;
   border-radius:  6px;
   box-shadow: none;
+}
+
+/* loader */
+
+.loader {
+  overflow: hidden;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: relative;
+  border-radius: 100px;
+  background-color: #000;
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+.loader .moon {
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  background-color: #fe84d4;
+  position: absolute;
+  top: 50%;
+  margin-top: -50%;
+  margin-left: -50%;
+  animation: slideMoon 2s ease-out infinite;
+  mix-blend-mode: exclusion;
+}
+.loader .earth {
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  background-color: #ffc0cb;
+  position: absolute;
+  top: 50%;
+  margin-top: -50%;
+  margin-left: -50%;
+  animation: slideEarth 3s ease-out infinite;
+  mix-blend-mode: exclusion;
+}
+.loader .asteroid {
+  height: 30%;
+  width: 30%;
+  border-radius: 100px;
+  background-color: MediumSpringGreen;
+  position: absolute;
+  top: 100%;
+  margin-top: -50%;
+  margin-left: -70%;
+  animation: slideAsteroid 1.5s ease-in infinite;
+  mix-blend-mode: exclusion;
+}
+.loader .asteroid-dust {
+  height: 25%;
+  width: 25%;
+  border-radius: 100px;
+  background-color: #b46bd2;
+  position: absolute;
+  top: 100%;
+  margin-top: -70%;
+  margin-left: -70%;
+  animation: slideAsteroidDust 1.3s ease-in infinite;
+  mix-blend-mode: exclusion;
+}
+@keyframes slideMoon {
+  from {
+    left: -40%;
+  }
+  to {
+    left: 145%;
+  }
+}
+@keyframes slideEarth {
+  from {
+    left: -60%;
+  }
+  to {
+    left: 145%;
+  }
+}
+@keyframes slideAsteroid {
+  from {
+    left: -70%;
+  }
+  to {
+    left: 150%;
+  }
+}
+@keyframes slideAsteroidDust {
+  from {
+    left: -55%;
+  }
+  to {
+    left: 150%;
+  }
 }

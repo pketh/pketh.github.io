@@ -1,5 +1,8 @@
 const forms = document.querySelectorAll('.subscribe-by-email-form')
 
+// const apiHost = 'https://kinopio.local:3000' // dev
+const apiHost = 'http://api.kinopio.club' // prod
+
 let savingBadge, successBadge, errorBadge, resultDescription
 
 const clearAll = () => {
@@ -52,12 +55,11 @@ const submitForm = async (event) => {
   }
   savingBadge.classList.remove('hidden')
   try {
-    const host = 'https://api.kinopio.club'
     const headers = new Headers({
       'Content-Type': 'application/json',
       'Cache-Control': 'must-revalidate, no-store, no-cache, private'
     })
-    const response = await fetch(`${host}/personal-blog/subscribe`, {
+    const response = await fetch(`${apiHost}/personal-blog/new-post/subscribe`, {
       method: 'POST',
       body: JSON.stringify({ email }),
       headers

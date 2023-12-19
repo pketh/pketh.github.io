@@ -1,0 +1,13 @@
+<div class="post-actions-container">
+  <p>
+    Subscribe to the <a href="/feed.xml">RSS feed</a>,
+    <br>Follow updates on <a href="https://c.im/@pirijan">Mastodon</a> or <a href="https://twitter.com/pketh">Twitter/X</a>.
+  </p>
+
+  <p>
+      If you liked this, you might also enjoy
+      {% for post in site.related_posts limit:3 %}
+        <span class="related-posts"><a href="{{ post.url }}">{{ post.title }}</a></span>
+      {% endfor %}
+  </p>
+</div>

@@ -7,7 +7,6 @@ layout: default
 <div class="permalink">
 
   <div class="title">
-
     <span class="meta-date">
       {% assign m = page.date | date: "%-m" %}
       {% case m %}
@@ -25,40 +24,22 @@ layout: default
         {% when '12' %}Dec
       {% endcase %} ’{{ page.date | date: "%y" }}
     </span>
-
     <a href="{{ page.url }}">{{ page.title }}</a>
     {% for tag in page.tags %}
       <a href="/tags/#{{ tag }}"><div class="badge {{ tag }}">{{ tag }}</div></a>
     {% endfor %}
-
   </div>
-
   <div class="post">
     {{ content }}
   </div>
 
-  <div class="post-actions-container">
-    <p>
-      {% if page.hackernews %}
-        Discuss this post on <a href="{{page.hackernews}}">Hacker News</a>,
-        <br>
-      {% endif %}
-      <br>Subscribe to the <a href="/feed.xml">RSS feed</a>,
-      <br>Follow me on <a href="https://c.im/@pirijan">Mastodon</a> or <a href="https://twitter.com/pketh">Twitter/X</a>.
-    </p>
+  {% include post-comments.html %}
 
-    <p>
-        If you liked this, you might also enjoy
-        {% for post in site.related_posts limit:3 %}
-          <span class="related-posts"><a href="{{ post.url }}">{{ post.title }}</a></span>
-        {% endfor %}
-    </p>
-  </div>
+  {% include post-actions.html %}
 
   {% include subscribe-by-email.html %}
 
   {% include kinopio-promo.html %}
-
 
 </div>
 
