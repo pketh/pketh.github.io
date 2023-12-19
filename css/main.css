@@ -787,12 +787,20 @@ th, td {
 
 .kinopio-promo .promo-logo {
   width: 70px;
+  height: 60px;
+  background-image: url('/assets/logo-base.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.kinopio-promo .promo-logo:hover {
+  background-image: url('/assets/logo-hover.png');
+}
+.kinopio-promo .promo-logo:active {
+  background-image: url('/assets/logo-active.png');
 }
 
-.kinopio-promo .promo-cards {
-  width: 212px;
-  margin-top:  -1.5rem;
-  margin-bottom:  -1rem;
+.kinopio-promo .promo-image {
+  width: 204px;
 }
 
 .kinopio-promo .content-wrap {
@@ -923,6 +931,13 @@ form textarea::placeholder {
 .hidden {
   display: none !important;
 }
+.pre-cached {
+  visibility: hidden;
+  width: 1px;
+  position: absolute;
+  pointer-events: none;
+}
+
 
 /* comments */
 
