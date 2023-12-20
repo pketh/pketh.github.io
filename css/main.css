@@ -859,8 +859,8 @@ input[type=submit] {
 
 form,
 .subscribe-by-email {
-  width: 420px;
-  max-width: 100%;
+  max-width: 420px;
+  width: 100%;
   margin-left: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -879,9 +879,8 @@ form.subscribe-by-email-form {
 }
 
 .subscribe-by-email .mushroom {
-  margin-right: 1rem;
-  height: 44px;
-  width: 50px;
+  margin-right: 10px;
+  width: 42px;
 }
 
 .subscribe-by-email p {
@@ -1043,6 +1042,7 @@ form textarea::placeholder {
 .comment-error-badge {
   margin-left: auto;
   margin-top: 1rem;
+  max-width: 100%;
 }
 
 .comment-error-badge a {
