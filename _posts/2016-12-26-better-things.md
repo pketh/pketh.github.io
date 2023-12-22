@@ -10,8 +10,6 @@ From what I've [read](https://en.wikipedia.org/wiki/J._Robert_Oppenheimer#Manhat
 
 And then your work [ships](http://www.english.illinois.edu/maps/poets/g_l/levine/bombing.htm), and you realize you've fucked the world.
 
-<img src="http://www.english.illinois.edu/maps/poets/g_l/levine/bomb/hiro1.gif" alt="Hiroshima atomic bomb" class="large" width="640">
-
 Will the internet of the next decade be an empowering force for human progress (like nuclear power) or for crimes against society (like nuclear bombs)?
 
 ## Slapping Ethics in the Face 🙋🏻

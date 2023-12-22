@@ -208,11 +208,6 @@ h1, h2 {
   color: #6EA188;
 }
 
-.post-actions-container p:first-child {
-  border-top: 1px solid #486C5A;
-  padding-top: 10px;
-}
-
 .post-actions-container img {
   vertical-align: middle;
   padding-right: 6px;
@@ -940,7 +935,7 @@ form textarea::placeholder {
 
 /* comments */
 
-.post-comments-container hr {
+.post-actions-container hr {
   display: block;
   padding-right: 0;
   max-width: 100%;

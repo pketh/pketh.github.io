@@ -6,6 +6,9 @@
     </p>
     {% include loader.html %}
   </div>
+  {% if page.hackernews %}
+    <p>Or, discuss this post on <a href="{{page.hackernews}}">Hacker News</a></p>
+  {% endif %}
   <aside>
   <!-- post-comments.js -->
   <!--
@@ -39,9 +42,6 @@
       {% include loader.html %}
     </div>
   </form>
-  {% if page.hackernews %}
-    <p>Or, discuss this post on <a href="{{page.hackernews}}">Hacker News</a></p>
-  {% endif %}
 </div>
 
 <script src="/assets/cache.js"></script>
