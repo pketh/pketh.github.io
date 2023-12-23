@@ -59,6 +59,6 @@ So here's what the commenting system looks like now,
 
 ⏰ And lastly, every 2 hours the server checks to see if there are any new comments. If so, an email is sent to the subscribed commenters on that post.
 
-If you're looking for an easy alternative, I hear [commento](https://commento.io) is pretty good. The reason I didn't use it is because it's sign in model didn't fit with my goals. But also because it's been years since I've been able to code just for fun – so I guess this was like a holiday gift to myself.
+If you're looking for an easy alternative, I hear [commento](https://commento.io) is pretty good. The reason I didn't use it is because its sign in model didn't fit with my goals. But also because it's been years since I've been able to code just for fun – so I guess this was like a holiday gift to myself.
 
 I hope this inspires you to add comments to your own blog. I had to leave out a lot of details to keep this readable so if you have any questions… leave a comment! ＿φ( °-°)/
