@@ -4,7 +4,7 @@
 const apiHost = 'https://api.kinopio.club' // prod
 
 // https://stackoverflow.com/a/57527009
-const disableIosTextFieldZoom = () => {
+const disableIOSTextFieldZoom = () => {
   if (!isIOS()) { return }
   const element = document.querySelector('meta[name=viewport]')
   if (element !== null) {

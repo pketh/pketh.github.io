@@ -40,7 +40,8 @@ const fetchComments = async () => {
     const data = await response.json()
     let count = 0
     count = data?.length
-    countElement.innerText = `${count || 0} Comments`
+    count = count || 0
+    countElement.innerText = `${count} ${pluralize('Comment', count)}`
     return data
   } catch (error) {
     console.error('🚒 fetchComments', error)

@@ -46,6 +46,11 @@ title: pketh.org
 
         <div class="post">
           {{ post.content }}
+          <p>
+            <a class="post-comments-link" href="{{ post.url }}#comments" data-post-slug="{{ post.slug }}">
+              Comments…
+            </a>
+          </p>
         </div>
 
       </li>
@@ -78,5 +83,6 @@ title: pketh.org
 
   {% include kinopio-promo.html %}
 
+  <script src="/assets/index-page-comments.js"></script>
 
 </div>
