@@ -3,6 +3,7 @@ layout: post
 title:  "Why and How I Added Comments to My Blog"
 image: "/images/2023/we-grow-together.webp"
 tags: life engineering
+hackernews: https://news.ycombinator.com/item?id=38746309
 ---
 
 My earliest blog was pretty emo – totally what you'd expect from a teen of the 2000s. But what made it fun for me was the comments. New internet friends from around the world would comment on my posts and I'd comment on theirs. Before we knew it, we were a little community.
