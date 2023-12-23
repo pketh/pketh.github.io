@@ -888,7 +888,6 @@ form.subscribe-by-email-form {
 form input,
 form textarea {
   width: 100%;
-  max-width: 220px;
   border-radius: 0;
   font-size: 14px;
   border-color:  #6ea188;
@@ -898,6 +897,7 @@ form textarea {
   color: white;
   border-bottom: 1px solid #6ea188;
   align-items: flex-start;
+  box-sizing: border-box;
 }
 
 form input::placeholder,
@@ -978,10 +978,6 @@ form textarea::placeholder {
 .post-comments-container label {
   font-size: 14px;
   display: inline-block;
-}
-.post-comments-container input,
-.post-comments-container textarea {
-  max-width: initial;
 }
 .post-comments-container input[type=checkbox] {
   width: initial;
