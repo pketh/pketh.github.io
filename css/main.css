@@ -948,7 +948,7 @@ form textarea::placeholder {
   background-color: #03371d;
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 6px;
@@ -988,6 +988,11 @@ form textarea::placeholder {
 .post-comments-container input[type=submit] {
   margin-top: 5px;
   margin-bottom: 0;
+}
+
+.post-comments-container li {
+  margin-bottom: 1rem;
+  font-size: 14px;
 }
 
 .post-actions-container .comments-string {
