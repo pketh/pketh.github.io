@@ -3,6 +3,7 @@ layout: post
 title:  "The Building Blocks of Offline Support"
 image: "/images/2024/offline/ss1.png"
 tags: engineering
+hackernews: "https://news.ycombinator.com/item?id=39061886"
 ---
 
 
