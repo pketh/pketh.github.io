@@ -7,11 +7,11 @@ hackernews: https://news.ycombinator.com/item?id=39092863
 ---
 
 
-The latest release of Kinopio lets you work offline while in a subway, plane, or uncharted rainforest. When you come back online, your changes will be synced back up. And because the app no longer needs to wait for a network before loading, it starts up a lot faster too.
+The latest release of Kinopio lets you work offline while in a subway, plane, or uncharted rainforest. When you come back online, your changes will be synced back up. And because the app no longer needs to wait for a network before loading, it starts up almost instantly.
 
 <p>
   <video autoplay loop muted playsinline class="">
-    <source src="/images/2024/offline/offline2.mp4">
+    <source src="/images/2024/offline/offline3.mp4">
   </video>
 </p>
 <figure>
