@@ -3,6 +3,7 @@ layout: post
 title:  "Open Sourcing Kinopio"
 image: "/images/2024/oss/disk2.webp"
 tags: kinopio engineering
+hackernews: https://news.ycombinator.com/item?id=40810949
 ---
 
 On the eve of it's 5th anniversary, I've decided to open source the code for the `kinopio-client` app. That means you can run Kinopio on your own computer, make changes, and share improvements.
