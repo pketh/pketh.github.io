@@ -12,8 +12,8 @@ On the eve of it's 5th anniversary, I've decided to open source the code for the
 `kinopio-client` is the app that's downloaded and run in your browser when you go to [https://kinopio.club](https://kinopio.club). It can save data locally, and to the `kinopio-server`.
 
 <p>
-  <video autoplay loop muted playsinline class="no-shadow large">
-    <source src="/images/2024/oss/architecture-diagram4.mp4">
+  <video autoplay loop muted playsinline class="no-shadow">
+    <source src="/images/2024/oss/diagram3.mp4">
   </video>
 </p>
 
@@ -79,8 +79,8 @@ If you are interested in contributing, please by sure to read the [contributor d
 > We're all friends here, so let's be cool, constructive, and always treat each other with respect.
 
 <figure>
-  <img src="/images/2024/oss/together.jpg" class="">
-  <figcaption><a href="https://www.cosmos.so/e/1524015678">(Source)</a></figcaption>
+  <img src="/images/2024/oss/journey.webp" class="">
+  <figcaption>Hirō Isono</figcaption>
 </figure>
 
 Compared to a library or CLI tool, where new features and more options don't really complicate basic usage, what the ‘correct’ thing to do for a GUI application is far fuzzier and subjective.
