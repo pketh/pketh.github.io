@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Open Sourcing Kinopio"
+title:  "Making the Kinopio Source Code Public"
 image: "/images/2024/oss/disk2.webp"
 tags: kinopio engineering
 hackernews: https://news.ycombinator.com/item?id=40810949
