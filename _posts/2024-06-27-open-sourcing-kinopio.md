@@ -20,10 +20,12 @@ On the eve of it's 5th anniversary, I've decided to open source the code for the
 
 Because the app weighs only ~220kb, in an alternate dimension where we didn’t have the Internet but had html, I’d ship kinopio to you on a single floppy disk. It wouldn’t even need to be high-density.
 
-<figure>
-  <img src="/images/2024/oss/disk2.webp" class="">
-  <figcaption><a href="https://www.are.na/block/667646">(Source)</a></figcaption>
-</figure>
+
+<p>
+  <video autoplay loop muted playsinline class="no-shadow">
+    <source src="/images/2024/oss/disk.mp4">
+  </video>
+</p>
 
 To be honest, opening up 5 years of private code does feel a bit intimate, like inviting someone over. I've cleaned the dishes and swept up, but … don't look in that closest.
 
