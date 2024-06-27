@@ -6,7 +6,7 @@ tags: kinopio engineering
 hackernews: https://news.ycombinator.com/item?id=40810949
 ---
 
-On the eve of it's 5th anniversary, I've decided to open source the code for the `kinopio-client` app. That means you can run Kinopio on your own computer, make changes, and share improvements.
+On the eve of it's 5th anniversary, I've decided to make the code for the `kinopio-client` app public. That means you can run Kinopio on your own computer, make changes, and share improvements.
 
 <img src="/images/github-logo@2x.png" width="24" height="25" class="no-shadow" style="vertical-align: -30%"> [kinopio-client on github](https://github.com/kinopio-club/kinopio-client)
 
@@ -50,7 +50,7 @@ npm run serve
 https://kinopio.local:8080
 ```
 
-## Why Open Source a Commercial app?
+## Why Make Commercial app code public?
 
 I've long been thinking about how to share the amount of work that goes into Kinopio. The more you know how something is made, the more you appreciate it – even more so when it's a quality product built to last a lifetime.
 
@@ -63,7 +63,7 @@ But at the same time, making software isn't like carving [fountain pens](https:/
 
 By contrast, delivering software is more like delivering a gooey crying baby. It's alive. Squirming, growing, and changing because the technologies it relies on do too. Physical materials rarely change, but web browsers, operating systems, and servers sure do.
 
-The big benefit of open source for me is that it's another way to share the work that goes into Kinopio. One more piece of the puzzle, in between diagnosing bug reports, discussing feature requests, and sharing updates on social media.
+The big benefit of public code for me is that it's another way to share the work that goes into Kinopio. One more piece of the puzzle, in between diagnosing bug reports, discussing feature requests, and sharing updates on social media.
 
 Some kind souls might [contribute changes](https://github.com/kinopio-club/kinopio-client/blob/main/CONTRIBUTING.md). But because Kinopio is such a complex interface-based app, I have no idea yet how often that'll happen.
 
