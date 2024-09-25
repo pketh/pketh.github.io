@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420px" height="168px" viewBox="0 0 420 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lake</title>
+    <g id="lake" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#004021" x="0" y="0" width="420" height="168"></rect>
+        <text id="Deep-Interface" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#FFFFFF">
+            <tspan x="284" y="18">Deep Interface</tspan>
+        </text>
+        <path d="M303.8,42 C307.333701,45.3333333 310.831395,47 314.293082,47 C317.754768,47 321.288521,45.3333333 324.89434,42" id="Path-2" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M325.43522,42 C328.968922,45.3333333 332.466615,47 335.928302,47 C339.389988,47 342.923741,45.3333333 346.52956,42" id="Path-2-Copy" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M347.07044,42 C350.604142,45.3333333 354.101836,47 357.563522,47 C361.025208,47 364.558961,45.3333333 368.16478,42" id="Path-2-Copy-2" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M368.70566,42 C372.239362,45.3333333 375.737056,47 379.198742,47 C382.660429,47 386.194181,45.3333333 389.8,42" id="Path-2-Copy-3" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <g id="Group" transform="translate(46.848437, 62.409932)" fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round">
+            <g>
+                <circle id="Oval-Copy-21" cx="16.1078135" cy="6.63009788" r="5.77777778"></circle>
+                <polygon id="Triangle-Copy" transform="translate(5.777778, 6.500000) rotate(-270.000000) translate(-5.777778, -6.500000) " points="5.77777778 0.722222222 12.2777778 12.2777778 -0.722222222 12.2777778"></polygon>
+            </g>
+        </g>
+        <g id="Group" transform="translate(114.057204, 62.817808)" fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round">
+            <g>
+                <circle id="Oval-Copy-21" cx="16.1078135" cy="6.63009788" r="5.77777778"></circle>
+                <polygon id="Triangle-Copy" transform="translate(5.777778, 6.500000) rotate(-270.000000) translate(-5.777778, -6.500000) " points="5.77777778 0.722222222 12.2777778 12.2777778 -0.722222222 12.2777778"></polygon>
+            </g>
+        </g>
+        <g id="Group" transform="translate(178.848437, 62.817808)" fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round">
+            <g>
+                <circle id="Oval-Copy-21" cx="16.1078135" cy="6.63009788" r="5.77777778"></circle>
+                <polygon id="Triangle-Copy" transform="translate(5.777778, 6.500000) rotate(-270.000000) translate(-5.777778, -6.500000) " points="5.77777778 0.722222222 12.2777778 12.2777778 -0.722222222 12.2777778"></polygon>
+            </g>
+        </g>
+        <text id="Wide-Interface" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#FFFFFF">
+            <tspan x="4" y="18">Wide Interface</tspan>
+        </text>
+        <path d="M4,38.2591668 C17.605948,36.6004991 24.4089219,42.9034364 24.4089219,57.1679785 C24.4089219,78.5647917 24.4089219,55.1775773 24.4089219,72.593588 C24.4089219,90.0095988 36.2007435,92 49.8066914,92 C58.8773234,92 84.2750929,92 126,92" id="Path-Copy-2" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round"></path>
+        <path d="M125,38.2591668 C138.605948,36.6004991 145.408922,42.9034364 145.408922,57.1679785 C145.408922,78.5647917 145.408922,55.1775773 145.408922,72.593588 C145.408922,90.0095988 157.200743,92 170.806691,92 C179.877323,92 205.275093,92 247,92" id="Path-Copy-3" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round" transform="translate(186.000000, 65.000000) scale(-1, 1) translate(-186.000000, -65.000000) "></path>
+        <path d="M19.8,42 C23.3489343,45.3333333 26.8617058,47 30.3383146,47 C33.8149234,47 37.3639091,45.3333333 40.9852717,42" id="Path-2-Copy-4" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M40.9952717,42 C44.544206,45.3333333 48.0569775,47 51.5335863,47 C55.0101951,47 58.5591808,45.3333333 62.1805433,42" id="Path-2-Copy-5" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M62.1905433,42 C65.7394776,45.3333333 69.2522492,47 72.728858,47 C76.2054667,47 79.7544524,45.3333333 83.375815,42" id="Path-2-Copy-6" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M83.385815,42 C86.9347493,45.3333333 90.4475208,47 93.9241296,47 C97.4007384,47 100.949724,45.3333333 104.571087,42" id="Path-2-Copy-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M104.581087,42 C108.130021,45.3333333 111.642792,47 115.119401,47 C118.59601,47 122.144996,45.3333333 125.766358,42" id="Path-2-Copy-8" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M125.776358,42 C129.325293,45.3333333 132.838064,47 136.314673,47 C139.791282,47 143.340267,45.3333333 146.96163,42" id="Path-2-Copy-9" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M146.97163,42 C150.520564,45.3333333 154.033336,47 157.509945,47 C160.986553,47 164.535539,45.3333333 168.156902,42" id="Path-2-Copy-10" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M168.166902,42 C171.715836,45.3333333 175.228607,47 178.705216,47 C182.181825,47 185.730811,45.3333333 189.352173,42" id="Path-2-Copy-11" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M189.362173,42 C192.911108,45.3333333 196.423879,47 199.900488,47 C203.377097,47 206.926082,45.3333333 210.547445,42" id="Path-2-Copy-12" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M210.557445,42 C214.106379,45.3333333 217.619151,47 221.09576,47 C224.572368,47 228.121354,45.3333333 231.742717,42" id="Path-2-Copy-13" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M284,38 C301.104072,36.3333333 309.656109,42.6666667 309.656109,57 C309.656109,78.5 309.656109,112 309.656109,129.5 C309.656109,147 330.180995,158 347.285068,158" id="Path" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round"></path>
+        <path d="M346.714932,38 C363.819005,36.3333333 372.371041,42.6666667 372.371041,57 C372.371041,78.5 372.371041,112 372.371041,129.5 C372.371041,147 392.895928,158 410,158" id="Path-Copy" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round" transform="translate(378.357466, 97.869792) scale(-1, 1) translate(-378.357466, -97.869792) "></path>
+        <g id="Group" transform="translate(335.982390, 61.817808)" fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round">
+            <g>
+                <circle id="Oval-Copy-21" cx="16.1078135" cy="6.63009788" r="5.77777778"></circle>
+                <polygon id="Triangle-Copy" transform="translate(5.777778, 6.500000) rotate(-270.000000) translate(-5.777778, -6.500000) " points="5.77777778 0.722222222 12.2777778 12.2777778 -0.722222222 12.2777778"></polygon>
+            </g>
+        </g>
+        <g id="Group" transform="translate(321.461197, 116.817808)" fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round">
+            <g>
+                <circle id="Oval-Copy-21" cx="16.1078135" cy="6.63009788" r="5.77777778"></circle>
+                <polygon id="Triangle-Copy" transform="translate(5.777778, 6.500000) rotate(-270.000000) translate(-5.777778, -6.500000) " points="5.77777778 0.722222222 12.2777778 12.2777778 -0.722222222 12.2777778"></polygon>
+            </g>
+        </g>
+        <g id="Group" transform="translate(354.461197, 116.817808)" fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="round">
+            <g>
+                <circle id="Oval-Copy-21" cx="16.1078135" cy="6.63009788" r="5.77777778"></circle>
+                <polygon id="Triangle-Copy" transform="translate(5.777778, 6.500000) rotate(-270.000000) translate(-5.777778, -6.500000) " points="5.77777778 0.722222222 12.2777778 12.2777778 -0.722222222 12.2777778"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
