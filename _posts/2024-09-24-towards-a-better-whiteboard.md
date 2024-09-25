@@ -3,6 +3,7 @@ layout: post
 title:  "Towards a Better Whiteboard"
 image: "/images/2024/whiteboard/collab.jpg"
 tags: design kinopio
+hackernews: https://news.ycombinator.com/item?id=41649091
 ---
 
 A couple months ago, I wrote a short piece for the [Sublime zine](https://sublime.app/zine) about my vision for collaboration,
