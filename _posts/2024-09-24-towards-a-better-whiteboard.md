@@ -140,7 +140,8 @@ When Kinopio was born 5 years ago, whiteboarding wasn't on my radar, so its desi
 
 <blockquote>
   <p>
-    <img src="https://pketh.org/images/2019/kinopio-beta-logo.jpg">
+    <img src="https://pketh.org/images/2019/kinopio-beta-logo.jpg" width="150" class="">
+    <br/>
     In 2019, I introduced Kinopio, why I made it, and how to use it in
     <a href="https://pketh.org/hello-kinopio.html">Hello Kinopio</a>.
     I think I got a lot right from the start.
