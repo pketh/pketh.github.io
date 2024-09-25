@@ -33,7 +33,7 @@ Unless you're unlucky enough to be using an enterprise software whiteboard.
 
 ## Designing for the Journey
 
-Here's the prettiest screenshot for Miro I could find, taken from it's marketing site, illustrating its many features in use,
+Here's the prettiest screenshot for Miro I could find, taken from its marketing site, illustrating its many features in use,
 
 <img src="/images/2024/whiteboard/miro.png" class="no-shadow " />
 <figure>
@@ -135,7 +135,7 @@ In practice, almost every app has a mix of wide and deep interface design decisi
 
 ## Eternally WIP
 
-When Kinopio was born 5 years ago, whiteboarding wasn't on my radar, so it's design comes from a totally different place.
+When Kinopio was born 5 years ago, whiteboarding wasn't on my radar, so its design comes from a totally different place.
 
 
 <blockquote>
