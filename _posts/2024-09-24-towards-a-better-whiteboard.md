@@ -166,4 +166,4 @@ Ultimately, my goal is to create something that’s so effortless and [toy-like]
   </figcaption>
 </figure>
 
-
+> Special thanks to Aneesha and Kevin for helping edit this.
