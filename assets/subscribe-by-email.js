@@ -54,7 +54,8 @@ const submitForm = async (event) => {
   try {
     const headers = new Headers({
       'Content-Type': 'application/json',
-      'Cache-Control': 'must-revalidate, no-store, no-cache, private'
+      'Cache-Control': 'must-revalidate, no-store, no-cache, private',
+      'Access-Control-Allow-Origin': '*'
     })
     const response = await fetch(`${apiHost}/personal-blog/new-post/subscribe`, {
       method: 'POST',
