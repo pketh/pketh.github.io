@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Redesigning an App, One Day a Week at a Time"
+title:  "Futureland: Redesigning an App, One Day a Week at a Time"
 image: "/images/2022/fl/fl-overview.jpg"
 tags: design
 hackernews: "https://news.ycombinator.com/item?id=30947082"

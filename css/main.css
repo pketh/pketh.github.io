@@ -264,6 +264,11 @@ h1, h2 {
   width: 380px;
   margin-bottom: 10px;
 }
+.post ul li li {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: calc(100% - 20px);
+}
 
 .post ol {
   list-style-type:decimal;
