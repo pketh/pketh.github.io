@@ -3,7 +3,7 @@ layout: post
 title:  "Digging Into PlantStudio, a Bit Late"
 image: "/images/2024/plantstudio/screenMainWindow.gif"
 tags: design
-hackernews:
+hackernews: "https://news.ycombinator.com/item?id=41988030"
 ---
 
 This aesthetic screenshot of an old windows app has been in my [inspiration space](https://pketh.org/decade-of-inspiration.html) for ~5 years. Until recently, I assumed that it was just a nostalgia bait concept.
