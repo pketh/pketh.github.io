@@ -165,8 +165,9 @@ There’s something appealing about objects and interfaces built for purpose, li
 
 I’d describe PlantStudio the same way. It doesn’t look or work like a modern app, but anyone can figure it out because it’s interface elements are delightfully chunky, unfussy, and well documented by illustrations, inline text, and tooltips.
 
-It took a while, but I’m glad I found PlantStudio.
+It's definetely not for everyone, but the best things rarely are. Creating those gardens gave me a new perspective – and some new ideas – for my own design work.
 
+It took a while, but I’m glad I found PlantStudio.
 
 <img src="/images/2024/plantstudio/sample-flowers2.webp" class="no-shadow">
 
