@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Digging Into PlantStudio, a Bit Late"
-image:
+image: "/images/2024/plantstudio/screenMainWindow.gif"
 tags: design
 hackernews:
 ---
