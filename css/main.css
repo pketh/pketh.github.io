@@ -998,6 +998,7 @@ form textarea::placeholder {
 .post-comments-container li {
   margin-bottom: 1rem;
   font-size: 14px;
+  line-height: 23px;
 }
 
 .post-actions-container .comments-string {
