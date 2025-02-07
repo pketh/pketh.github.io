@@ -2,7 +2,7 @@
 layout: post
 title:  "Digging Into PlantStudio, a Bit Late"
 image: "/images/2024/plantstudio/screenMainWindow.gif"
-tags: design
+tags: learning design
 hackernews: "https://news.ycombinator.com/item?id=41988030"
 ---
 
