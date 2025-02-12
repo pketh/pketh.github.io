@@ -24,4 +24,4 @@ tags: biz
 
 <p class="standalone-emoji">👯</p>
 
-Art and Engineering get closer everyday. Subscriptions push constant [iterative improvements](http://www.nytimes.com/2016/02/21/arts/music/kanye-west-life-of-pablo-tlop.html). Platforms help us discover new stuff, but as the the relationship between creators and their fans becomes more personal, the best stuff is just between us.
+Art and Engineering get closer everyday. Subscriptions push constant iterative improvements. Platforms help us discover new stuff, but as the the relationship between creators and their fans becomes more personal, the best stuff is just between us.
