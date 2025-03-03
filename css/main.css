@@ -391,6 +391,17 @@ blockquote p {
   background-color: #333;
 }
 
+.post .row {
+  display: flex;
+  align-items: flex-start;
+  span {
+    margin-left: 12px;
+  }
+  p {
+    padding-right: 0;
+  }
+}
+
 .highlighter-rouge {
   width: 420px;
   max-width: 100%;
