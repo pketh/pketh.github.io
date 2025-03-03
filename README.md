@@ -6,6 +6,8 @@ It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) in
 
 # Setup
 
+in `bash`
+
 	bundle install
 	arch -arch x86_64 bundle install --path vendor/bundle
 

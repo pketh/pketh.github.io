@@ -601,8 +601,20 @@ color: #6EA188;
 #archives {
   margin-bottom: 80dvh;
   .subscribe-by-email {
+    max-width: fit-content;
+  }
+
+  /*.subscribe-by-email {
     margin-left: initial;
   }
+  }*/
+  /*.title {
+    font-size: 18px;
+  }
+  .meta-page-list {
+    margin-bottom: 1.5rem;
+  }
+  */
 }
 
 
