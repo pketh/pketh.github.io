@@ -40,11 +40,9 @@ I spend a lot of time thinking about tools for thinking and creativity, and how 
 
 The first sentence, or the first brush stroke, is a high anxiety situation. Full of potential, full of unknown pain.
 
-Software has evolved over the last 50 years by continually sanding the friction out of things that used to be rough. The fruits of technology should be accessible to everyone after all.
-
 So to help with the blank slate problem, software tools added Templates. `File → New` turned into `File → New → Do You Want to Make a Portfolio? Or a Résumé?`. This more recently turned into `File → New → Ask AI to Do It`. These features help some people, but also create new problems.
 
-Used correctly, these tools can generate almost effortless outputs. They unburden us from the abrasion of creativity and their generic-by-design results keep us cocooned from the risks of standing out. No one wants to make ‘ugly’ art, or a ‘bad’ website. But struggling and making mistakes is an important part of developing skills and – increasingly important – finding your own voice.
+These tools can generate almost effortless outputs. They unburden us from the abrasion of creativity and their generic-by-design results keep us cocooned from the risks of standing out. No one wants to make ‘ugly’ art, or a ‘bad’ website. But struggling and making mistakes is an important part of developing skills and – increasingly important – finding your own voice.
 
 <figure>
   <img src="/images/2025/human-tools/omw.webp" class="no-shadow" alt="‘omw to get a lil treat’ badge">
