@@ -6,10 +6,10 @@ It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) in
 
 # Setup
 
-in `bash`
+Requires Ruby >= 3.2
 
+	brew install ruby
 	bundle install
-	arch -arch x86_64 bundle install --path vendor/bundle
 
 # Run
 
