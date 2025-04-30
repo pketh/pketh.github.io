@@ -126,6 +126,11 @@ The original 'new-project' pop-over. We kept it simple because we didn't want pe
 
 <img src="/images/2019/Screen_Shot_2017-12-13_at_4-5f6f9aed-6c43-440c-b9bc-7e61f8e8704b.37.12_PM.png"/>
 
+----
+
+Eventually, the editor evolved into the friendly, approachable version of Glitch that most people know.
+
+<img class="large" src="/images/2019/glitch-preview-in-editor.gif"/>
 
 # Community
 
