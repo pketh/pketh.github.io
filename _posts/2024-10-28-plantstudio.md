@@ -171,4 +171,4 @@ It took a while, but I’m glad I found PlantStudio.
 
 <img src="/images/2024/plantstudio/sample-flowers2.webp" class="no-shadow">
 
-> Special thanks to Ethan from [Plantkind](https://plantkind.earth/) for giving me a bit of insight into his landscape architecture practice for this post.
+> Special thanks to Lily from [Plantkind](https://plantkind.earth/) for giving me a bit of insight into his landscape architecture practice for this post.
