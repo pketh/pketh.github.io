@@ -391,6 +391,17 @@ blockquote p {
   background-color: #333;
 }
 
+.post .row {
+  display: flex;
+  align-items: flex-start;
+  span {
+    margin-left: 12px;
+  }
+  p {
+    padding-right: 0;
+  }
+}
+
 .highlighter-rouge {
   width: 420px;
   max-width: 100%;
@@ -589,6 +600,34 @@ color: #6EA188;
 .e404-image{
   text-align: center;
 }
+
+/*****************************************************************************/
+/*
+/* Other pages
+/*
+/*****************************************************************************/
+
+
+#tags,
+#archives {
+  margin-bottom: 80dvh;
+  .subscribe-by-email {
+    max-width: fit-content;
+  }
+
+  /*.subscribe-by-email {
+    margin-left: initial;
+  }
+  }*/
+  /*.title {
+    font-size: 18px;
+  }
+  .meta-page-list {
+    margin-bottom: 1.5rem;
+  }
+  */
+}
+
 
 /*****************************************************************************/
 /*
@@ -1135,7 +1174,9 @@ form textarea::placeholder {
 .badge.success {
   background-color: #66ffbb;
 }
-
+.badge.tools {
+  background-color: #5ad338;
+}
 
 .inline-badge {
   margin-left: 6px;
