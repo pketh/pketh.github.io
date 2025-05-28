@@ -160,6 +160,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   pygments.rb
+  webrick
 
 BUNDLED WITH
    2.6.8
