@@ -124,7 +124,7 @@ If you're really deep in the Fog Creek lore, you might also know that the compan
 |:--|:--|:--|:--|
 | 2000 | Fogbugz | Bug Tracker | Jira, 2008 |
 | 2001 | CityDesk | Website CMS | Wordpress, 2003 |
-| 2005 | Copilot | Screensharing and KVM | Zoom, 2013 |
+| 2005 | Copilot | Screen-sharing and KVM | Zoom, 2013 |
 | 2010 | Kiln | Git hosting | Github, 2008 |
 
 I put the release year first to emphasize how pioneering most of these were. It's hard to know what to build when you're early.
