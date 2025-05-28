@@ -12,4 +12,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 permalink: none
-
+sass:
+  implementation: sassc
