@@ -4,6 +4,7 @@ title:  "Saying Bye to Glitch"
 slug: 'bye-glitch'
 tags: glitch
 image: "/images/2025/bye-glitch/darkmode.gif"
+hackernews: https://news.ycombinator.com/item?id=44119271
 ---
 
 Here lies Glitch, a place on the web you could go to write up a website or a node.js server that would be hosted and updated as you type. 🥀 RIP 2015 – 2025.
@@ -54,8 +55,8 @@ But I was primarily hired to help come up with the next big new successful produ
     <img src="https://pketh.org/images/2019/Screen_Shot_2016-01-28_at_3-33a4a830-51d3-466e-b67b-2ac85993ab6f.04.38_PM.png" width="" class="">
     <br/>
     In 2019, I wrote about how Glitch started and
-    <a href="https://pketh.org/the-first-four-years-of-glitch.html">how it evolved over it's first four years</a>.
-    It was designed to be beautiful and functional, in it's own unique way.
+    <a href="https://pketh.org/the-first-four-years-of-glitch.html">how it evolved over the first four years</a>.
+    It was designed to be beautiful and functional, in its own unique way.
 
   </p>
 </blockquote>
@@ -65,7 +66,7 @@ But I was primarily hired to help come up with the next big new successful produ
 
 I always thought of Glitch as web development without the <br/>`$ git how-do-I-stage-and-commit-updates-again?`, and the <br/>`$ heroku push-how-come-this-only-works-on-my-own-computer-wtf` tango 💃. Of course, these are both powerful and necessary tools for experienced programmers and large projects, but what if these were optional instead of required?
 
-The real innovation of Glitch was in it's belief in a new "middle-market" of developers that wanted the creative power and copy-paste-ability that you only get with real coding – but with the ease-of-use of the normal consumer software they were used to.
+The real innovation of Glitch was in its belief in a new "middle-market" of developers that wanted the creative power and copy-paste-ability that you only get with real coding – but with the ease-of-use of the normal consumer software they were used to.
 
 > Why does creating a new web app have to be harder than creating a new google doc? To the user, they're both just boxes you type into.
 
@@ -139,7 +140,7 @@ I still believe there’s a market for easy and fun web development and hosting,
 </figure>
 
 
-Ultimately I’ve learned a lot more from my failures, of which there are many, than my successes. I learned that I value clear and unambiguous communication above flowery narratives that change on a whim. And what I find admirable in a leader is someone who can simply say what they'll do, and do what they say. And if it turns out they can't, that’s okay because they’ll tell you why.
+Ultimately I’ve learned a lot more from my failures, of which there are many, than my successes. I learned that I value clear and unambiguous communication above flowery narratives that change on a whim. And I learned that what I find admirable in a leader is someone who can simply say what they'll do, and do what they say. And if it turns out they can't, that’s okay because they’ll tell you why.
 
 It’s been 6 years since I worked on Glitch and I don’t really have any strong feelings about it anymore. I just feel really grateful to everyone who created something cool with it over the years.
 
