@@ -6,3 +6,4 @@ gem 'pygments.rb'
 gem 'jekyll-seo-tag'
 gem 'jekyll-redirect-from'
 gem 'jekyll-paginate'
+gem "sass-embedded", "~> 1.58.0"
