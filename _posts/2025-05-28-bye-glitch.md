@@ -3,7 +3,7 @@ layout: post
 title:  "Saying Bye to Glitch"
 slug: 'bye-glitch'
 tags: glitch
-image: "/images/2025/bye-glitch/darkmode.gif"
+image: "/images/2025/bye-glitch/logo-bw2.webp"
 hackernews: https://news.ycombinator.com/item?id=44119271
 ---
 
