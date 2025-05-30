@@ -123,7 +123,7 @@ If you're really deep in the Fog Creek lore, you might also know that the compan
 
 | Released | Product | Description | Released Before |
 |:--|:--|:--|:--|
-| 2000 | Fogbugz | Bug Tracker | Jira, 2008 |
+| 2000 | Fogbugz | Bug Tracker | Jira, 2002 |
 | 2001 | CityDesk | Website CMS | Wordpress, 2003 |
 | 2005 | Copilot | Screen-sharing and KVM | Zoom, 2013 |
 | 2010 | Kiln | Git hosting | Github, 2008 |
