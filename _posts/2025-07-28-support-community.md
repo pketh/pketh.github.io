@@ -6,8 +6,7 @@ tags: tools
 image: "/images/2025/support-community/sweet.webp"
 ---
 
-
-I could see myself running a hotel. A little world where the architecture is otherworldly. And of course, the service is impeccable – because nothing matters more in any business than how customers are treated.
+I could see myself running a hotel. A little world where the architecture is otherworldly. And of course, the service is impeccable – because nothing matters more in any business than how customers are treated.
 
 <figure>
   <img src="/images/2025/support-community/dezeen-Agbaria-House-by-Ron-Fleisher-Architects-01.jpeg" class="" alt="Agbaria-House-by-Ron-Fleisher-Architects">
@@ -24,11 +23,9 @@ I could see myself running a hotel. A little world where the architecture is oth
 </figure>
 
 
-But while it’s normal for one night in a hotel to cost ~$300, most people expect the price of a month of using pro-grade software to be closer to a cup of coffee. That’s because software is inherently a volume business. While I’m busy fixing something, the app is still being used by everyone else. And when I ship improvements, everyone benefits.
+But while it’s normal for one night in a hotel to cost ~$300, most people expect the price of a month of using pro-grade software – some of which cost millions of dollars to produce and maintain – to be closer to a cup of coffee. That’s because software is inherently a volume business. While I’m busy fixing something, the app is still being used by everyone else. And when I ship improvements, everyone benefits.
 
-Does it make me feel better when [Kinopio](https://kinopio.club) is more reliable, lighter-weight, simpler, more powerful, and faster? I’ve been doing this kind of tuning all month. And honestly, if I could afford to, I’d keep doing it forever.
-
-Relatedly, I pushed off writing this blog post a week later than planned to investigate a mysterious syncing bug. What a rabbit hole that was… I couldn't reproduce the problem myself, so figuring out the root cause (an IndexedDb race-condition) took days of patching and requesting debug logs. While I had the hood open, I rewrote the sync engine to make it much easier to read and debug in the future.
+Does it make me feel better when [Kinopio](https://kinopio.club) is more reliable, lighter-weight, simpler, more powerful, and faster? Well, I’ve been happily doing this kind of tuning all month. And honestly, if I could afford to, I’d keep doing it forever.
 
 When it comes to volume, Kinopio is in this awkward puberty phase, where it doesn’t have enough paid users to be completely self-sustainable yet. But I also get bug reports, feature requests, student discount requests, and emails from really nice people telling me how much they love Kinopio, everyday.
 
@@ -122,7 +119,7 @@ One of the most helpful things that I do to prevent discussions from getting ove
 </p>
 
 
-- Someone `emails` in a niche feature request that may not be used by anyone else. I would ask them to share their ideas in `chat` to see if others are interested.
+- Someone `emails` in a niche feature request that may not be used by anyone else. I would ask them to share their ideas and use-cases in `chat` to see if others are interested.
 - Multiple people `email` me about the same bug, and others have reported it in `chat`. I would make a `forum` topic for the issue, containing all the repro steps and other debug clues, then share the link with everyone so they can track it's status.
 - A non-critical bug is reported in `chat` that I don't have the bandwidth to investigate right now (maybe because I'm writing a blog post). So I'll ask them to post it in the `forum` so I can get back to it once I have time.
 - In `chat`, everyone's sharing their hopes and hot-takes on a newly proposed feature. It's getting spicy. I'd ask the OP to start a `forum` thread and continue the discussion there so that we don't lose anyone's ideas later when I'm ready to work on it.
@@ -140,3 +137,12 @@ As Kinopio grows, will I still be able to do support, and build community like t
 I know that customer service isn’t the coolest topic. But when the world zigs, my passion zags – because why would you care about something made with the same thinking as everything else?
 
 If you have a problem with your 50 year old vintage Leica, Mercedes, or Tag Heuer, they’ll still service it. Even the most well-made things can break, but treating old customers as well as your new customers is what you do when you’re building a company to last beyond you.
+
+And of course, once it exists, you're welcome at my hotel anytime.
+
+<figure>
+  <img src="/images/2025/support-community/icon-street.webp" class="no-shadow" alt="gremlins movie poster" />
+  <figcaption>
+    <a href="https://mercerhotel.com/">(source)</a>
+  </figcaption>
+</figure>
