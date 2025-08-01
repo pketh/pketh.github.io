@@ -134,7 +134,7 @@ If you had to choose between chat or a forum, you should choose a forum. But if 
 
 As Kinopio grows, will I still be able to do support, and build community like this? The advantage of slower growth is that I have the time to [pave the desire paths](https://99percentinvisible.org/article/least-resistance-desire-paths-can-lead-better-design) around the needs of real customers.
 
-I know that customer service isn’t the coolest topic. But when the world zigs, my passion zags – because why would you care about something made with the same thinking as everything else?
+I know that customer service isn’t the coolest topic. When costs are being cut it's usually first on the chopping block. But when the world zigs, my passion zags – because why would you care about something made with the same thinking as everything else?
 
 If you have a problem with your 50 year old vintage Leica, Mercedes, or Tag Heuer, they’ll still service it. Even the most well-made things can break, but treating old customers as well as your new customers is what you do when you’re building a company to last beyond you.
 
