@@ -4,6 +4,7 @@ title:  "How I Do Support and Community"
 slug: 'support-community'
 tags: tools
 image: "/images/2025/support-community/sweet.webp"
+hackernews: "https://news.ycombinator.com/item?id=44731116"
 ---
 
 I could see myself running a hotel. A little world where the architecture is otherworldly. And of course, the service is impeccable – because nothing matters more in any business than how customers are treated.
