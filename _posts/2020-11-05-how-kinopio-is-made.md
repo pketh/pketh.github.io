@@ -65,6 +65,8 @@ State is not persistent though, unless it's saved somewhere it'll be lost the ne
 
 ## LocalStorage
 
+> Update: I later switched from `LocalStorage` to `IndexedDB` to improve performance and storage size. That said, I'm still using IndexedDB in much the same way, as key-value storage system, via [idb-keyval](https://github.com/jakearchibald/idb-keyval).
+
 **LocalStorage** is 2-5 MBs of key-value data that every website gets to save on your device. Unlike cookies, localStorage data can only be accessed by the URL that created it which means it's secure and can't be used for user tracking and other shady shit.
 
 Here's a secret, by stringifying JSON objects you can save any kind of data structure to it. LocalStorage is fragile though, you can accidentally wipe it out by clearing your browser cache.
