@@ -3,10 +3,9 @@ layout: post
 title:  "Dialing Up the Internet Phonebook"
 slug: 'internet-phonebook'
 tags: learning
+image: "/images/2025/internet-phonebook/4.webp"
 ---
 
-
-<!-- image: "/images/2025/internet-phonebook/sweet.webp" -->
 
 You might’ve heard of the [Internet Phone Book](https://internetphonebook.net/), a collection of poetic, interesting, personal websites, and essays about websites, collected by Kristopher and Elliott. We chatted about how the phonebook was made, and about why they’re optimistic about the web that’s made by real people and artists.
 
