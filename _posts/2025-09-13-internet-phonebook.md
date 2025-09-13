@@ -350,4 +350,4 @@ Social media made it very easy for us to feel like we were staying connected wit
 
 Also websites have longevity. They’re a longer commitment than a social media post, and I think the pace is more healthy for humans. Like, tending to a website is more aligned with what it means to live a fulfilling life.
 
-> At the time of this writing the Internet Phone Book is now [back in stock](https://internetphonebook.net/).
+> At the time of this writing the Internet Phone Book is now [back in stock](https://livingweb.metalabel.com/internetphonebook?variantId=1/).
