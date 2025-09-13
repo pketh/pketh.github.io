@@ -636,7 +636,7 @@ color: #6EA188;
 /*****************************************************************************/
 
 .table-wrap { /* applied with js */
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 table {

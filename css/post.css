@@ -6,5 +6,27 @@
     margin-left: 4px;
   }
 
+  /* internet phone book  */
+  .td-avatar-col {
+    width: 50px;
+  }
+  .badge-name {
+    border-radius: 8px;
+    background-color: teal;
+    display: inline-block;
+    vertical-align: 2px;
+    margin-right: 2px;
+    font-size: 16px;
+    padding: 0px 6px;
+    color: black;
+    &.k {
+      background-color: violet;
+    }
+    &.e {
+      background-color: lime;
+    }
+  }
+
+
 }
 
