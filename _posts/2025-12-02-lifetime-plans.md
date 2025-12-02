@@ -24,7 +24,7 @@ These were some expensive boxes:
 
 No one technically _had_ to upgrade, but in a year or so, everybody did, because we wanted those sweet quality-of-life improvements, nicer design, and exciting new features. But eventually every product being continually developed will become [good enough](https://www.removepaywall.com/search?url=https://www.wired.com/2004/06/word-refuseniks-never-upgrade) for its target market. 
 
-When that happens, companies (especially the [VC-backed](https://pketh.org/organic-software.html) kind) now need to contrive new and increasingly stick-like reasons for customers to pay again. From made-for-marketing [‘features’](https://www.youtube.com/watch?v=oXtvAQ-e0iE) that suck to use IRL, to breaking compatibility with older versions, to spamming you with marketing notifications and embedded ads. Their relationship with customers goes from symbiotic to leech-like. 
+When that happens, companies (particularly the [VC-backed](https://pketh.org/organic-software.html) kind) now need to contrive new and increasingly stick-like reasons for customers to pay again. From made-for-marketing [‘features’](https://www.youtube.com/watch?v=oXtvAQ-e0iE) that suck to use IRL, to breaking compatibility with older versions, to spamming you with marketing notifications and embedded ads. Their relationship with customers goes from symbiotic to parasitic.
 
 On the other hand, the pursuit of completeness should be an ideal fit for subscription software because theoretically they incentivize stability, polish, and helpful improvements. 
 
@@ -95,30 +95,12 @@ My business ‘strategy’ is that a happy customer is better than an unhappy on
 
 Software designers and engineers regular build products with original ideas and choose to make their jobs harder, by increasing code complexity, so that users can have an inviting, easier-to-use, and lower-friction, time using it.
 
+But on the financial-side, web-based software companies tend to be really conservative with their business models and choose subscription-only models by default. It's never even questioned, but I think it should be. Just like with dev work, pricing models can also take on behind-the-scenes complexity to give users a better experience.
 
+If low-variability/high-tail income (subscription MRR) is easiest to plan for, but high-variability/short-tail income (lifetime purchases) is peaky and harder to plan for – but they can work together. If you position and price it right, the ideal customers for perpetual, or version-based, pricing will be very different than the ideal subscription customers.
 
-
-
-
-
-But on the business-side, the same companies conservatively choose the subscription model because of the aforementioned reasons of being easier to predict.
-
-
-companies tend to be really conservative with their business models
-
-
-but maybe it’s okay for businesses models to shoulder painful burdens/ burdensome complexity?
-
-
-So minimum variability (subscriptions) are easiest to plan for, but maximum variability (one-time purchases) are hardest to plan for, 
-
-you can have both: kinopio Mix of predictable and unpredictqble revenue streams. 
-lifetime = <10% bc there aren't versions on the web. cant reasonably run and maintain multiple independent web client and server versions.
-
-
-
-
-[graph of slowly increasing line for mrr, and another line v spikey for lifetime purchase supplementing it]
+> [graph of slowly increasing line for mrr, and another line v spikey for lifetime purchase supplementing it]. y = low $ -> high $. y = time.
+figcap: recurring revenue is slow and steady. single purchases (lifetime plans, but also donations and merch) are highly variable and supplementary.
 
 
 
@@ -128,14 +110,30 @@ lifetime = <10% bc there aren't versions on the web. cant reasonably run and mai
 
 
 
-[final objections/fears to perpetual pricing] counter-intuitive to give your most passionate/dedicated users a pathway to never have to give you money again. 
-power users are more valuable for their evangelism , then they are for their money. it’s not an owned market, ppl have a choice of software they use (not enterprise bought). 
+
+
+
+
+
+
+
+
+
+
+
+
+It may sound counter-intuitive to give your most passionate/dedicated users a pathway to never have to give you money again, but especially early on, power-users are more valuable for their evangelism , then they are for their money. it’s not an owned market, ppl have a choice of software they use (not enterprise bought).
+
+
 
 ?? (irrelevant?) I dont care about churn bc stuff out of my control. sometimes i fuck up , when there were syncing bugs and the server kept crashing. Prefer to focus on the things i can control. quality, bringing new ppl in through the top of the funnel
 
-how to lifetime price, insurance actuary. some use more , some use less , pay as you go turns you off using it, like how americans don’t go to the doctor until they’re about to die. 
 
 
+how to lifetime price, insurance actuary. some use more , some use less , pay as you go turns you off using it, like how rural? americans don’t go to the doctor until they’re about to die.
+
+
+?? [final objections/fears to perpetual pricing]
 
 car companies let you lease cars because that removes purchase friction. lifetime pricing removes purchase friction for a specific kind of buyer, there's no risk of you losing money on a customer (I'm not burning money generating llm tokens. compute on the server is a bad business model, it always fails bc personal computers keep getting faster)
 
@@ -163,6 +161,9 @@ i think they’re reassured that the lifetime price exists tho. reassurance that
 
 ? lifetime is priced at >3x yearly price because .. churn? 
 
+personally,
+you can have both: kinopio Mix of predictable and unpredictqble revenue streams.
+lifetime = <10% bc there aren't versions on the web. cant reasonably run and maintain multiple independent web client and server versions.
 
 don't want lifetime to be too many ppl , like 10% of money from it sounds about right.
 
@@ -174,3 +175,6 @@ conc , a new era/wild west. we dont all have to fit in boxes
 
 (?wheter you’re making softare, zines, a newsletter, youtube channel,..)
 other models like patreon, memberships, oss sponsorships. easy-decision making = think through your goals, embrace alternatives/looking outside the box for funding software, find the most mutually beneficial model. mix models
+
+innovative business models abound
+> Well-planned cities lose money on subsidized services like transit and parks, but make more money back on taxes from increased property values. Insurance companies know that some customers will cost them more than they've paid, but use math to balance affordability with overall profit.
