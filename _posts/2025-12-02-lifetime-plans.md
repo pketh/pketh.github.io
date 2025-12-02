@@ -24,18 +24,18 @@ These were some expensive boxes:
 
 No one technically _had_ to upgrade, but in a year or so, everybody did, because we wanted those sweet quality-of-life improvements, nicer design, and exciting new features. But eventually every product being continually developed will become [good enough](https://www.removepaywall.com/search?url=https://www.wired.com/2004/06/word-refuseniks-never-upgrade) for its target market. 
 
-When that happens, companies (particularly the [VC-backed](https://pketh.org/organic-software.html) kind) now need to contrive new and increasingly stick-like reasons for customers to pay again. From made-for-marketing [‘features’](https://www.youtube.com/watch?v=oXtvAQ-e0iE) that suck to use IRL, to breaking compatibility with older versions, to spamming you with marketing notifications and embedded ads. Their relationship with customers goes from symbiotic to parasitic.
+When that happens, companies (especially the [VC-backed](https://pketh.org/organic-software.html) kind) now need to contrive new and increasingly stick-like reasons for customers to pay again. From made-for-marketing [‘features’](https://www.youtube.com/watch?v=oXtvAQ-e0iE) that suck to use IRL, to breaking compatibility with older versions, to spamming you with marketing notifications and embedded ads. Their relationship with customers goes from symbiotic to parasitic.
 
 On the other hand, the pursuit of completeness should be an ideal fit for subscription software because theoretically they incentivize stability, polish, and helpful improvements. 
 
-Subscriptions are especially helpful for businesses:
+Subscriptions are particularly helpful for businesses:
 
 1. Monthly Recurring Revenue (MRR) makes it _way_ easier for a business to hire employees because they know they’ll be able to pay their yearly salaries.
 2. Historical MRR can be used to project the rate at which future revenue will go up 📈, which could be used to take on some debt to finance expansion or R&D as safely as possible.
 
 > There's also a third reason: Some consider subscriptions 'safer' because different tiers can be used to prevent customers from costing more money than they contribute (free-rider problem). But this is typically a non-issue IRL unless your product burns unlimited money generating LLM tokens.
 
-Especially for smaller businesses, and solo creators, just knowing that you have like ~`$3000/mo` coming in every month is way less anxiety-inducing than making `$6,000` in a good month – but knowing that next month it’s just as likely that you’ll only make `$1000` (or maybe even `$0`). It's like being a farmer, surviving at the mercy of good weather.
+Especially for solo creators, just knowing that you have ~`$3000/mo` coming in every month is way less anxiety-inducing than making `$6,000` in a good month – but knowing that next month you could just as likely make `$1000`, or maybe even `$0`. It's like being a farmer, surviving at the mercy of good weather.
 
 https://d2w9rnfcy7mm78.cloudfront.net/759394/original_c8de3fb3649e0c97562cc5f25ed3944f.gif
 figcap: What do you grow, when the future could be anything”
@@ -44,22 +44,22 @@ On paper, subscriptions could be a win-win. But some people, including many read
 
 # Subscription Woes
 
-Kinopio subscriptions can be easily cancelled, pricing is grandfathered, receipts are emailed, I refund accidental renewals, and there are no cancellation fees or [deceptive dark patterns](https://pudding.cool/2023/05/dark-patterns/). Many indie subscription apps also offer subscriptions in good faith.
+Kinopio subscriptions can be easily cancelled, pricing is grandfathered, receipts are emailed, accidental renewals can be refunded, and there are no cancellation fees or [deceptive dark patterns](https://pudding.cool/2023/05/dark-patterns/). Many indie subscription apps also offer subscriptions in good faith.
 
-But being a good actor with a business model that's regularly abused by well-known companies like the New York Times or Adobe, poisons the market for everyone. Every time someone gets tricked into signing up for a non-refundable yearly subscription instead of a monthly one, or has to call to cancel a subscription they were able to create online, those bad feelings become associated with all subscriptions. 
+But a business model that's regularly exploited by well-known corporations like the New York Times and Adobe, poisons the well for everyone else. Every time someone gets tricked into signing up for a non-refundable yearly subscription instead of a monthly one, or has to call to cancel a subscription they created online, those bad feelings become associated with all subscriptions.
 
 It's hard to have good long-lasting relationships with customers if they're expecting the worst.
 
 https://cdn.kinopio.club/inML7vppSvS1_y_oP_WsS/5228d798-65ec-493e-bfd9-0e43c76303ed-600x323.webp
 figcap: "No one wins in a shootout between a company and its customers"
 
-But, with that said, I still think subscriptions make sense to offer. 
+That being said, I still think subscriptions make sense to offer.
 
-For most people, subscriptions are as normal as the old boxed software model used to be, and the much lower-cost to entry can be very helpful – especially in competitive markets where customers have a lot of options.
+For most people, subscriptions are as normal as the old boxed software model used to be. And the much lower-cost to entry can be very helpful – especially in competitive markets where customers have a lot of options.
 
 The onus is on companies selling subscriptions to earn trust by being transparent about who they are, what they believe, and how they're funded (i.e. what their long-term incentives are). A public [roadmap](https://kinopio.club/roadmap) and [changelog](https://kinopio.club/changelog) also go a long-way towards proving they practice what they preach. 
 
-Even to non-technical people, paying for subscriptions makes intuitive sense when the product requires a server for things like file uploads, public URLs, and real-time collaboration. But the per-user-cost of running even a somewhat carefully programmed server is basically zero. Counter-intuitively, what you're really paying for is the considerable effort that it takes to keep full-featured production software running reliably and ever-evolving.
+Even to non-technical people, paying for subscriptions makes intuitive sense when the product requires a server for helpful things like file uploads, public URLs, and real-time collaboration. But the per-user-cost of running a production [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) server is basically zero. Counter-intuitively, what you're really paying for is the considerable effort and expertise that it takes to keep full-featured software running reliably and continuously-improving.
 
 That's part of the reason why I increased prices over the years as the app became grew in capability and complexity. 
 
