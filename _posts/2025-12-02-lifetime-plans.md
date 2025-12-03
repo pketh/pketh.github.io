@@ -1,5 +1,11 @@
-# Why Sell Lifetime Plans, in a Subscription-Only World?
-[biz]
+---
+layout: post
+title:  "Why Sell Lifetime Plans, in a Default Subscription World?"
+slug: 'lifetime-plans'
+tags: biz
+
+image: "/images/2025/internet-phonebook/4.webp"
+---
 
 There’s never been just one way to buy software. In ye olden times, if you liked some shareware, you’d mail off a cheque, or call up a hot-line, to get the full version. Later on, you could walk into a store and walk out with a shiny box, manuals, and disks. 
 
@@ -105,29 +111,3 @@ If low-variability/high-tail income (subscription MRR) is easiest to plan for, b
 figcap: recurring revenue is slow and steady. single purchases (lifetime plans, but also donations and merch) are highly variable and supplementary.
 
 It may sound counter-intuitive to give your most passionate users a pathway to never have to pay you again, but especially early on, evangelism is worth more than money. There are plenty of fish in the sea: people who have yet to find, or be recommended, Kinopio and become future customers.
-
-
-
-
-
-
-
-
-
-
-
-
---------
-
-# ?how it's going
-
-conc , a new era/wild west. we dont all have to fit in boxes
-
-(?wheter you’re making softare, zines, a newsletter, youtube channel,..)
-other models like patreon, memberships, oss sponsorships. easy-decision making = think through your goals, embrace alternatives/looking outside the box for funding software, find the most mutually beneficial model. mix models
-
-
-
-innovative business models are all around us. we take them for granted.
-> Well-planned cities lose money on subsidized services like transit and parks, but make more money back on taxes from increased property values. Insurance companies know that some customers will cost them more than they've paid, but use price plans so that they always come out ahead overall.
-
