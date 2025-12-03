@@ -91,6 +91,8 @@ Two years later, I introduced the lifetime plan mainly because people kept askin
 
 My business ‘strategy’ is that a happy customer is better than an unhappy one, and that I’d rather have some money from you than none. (Relatedly, that’s also why Kinopio offers student/financial needs discounts).
 
+The lifetime plan is priced at ~3✕ the yearly price because that was the average churn length at the time. But I think in general 3-4 years is a good starting point because you get a nice sounding number that is high enough so that only <10% of new customers choose it, while stilling feeling anchored to the lower subscription prices.
+
 # Financial Engineering, for Good
 
 Software designers and engineers regular build products with original ideas and choose to make their jobs harder, by increasing code complexity, so that users can have an inviting, easier-to-use, and lower-friction, time using it.
@@ -119,11 +121,12 @@ figcap: recurring revenue is slow and steady. single purchases (lifetime plans, 
 
 
 
+------
 
 
-
-It may sound counter-intuitive to give your most passionate/dedicated users a pathway to never have to give you money again, but especially early on, power-users are more valuable for their evangelism , then they are for their money. it’s not an owned market, ppl have a choice of software they use (not enterprise bought).
-
+It may sound counter-intuitive to give your most passionate/dedicated users a pathway to never have to pay you again, but especially early on, power-users are more valuable for their evangelism than money. it’s not an owned market, ppl have a choice of software they use (not enterprise bought).
+always more ppl in the world. outwards expansion.
+if the business requires gloming on to existing customers and never letting go then it's looking in the wrong direction
 
 
 ?? (irrelevant?) I dont care about churn bc stuff out of my control. sometimes i fuck up , when there were syncing bugs and the server kept crashing. Prefer to focus on the things i can control. quality, bringing new ppl in through the top of the funnel
@@ -159,13 +162,9 @@ that said, most kinopio customers still choose subscriptions (250$ is a lot of m
 i think they’re reassured that the lifetime price exists tho. reassurance that the service will be around for the long-term.
 
 
-? lifetime is priced at >3x yearly price because .. churn? 
+?? personally,
+?? you can have both: kinopio Mix of predictable and unpredictqble revenue streams.
 
-personally,
-you can have both: kinopio Mix of predictable and unpredictqble revenue streams.
-lifetime = <10% bc there aren't versions on the web. cant reasonably run and maintain multiple independent web client and server versions.
-
-don't want lifetime to be too many ppl , like 10% of money from it sounds about right.
 
 
 ?? stripe's analytics assumes either all purchases or all subscriptions, it doesn't work so well when you do both. so I eventually plan to build my own public business stats page. 
@@ -176,5 +175,8 @@ conc , a new era/wild west. we dont all have to fit in boxes
 (?wheter you’re making softare, zines, a newsletter, youtube channel,..)
 other models like patreon, memberships, oss sponsorships. easy-decision making = think through your goals, embrace alternatives/looking outside the box for funding software, find the most mutually beneficial model. mix models
 
-innovative business models abound
-> Well-planned cities lose money on subsidized services like transit and parks, but make more money back on taxes from increased property values. Insurance companies know that some customers will cost them more than they've paid, but use math to balance affordability with overall profit.
+
+
+innovative business models are all around us. we take them for granted.
+> Well-planned cities lose money on subsidized services like transit and parks, but make more money back on taxes from increased property values. Insurance companies know that some customers will cost them more than they've paid, but use price plans so that they always come out ahead overall.
+
