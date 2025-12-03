@@ -104,41 +104,7 @@ If low-variability/high-tail income (subscription MRR) is easiest to plan for, b
 > [graph of slowly increasing line for mrr, and another line v spikey for lifetime purchase supplementing it]. y = low $ -> high $. y = time.
 figcap: recurring revenue is slow and steady. single purchases (lifetime plans, but also donations and merch) are highly variable and supplementary.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-------
-
-
-It may sound counter-intuitive to give your most passionate/dedicated users a pathway to never have to pay you again, but especially early on, power-users are more valuable for their evangelism than money. it’s not an owned market, ppl have a choice of software they use (not enterprise bought).
-always more ppl in the world. outwards expansion.
-if the business requires gloming on to existing customers and never letting go then it's looking in the wrong direction
-
-
-?? (irrelevant?) I dont care about churn bc stuff out of my control. sometimes i fuck up , when there were syncing bugs and the server kept crashing. Prefer to focus on the things i can control. quality, bringing new ppl in through the top of the funnel
-
-
-
-how to lifetime price, insurance actuary. some use more , some use less , pay as you go turns you off using it, like how rural? americans don’t go to the doctor until they’re about to die.
-
-
-?? [final objections/fears to perpetual pricing]
-
-car companies let you lease cars because that removes purchase friction. lifetime pricing removes purchase friction for a specific kind of buyer, there's no risk of you losing money on a customer (I'm not burning money generating llm tokens. compute on the server is a bad business model, it always fails bc personal computers keep getting faster)
+It may sound counter-intuitive to give your most passionate users a pathway to never have to pay you again, but especially early on, evangelism is worth more than money. There are plenty of fish in the sea: people who have yet to find, or be recommended, Kinopio and become future customers.
 
 
 
@@ -154,21 +120,6 @@ car companies let you lease cars because that removes purchase friction. lifetim
 --------
 
 # ?how it's going
-how it's turned out: that said, 
-Even with the life option, subscriptions are still the 
-normies don’t care
-I don’t think normie customers care as much, subscriptions are 
-that said, most kinopio customers still choose subscriptions (250$ is a lot of money , upfront) [..]
-i think they’re reassured that the lifetime price exists tho. reassurance that the service will be around for the long-term.
-
-
-?? personally,
-?? you can have both: kinopio Mix of predictable and unpredictqble revenue streams.
-
-
-
-?? stripe's analytics assumes either all purchases or all subscriptions, it doesn't work so well when you do both. so I eventually plan to build my own public business stats page. 
-
 
 conc , a new era/wild west. we dont all have to fit in boxes
 
