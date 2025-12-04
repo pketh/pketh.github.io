@@ -45,8 +45,6 @@ Subscriptions are particularly helpful for businesses:
 1. Monthly Recurring Revenue (MRR) makes it _way_ easier for a business to hire employees because they know they’ll be able to pay their yearly salaries.
 2. Historical MRR can be used to project the rate at which future revenue will go up 📈, which could be used to take on some debt to finance expansion or R&D as safely as possible.
 
-> There's also a third reason: Some consider subscriptions 'safer' because different tiers can be used to prevent customers from costing more money than they contribute (free-rider problem). But this is typically a non-issue IRL unless your product burns unlimited money generating LLM tokens.
-
 Especially for solo creators, just knowing that you have ~`$3000/mo` coming in every month is way less anxiety-inducing than making `$6,000` in a good month – but knowing that next month you could just as likely make `$1000`, or maybe even `$0`. It's like being a farmer, surviving at the mercy of good weather.
 
 <figure>
@@ -57,6 +55,8 @@ Especially for solo creators, just knowing that you have ~`$3000/mo` coming in e
     </span>
   </figcaption>
 </figure>
+
+> There's also a third reason: Tier or usage-based pricing prevents customers costing more money than they contribute. But unless your burning unlimited money generating LLM tokens, the risk of losing money on a web app customer is either basically zero, or very easy to predict otherwise (even over the long-term).
 
 On paper, subscriptions could be a win-win. But some people, including many readers this blog, have good reasons to be wary of them.
 
@@ -102,11 +102,13 @@ For context, here's Kinopio’s pricing history:
 | 2022 | $6/mo, $60/yr, $200/life |
 | 2025 | $8/mo, $80/yr, $250/life |
 
-When I introduced paid upgrades to Kinopio in 2020, I did it as a monthly subscription because that seemed like the safe, default model for an app that needed a server. In all my previous jobs, there was always a dedicated back-end or sysadmin team that abstracted the server hosting details from the rest of the company. They used complicated sounding terms like `load balancing`, `replica shards`, `containers`, `observability`, were woken up by `pagerDuty`, and were eternally worried about scaling.
+When I introduced paid upgrades to Kinopio in 2020, I did it as a monthly subscription because that seemed like the safe, default model for an app that needed a server.
+
+In all my previous jobs, there was always a dedicated back-end or sysadmin team that abstracted the server hosting details from the rest of the company. They used complicated sounding terms like `load balancing`, `replica shards`, `containers`, `observability`, were woken up by `pagerDuty`, and were eternally worried about scaling.
 
 <img src="/images/2025/lifetime-plans/mainframe.jpg" alt="standing woman adjusting tape reel in vintage mainframe computers" />
 
-My insecurity about running and scaling servers is a big reason behind Kinopio’s simple, resilient architecture. What developers would call [local-first](https://www.localfirst.fm/8) today.
+But when I dived into that world, I learned that most of the jargon really didn't matter. The kinopio-server is a simple node.js app with a pretty straightforward [MVC architecture](https://developer.mozilla.org/en-US/docs/Glossary/MVC). My insecurity about keeping servers up is a big reason behind why the app works offline, or if the server is down. What developers would call [local-first](https://www.localfirst.fm/8) today.
 
 <blockquote>
   <img src="/images/2019/kinopio-cat.png" width="120" class="no-shadow" alt="">
