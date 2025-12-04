@@ -20,7 +20,7 @@ There’s never been just one way to buy software. In ye olden times, if you lik
 </figure>
 
 
-These were some expensive boxes:
+These were expensive boxes:
 
 | Name | Year | Price | 2025 Equivalent |
 |:--|:--|:--|:--|
