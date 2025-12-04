@@ -126,22 +126,22 @@ My business ‘strategy’ is that a happy customer is better than an unhappy on
 
 The lifetime plan is priced at ~3× the yearly price because that was the average churn length at the time. But I think that in general, 3-4 years is a good starting point if you get a nice sounding number that is high enough so that only <10% of new customers choose it, while stilling feeling anchored to the subscription prices.
 
-
-
-> TODO draw graph [graph of slowly increasing line for mrr, and another line v spikey for lifetime purchase supplementing it]. y = low $ -> high $. y = time.
-figcap: Recurring revenue grows slow and steady. Single purchases (lifetime plans, but also donations and merch) are highly variable and treated as supplementary revenue.
-
-
+<figure>
+  <img src="/images/2025/lifetime-plans/c7.png" class=" no-shadow" alt="">
+  <figcaption>
+    <span>
+      Recurring revenue grows slow and steady over time. Single purchases (lifetime plans, but also donations and merch) are highly variable and treated as supplementary revenue.
+    </span>
+  </figcaption>
+</figure>
 
 # Financial Engineering, for Good
 
-Software designers and engineers regularly build products with original ideas and choose to make their own jobs harder, by increasing code complexity, so that their users can have an inviting, easier-to-use, and lower-friction, time using it.
+Software designers and engineers regularly build products with original ideas, and choose to make their own jobs harder by increasing code complexity, so that their users can have an inviting, easier-to-use, and lower-friction, time using it.
 
 But on the financial-side, web-based software companies tend to be really conservative with their business models and choose subscription-only models by default. It's never even questioned, but I think it should be. Just like with dev work, pricing models can also take on behind-the-scenes complexity to give users a better experience.
 
-
-<!-- TODO insert img finance , complexity, code (can do anime) -->
-
+<img src="/images/2025/lifetime-plans/beep-boop.gif" class="" alt="">
 
 Low-variability/high-tail income (subscription MRR) is easiest to plan for, but high-variability/short-tail income (lifetime purchases) is peaky and harder to plan for – but they can work together. If you position and price it right, the ideal customers for lifetime pricing will be very different than the ideal subscription customers.
 
