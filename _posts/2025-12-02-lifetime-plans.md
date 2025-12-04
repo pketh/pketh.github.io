@@ -58,13 +58,13 @@ Especially for solo creators, just knowing that you have ~`$3000/mo` coming in e
 
 > There's also a third reason: Tier or usage-based pricing prevents customers costing more money than they contribute. But unless your burning unlimited money generating LLM tokens, the risk of losing money on a web app customer is either basically zero, or very easy to predict otherwise (even over the long-term).
 
-On paper, subscriptions could be a win-win. But some people, including many readers this blog, have good reasons to be wary of them.
+On paper, subscriptions could be a win-win. But some people, including many readers of this blog, have good reasons to be wary of them.
 
 # Subscription Woes
 
 Kinopio subscriptions can be easily cancelled, pricing is grandfathered, receipts are emailed, accidental renewals can be refunded, and there are no cancellation fees or [deceptive dark patterns](https://pudding.cool/2023/05/dark-patterns/). Many indie subscription apps also offer subscriptions in good faith.
 
-But a business model that's regularly exploited by well-known corporations like the New York Times and Adobe, poisons the well for everyone else. Every time someone gets tricked into signing up for a non-refundable yearly subscription instead of a monthly one, or has to call to cancel a subscription they created online, those bad feelings become associated with all subscriptions.
+But a business model that's regularly exploited by well-known corporations, like the New York Times and Adobe, poisons the well for everyone else. Every time someone gets tricked into signing up for a non-refundable yearly subscription instead of a monthly one, or has to call to cancel a subscription they created online, those bad feelings become associated with all subscriptions.
 
 It's hard to have good long-lasting relationships with customers if they're expecting the worst.
 
@@ -88,7 +88,7 @@ The onus is on companies selling subscriptions to earn trust by being transparen
 
 Even to non-technical people, paying for subscriptions makes intuitive sense when the product requires a server for helpful things like file uploads, public URLs, and real-time collaboration. But the per-user-cost of running a production [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) server is basically zero. Counter-intuitively, what you're really paying for is the considerable effort and expertise that it takes to keep full-featured software running reliably and continuously-improving.
 
-That's part of the reason why I increased prices over the years as the app became grew in capability and complexity. 
+That's part of the reason why I increased prices over the years as the app grew in capability and complexity.
 
 # How I Priced Kinopio
 
