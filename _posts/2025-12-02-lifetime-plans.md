@@ -56,7 +56,7 @@ Especially for solo creators, just knowing that you have ~`$3000/mo` coming in e
   </figcaption>
 </figure>
 
-> There's also a third reason: Tier or usage-based pricing prevents customers costing more money than they contribute. But unless your burning unlimited money generating LLM tokens, the risk of losing money on a web app customer is either basically zero, or very easy to predict otherwise (even over the long-term).
+> There's also a third reason: Tier or usage-based pricing prevents customers costing more money than they contribute. But unless you're burning unlimited money generating LLM tokens, the risk of losing money on a web app customer is either basically zero, or very easy to predict otherwise (even over the long-term).
 
 On paper, subscriptions could be a win-win. But some people, including many readers of this blog, have good reasons to be wary of them.
 
