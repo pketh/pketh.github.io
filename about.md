@@ -9,7 +9,7 @@ Hi,
 
 My name is Pirijan (Piri for short), I'm a designer and engineer making software tools to help you with your thorniest thoughts and problems.
 
-I went to school for Biology and Urban Planning, I co-created [Glitch](/the-first-four-years-of-glitch.html) at the company formerly known as Fog Creek Software in NYC, and now I make the thinking tool [Kinopio](https://kinopio.club).
+I went to school for Biology and Urban Planning, I co-created [Glitch](/the-first-four-years-of-glitch.html) at the company formerly known as [Fog Creek Software](https://en.wikipedia.org/wiki/Glitch,_Inc.) in NYC, and now I make the thinking tool [Kinopio](https://kinopio.club).
 
 ## Elsewhere
 
