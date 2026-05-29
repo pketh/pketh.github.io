@@ -28,6 +28,7 @@ Feel free to [reach out](mailto:hi@pirijan.com) – I'm happy to do interviews, 
 
 | Name | Year | Type | About |
 |:--|:--|:--|:--|
+| [People and Blogs](https://manuelmoreale.com/interview/piri/) | 2026 | Interview | About this Blog |
 | [CUSEC](https://2026.cusec.net/) | 2026 | Conference Talk | [Making Kinopio](https://kinopio.club/cusec-talk-aGuEEPiSf3k2RLrOZXpd9) |
 | [Niche Design](https://nichedesign.press/) | 2025 | Interview | Opinionated design |
 | [localfirst.fm](https://www.localfirst.fm/8/transcript) | 2024 | Podcast | Local-first architecture |
