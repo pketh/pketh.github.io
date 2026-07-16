@@ -37,21 +37,20 @@ const showDescription = (message) => {
 // on submit
 
 const submitForm = async (event) => {
-  event.preventDefault()
-  const email = event.target[0].value
-  console.log('🍄', email)
-  const form = event.target.parentNode
-  savingBadge = form.querySelector('.saving-badge')
-  successBadge = form.querySelector('.success-badge')
-  errorBadge = form.querySelector('.error-badge')
-  resultDescription = form.querySelector('.result-description')
-  clearAll()
-  if (!email) {
-    showError('Email address is missing')
-    return
-  }
-  savingBadge.classList.remove('hidden')
   try {
+    event.preventDefault()
+    const email = event.target[0].value
+    const form = event.target.parentNode
+    savingBadge = form.querySelector('.saving-badge')
+    successBadge = form.querySelector('.success-badge')
+    errorBadge = form.querySelector('.error-badge')
+    resultDescription = form.querySelector('.result-description')
+    clearAll()
+    if (!email) {
+      showError('Email address is missing')
+      return
+    }
+    savingBadge.classList.remove('hidden')
     const headers = new Headers({
       'Content-Type': 'application/json',
       'Cache-Control': 'must-revalidate, no-store, no-cache, private',
