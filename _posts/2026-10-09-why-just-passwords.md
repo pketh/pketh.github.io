@@ -9,7 +9,7 @@ slug: 'why-just-passwords'
 ---
 
 
-> Cross-posted from the new [Kinopio blog](https://kinopio.club/blog)
+> Also published at [https://kinopio.club/blog/why-just-passwords](https://kinopio.club/blog/why-just-passwords)
 
 
 From all the confusing and annoying ways to sign in to software we wade through everyday, developers must fear storing/encrypting/hashing passwords. I get it, no one wants to be responsible for screwing up critical security, so authentication has become one of those [“no one ever got fired for buying IBM”](https://www.goodreads.com/quotes/12058538-no-one-ever-got-fired-for-hiring-ibm-goes-the) type of problem that considers the user last.
