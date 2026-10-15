@@ -9,13 +9,15 @@ Hi,
 
 My name is Pirijan (Piri for short), I'm a designer and engineer making software tools to help you with your thorniest thoughts and problems.
 
-I never write with AI. My philosophy is simple: if you didn't bother to write it, I shouldn't be bothered to read it. 
-
 I went to school for Biology and Urban Planning, I co-created [Glitch](/the-first-four-years-of-glitch.html) at the company formerly known as [Fog Creek Software](https://en.wikipedia.org/wiki/Glitch,_Inc.) in NYC, and now I make the thinking tool [Kinopio](https://kinopio.club).
+
+I never write with AI. My philosophy is simple: if you didn't bother to write it, I shouldn't be bothered to read it. 
 
 ## Elsewhere
 
 ✉️ Email me at [hi@pirijan.com](mailto:hi@pirijan.com?subject=hi).
+
+I also write about how software is made on the [Kinopio Blog](https://kinopio.club/blog). You'll probably enjoy it too.
 
 Social-media me on [Bluesky](https://bsky.app/profile/pketh.org), [Mastodon](https://c.im/@pirijan), or [Twitter/X](https://twitter.com/pketh).
 
